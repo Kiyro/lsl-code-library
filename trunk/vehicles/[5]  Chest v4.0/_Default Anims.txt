@@ -1,0 +1,54 @@
+﻿:: [ Walking (also Striding) ] ::
+chickenwalker5
+:: [ Running ] ::
+chickenwalker5
+:: [ CrouchWalking ] ::
+chickenwalker5
+:: [ Flying (also FlyingSlow) ] ::
+chickenstand1
+:: [ Turning Left ] ::
+chickenstand1
+:: [ Turning Right ] ::
+chickenstand1
+:: [ Jumping ] ::
+vulturejump
+:: [ Hovering Up ] ::
+chickenstand1
+:: [ Crouching ] ::
+
+:: [ Fly Down ] ::
+chickenstand1
+:: [ Standing 1 ] ::
+chickenstand1
+:: [ Standing 2 ] ::
+chickenstand1
+:: [ Standing 3 ] ::
+chickenstand1
+:: [ Standing 4 ] ::
+chickenstand1
+:: [ Standing 5 ] ::
+chickenstand1
+:: [ Hovering ] ::
+chickenstand1
+:: [ Sitting ] ::
+chickenstand1
+:: [ PreJumping ] ::
+chickenstand1
+:: [ Falling ] ::
+chickenstand1
+:: [ Soft Landing/Landing ] ::
+chickenstand1
+:: [ Standing Up (That anim you play after you fall when you stand up and brush yourself off) ] ::
+chickenstand1
+:: [ FlyingSlow ] ::
+chickenstand1
+:: [ Sitting on Ground ] ::
+chickenstand1
+:: [ Floating (Hovering underwater) ] ::
+chickenstand1
+:: [ Swimming Forward (Flying underwater) ] ::
+chickenstand1
+:: [ Swimming Up (Hover Up underwater) ] ::
+chickenstand1
+:: [ Swimming Down (Fly Down underwater) ] ::
+chickenstand1

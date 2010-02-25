@@ -1,0 +1,54 @@
+﻿The set of two scripts for the automatic updating of your products.
+
+The first script is used for the server. The server has to be permanently rezzed in SL because it processes all requests from the update clients.
+
+The second script is intended for your product for which you want to use the automatic updating.
+
+All scripts are sold with full permissions and can be modified as you need. The setup of automatic updating isn't difficult and can be done during a moment.
+
+How to set up Auto Update
+
+1) Insert the "Update Server" script to an object that will be used as Update Server.
+2) This object has to be permanently rezzed in-world.
+3) Insert the "Update Client" script to an object that should be updated.
+4) Create and insert the notecard called "Update Config" to the Update Server object.
+5) Use this notecard to specify the name, most recent version and name of the object that will be send as an update.
+6) Enter one update config per line and separate the values with "|" character. Example: Product Name|2.0|Product Update
+7) Insert the object used for the update to the Contents tab of the Update Server object.
+8) Write the name and version of your product to the PRODUCT_NAME and PRODUCT_VERSION variables in the "Update Client" script.
+
+How to release a new version of your product
+
+1) Increase the PRODUCT_VERSION number in the "Update Client" script of newly released item.
+2) Create a new package for this updated item (this package will be delivered as an update).
+3) Replace the previous version of your item in the server Contents tab with the new package.
+4) Change the version number in the server "Update Config" notecard to the most recent version.
+5) All users with an older version than is specified in the "Update Config" notecard should receive an update.
+
+Using the auto discovery feature
+This feature prevents the loss of the server key when the update server is returned to the inventory and rezzed again.
+
+1) Check if the UPDATE_SERVER_KEY variable is set to TRUE in the both scripts.
+2) Write your own shared secret value to the SHARED_SECRET variable. This value has to be same for the both scripts and is used for the secure communication between the server and clients.
+
+Disabling the auto discovery feature
+Use this if you don't want to use the server discovery and want to set up the server key manually.
+
+1) Set the UPDATE_SERVER_KEY variable in the both scripts to FALSE.
+2) Touch the Update Server object.
+3) The Update Server writes a server key to your chat window.
+4) Use this key for the replacement of the SERVER_KEY variable in the "Update Client" script.
+
+The updates are checked always when the object is rezzed in-world or attached to an avatar. The manual update can be triggered through "/12update" command.
+
+If you need to disable notifications about the successful updates use the NOTIFY_OWNER variable in the "Update Server" script.
+
+Resell and copying of these scripts with full permissions is not permitted.
+
+Please don't forget to restrict the script permissions for next users before you start to sale your product!
+
+All future updates are available to all legal owners for free. Write me to get a latest version.
+
+Feel free to contact me with any questions or for help with the configuration.
+
+Ion Horten

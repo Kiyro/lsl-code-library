@@ -1,0 +1,62 @@
+Linden text version 2
+{
+LLEmbeddedItems version 1
+{
+count 0
+}
+Text length 1319
+:: [ Walking (also Striding) ] ::
+elementalstand1high
+:: [ Running ] ::
+elementalstand1high
+:: [ CrouchWalking ] ::
+elementalstand1high
+:: [ Flying (also FlyingSlow) ] ::
+elementalstand1high
+:: [ Turning Left ] ::
+elementalstand1high
+:: [ Turning Right ] ::
+elementalstand1high
+:: [ Jumping ] ::
+elementalstand1high
+:: [ Hovering Up ] ::
+elementalstand1high
+:: [ Crouching ] ::
+elementalstand1high
+:: [ Felementalstand1]
+elementalstand1high
+:: [ Standing 1 ] ::
+elementalstand1high
+:: [ Standing 2 ] ::
+elementalstand1high
+:: [ Standing 3 ] ::
+elementalstand1high
+:: [ Standing 4 ] ::
+elementalstand1high
+:: [ Standing 5 ] ::
+elementalstand1high
+:: [ Hovering ] ::
+elementalstand1high
+:: [ Sitting ] ::
+elementalstand1high
+:: [ PreJumping ] ::
+elementalstand1high
+:: [ Falling ] ::
+elementalstand1high
+:: [ Soft Landing/Landing ] ::
+elementalstand1high
+:: [ Standing Up (That anim you play after you fall when you stand up and brush yourself off) ] ::
+elementalstand1high
+:: [ FlyingSlow ] ::
+elementalstand1high
+:: [ Sitting on Ground ] ::
+elementalstand1high
+:: [ Floating (Hovering underwater) ] ::
+elementalstand1high
+:: [ Swimming Forward (Flying underwater) ] ::
+elementalstand1high
+:: [ Swimming Up (Hover Up underwater) ] ::
+elementalstand1high
+:: [ Swimming Down (Fly Down underwater) ] ::
+elementalstand1high
+}

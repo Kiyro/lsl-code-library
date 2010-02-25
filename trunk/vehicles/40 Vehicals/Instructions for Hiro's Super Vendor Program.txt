@@ -1,0 +1,323 @@
+﻿Hiro's Super Vendor Program v1.2
+====================
+by: Hiro Pendragon
+
+If you like / use this kit please RATE me positively, and feel free to tip me L$.
+I put a lot of hard work into this!
+
+=======
+Instructions
+=======
+
+OVERVIEW:
+
+Hiro's Super Vendor Program is designed to be the easiest vendor to use.
+This notecard does step-by-step for dummies to advanced users on how to set up your vendor.
+If you have questions / need help / have feedback PLEASE consult this Notecard first.
+If your question has not been answered, then you are very welcomed to send an IM to Hiro Pendragon.
+
+!!!! RESELLING WARNING !!!!
+This package should allow anyone to make just about any vendor they need. It is designed to be
+free and if you are caught selling it I will negatively rate you and file an abuse report with the Lindens.
+
+Version info: (Thank you for all who gave feedback!!!)
+1.0 - creation
+1.1.1 - bug fix / documentation update
+1.2 
+- Holo-vendor now using a HOLOprim object to ensure objects rez correctly
+- All vendors now have more helpful verbiage in the floating text when you are setting up your vendor
+- Vendors now ask the owner for money permission on creation (say yes!)
+- tips & tricks section of documentation added
+- Creator's notes section of documentation added
+- Documentation update
+
+INDEX:
+A. Setting Up
+- Default Vendor turn-key Setup
+- Custom Vendor Kit Setup (advanced)
+B. Commands Index
+C. Permissions Help
+D. Selling Items of a Non-Object Type
+E. More tips & tricks
+F. Color Quick Reference
+G. Creator's notes
+
+---------------
+A. Setting Up
+---------------
+You can use one of the three default vendors provided, or you can integrate the scripts into your own custom vendor.
+
+----------------------------------------
+-- Default Vendor Turn-key Setup: --
+----------------------------------------
+
+(demo objects / pictures have been placed in the vendors so you can see how it should work)
+
+1. Choose one of the three default vendors (regular with buttons, 1-prim, or holographic).
+When you rez it, it will ask for permission to take money from you.
+Select "Yes" or your vendor will not be able to give change if a customer overpays or underpays.
+
+2. Delete all the demo items, demo pictures, and demo hologram-items in the vendor.
+
+3. Put your own items for sale in the vendor. Each needs a unique name.
+
+4. For regular or 1-prim vendor, put preview-pictures of each item for sale in the vendor. They should be named the same as your items, with "PIC" at the end. For example, if your item is "jeans" the picture should be "jeansPIC".
+
+4. - For Holo vendor only:
+To ensure prims are rezzed in a correct place, you will need to attach each item for sale to the "HOLOprim - transparent" object.  You do this in 3 steps:
+4a. Rez the transparent HOLOprim, and move / rotate / align your product however you want it to rez in your vendor.
+If you align it upside down relative to the HOLOprim, it will rez upside down. If you are not clear on this, the best
+thing to do is experiment. If you have trouble working with the HOLOprim as invisible, I recommend making the texture
+semi-transparent / no texture while you work with it. You need to make sure it's transparent when you are done.
+DO NOT change the rotation of the HOLOprim.
+DO NOT use the HOLOprim on the actual object for sale
+DO NOT set the HOLO items for sale with a price - that would just be silly.
+4b. Rename the HOLOprim - to the name of the item for sale and "HOLO" added to the end of each object. For instance, if your item is named "car" you will rename it "carHOLO".
+4c. Select JUST your item for sale. THEN select the transparent HOLOprim. Hit Control-L or Tools -> Link. You MUST make
+sure that you select the HOLOprim last so that it becomes the new primary prim, else your object may not rez in the 
+appropriate direction / alignment.
+4d. You now should have a copy of your item for sale, linked with the HOLOprim as the primary prim, named the same
+as the item for sale, but ending in HOLO.
+
+5. Say "HiroVendor:setname:NEWNAMEHERE" - where NEWNAMEHERE is a name you would like to have your vendor respond to your voice commands. Each vendor you use should be named differently.
+
+6. Say, "NEWNAMEHERE:updateitems" - where NEWNAMEHERE is the name you just chose.
+
+7. Set the prices of your items using the "NEWNAMEHERE:setprice" command. (see section B - Commands Index)
+
+8. Place your vendor wherever you like, frame it, integrate it with a nice looking box ... whatever.
+
+You're selling!
+
+Check out Section B - "Commands Index" in this notecard to see all the neat features you can use!
+
+---------------------------------
+-- Custom Vendor Kit Setup: --
+---------------------------------
+Since the scripts are copyable, you can just follow these instructions and integrate my software with your own design. This might be handy if you want a different sized screen, different looking buttons ... whatever.
+
+WARNING: Please do not mix the different vendor scripts together, or put more than one in a single object. This will wind up causing messed up results.
+
+1. Script placement:
+
+For regular vendor with buttons:
+1a. Place the main script, "Hiro's Super Vendor Program" in the main prim of your vendor.
+1b. Place the HP_vendor_button_forward script on the prim you want to cycle forward through the list of items
+1c. Place the HP_vendor_button_backward script on the prim you want to cycle backward through the list. (back not required).
+
+For 1-prim vendor without buttons:
+1a. Place the main script, "Hiro's Super Vendor Program - 1 prim" in the main prim of your vendor.
+
+For 3-prim Holographic Projector vendor:
+1a. Place the main script, "Hiro's Super Vendor Program - Holo-projector" in the main prim of your vendor.
+
+2. Sale item placement
+- Each item for sale is required to have a unique name. Place each item for sale in the main prim of your vendor.
+
+3. Item picture placement
+- If you have textures / pictures for the items to be displayed, place them on the display prim
+- each texture / picture must have the same name of the item, followed by "PIC". For example, an object "jeans" for sale would need its picture named "jeansPIC".
+
+4. Linking
+- AFTER you place all your scripts and items and picture, then you want to link all your items together.
+The primary prim should be the one with your main script and objects for sale. Use shift-click to select
+more than one object. The prim you select LAST before you link will be your main primary prim.
+
+5. Setting Up Your Main Script
+Overview - all commands are colon (:) deliniated, and will start with the name of your vendor. By default, the name is "HiroVendor". The first thing you will do is change this.
+- say, 
+HiroVendor:changename:NEWNAMEHERE
+where NEWNAMEHERE is the name for your vendor.
+This will change all of your commands to start with this name. Use this especially if you have more than one vendor, else you may wind up messing up one vendor when trying to command another one.
+- say, 
+VENDORNAME:updateitems
+where VENDORNAME is the name you chose.
+This will scan your vendor for objects in its folder, and automatically add them for sale.
+- set all your prices at once by inputting them as a list of integers using the changeprice command and the "all" option. For example, if your vendor was named "Clothing Vendor" and you had 3 items for sale, and the items should be priced 50, 30, and 100 L... you would say:
+Clothing Vendor:setprice:all:50,30,100
+- set one price at a time by inputting just one number, and the value of which item you want to change instead of "all". For instance, using the previous example, if I wanted to change the price of the second item from 30 to 60, I would say:
+Clothing Vendor:setprice:2:60
+
+
+---------------------
+B. Commands Index
+---------------------
+All commands start with the vendor's name that you have given it (HiroVendor by default) and a colon ":".
+
+Forget the vendor's name?
+Type: "GetHiroVendorName" and the name will be said!
+
+1. setname
+- sets the name of the vendor
+syntax- (Old vendor name):setname:(new vendor name)
+
+2. updateitems
+- refreshes the list of items for sale. The script will scan the contents and automatically put them for sale. 
+You will need to set the prices after.
+
+3. listitems
+- shows all items for sale, their number, and their price
+
+4. setprice
+- sets the price of items. There are two options: all or single.
+- "all" lets you input a list of prices for all items for sale. for example, if you have 3 items, 1-3, and prices should be: 10,40,700, you would say:
+VENDORNAME:setprice:all:10,40,700
+- single mode lets you change just one value. In the above example, if you want to change the second item to a price of 50, you would say:
+VENDORNAME:setprice:2:50
+
+5. listsales
+- up to 30 sales can be stored. Should you exceed the limit, the oldest will be deleted as new sales arrive.
+- if you input a value, the last X sales will be shown, for example, where X=10:
+VENDORNAME:listsales:10
+- if you enter "-1" it will disable sales tracking. if sales tracking is off, it will enable tracking
+
+6. clearsales
+- recommended if you have a lot of scripts in the area of the vendor
+
+7. setcolor
+- To change the text color, input the three values for Red, Green, and Blue separated by commas. If red is set to -1, the text will not be displayed. Examples:
+to have clear text:
+VENDORNAME:setcolor:-1,0,0 
+to have white text:
+VENDORNAME:setcolor:1,1,1
+(See E. for color quick reference.)
+
+8. resetscript
+- Only use this if you really need to! All your prices and sales info will be lost!
+
+9. listsales
+- plain, shows all sales stored on the vendor
+- if you input a number, it will show that many of the most recent sales, starting with most recent
+example, to show the last 10 sales: 
+VENDORNAME:listsales:10 
+
+10. getfreemem
+- Shows free memory in the heap size, so you don't go overboard
+
+11. share
+- This option can turn on a percentage profits to keep track of, in case you want to share your profits with someone. It is currently arduous to automate this payment, so you will still need to do so yourself, however the vendor will track exactly how much you may owe. The command has three subcommands, "show", "set", and "reset"
+- "show" displays the current sum. 
+    Example- VENDORNAME:share:show
+- "set" lets you input a percentage, 0-100. Do NOT use a percent sign. 
+    Example- VENDORNAME:share:50
+- "clear" puts the sum of money owed to zero. 
+    Example- VENDORNAME:share:reset
+
+12. GetHiroVendorName
+- said WITHOUT the preceeding vendor name, returns the name of the vendor, in case you forget.
+
+---------------------
+C. Permissions Help
+---------------------
+Some quick tips on how to do permissions:
+
+-Anything you sell must have at least one of the three permissions set for "Next owner can". They include: copy, modify, and transfer.
+
+-Whatever you select will wind up as the new permissions of your buyers.
+
+-If you wish to deselect a permission that is the last one selected, you must first select another permission, and THEN deselect the first.
+
+-If a prim/content of an object does not have copy permission, then the whole item cannot have copy permission
+
+-Sometimes if you set permissions in your inventory, it will for some reason not change them properly. This is a known SL bug that the Lindens have declared. It is best to set permissions on objects while they are rezzed.
+
+
+
+-----------------------------------------
+D. Selling Items of a Non-Object Type
+-----------------------------------------
+
+Only items of type OBJECT will be considered for sale. If you have a non-OBJECT type, you should place it in a OBJECT (usually a simple box), and place that object in the vendor instead. The object should be named what you want the item to be sold as.
+
+This is also a good idea if you wish to sell multiple things as one package. (For instance, selling a set of items that make up an AV, or selling a set of sounds, scripts, textures, etc, or including a business notecard of yours in everything you sell.) 
+
+Non-objects include:
+- clothing
+- body parts
+- sounds
+- textures
+- scripts
+- landmarks
+- notecards
+
+---------------------------
+E. More tips & tricks
+---------------------------
+
+All vendors:
+- Check the command list for options.
+- Customize them - all of the prims in the turn-key vendors are modifyable so you can change them to your
+needs, integrate them with a cool looking vendor. You are empowered to make your own!
+- If you're really having problems getting started, take a look at how the turn-key vendors are set up.
+
+Holo-vendor:
+- Make your HOLO items semi-transparent for that holographic look
+- Make mini-models of large items and use them for your HOLOs
+- Align your HOLOprim lower than the item for sale, and it will make the item appear to rez higher
+- Use the X-Y-Z axis on the HOLOprim to align it properly centered on your objects
+- Known limitation - there appears to be a bug in SL that there is a lag on when number of prims
+are tallied in a sim. As a result, if you scroll through the holo-vendor quickly in a sim close
+to its prim allocation limit, you may get an "out of prims" error message. This bug has been reported 
+to the Lindens and being investigated.
+
+
+
+---------------------------
+F. Color Quick Reference
+---------------------------
+-1 = transparent (for this vendor software)
+1,1,1 = white
+0,0,0 = black
+1,0,0 = red
+0,1,0 = green
+0,0,1 = blue
+1,1,0 = yellow
+1,0,1 = magenta
+0,1,1 = cyan
+0.5,0.5,0.5 = grey (different shades of gray whenever R,G,B values are equal)
+
+---------------------------
+G. Creator's Notes
+---------------------------
+Hi, I'm Hiro Pendragon, RL software designer, SL bladecrafter / builder / scriptor.
+
+Why did I make this?
+Well, I needed a nice hologram rezzing vendor for my blades since they are higher-prim and I did
+not own a lot of land for lots of prims. So, I started looking around and saw that there were
+a number of vendors, many laggy / buggy / without features I wanted, and most too expensive
+(500-1000L PER vendor). I decided to take matters into my own hands, script my own vendor
+kits that everyone could use. They would be easy to use, low-lag, with nice features.
+
+I decided that I would charge a SMALL sum for the kit while I developed it - 400L - for a copyable
+set - and decided it would need to be free, so that all people in Second Life could make their own
+vendors and not have to be ripped off for a good vendor. It seems such an obvious thing to need
+ - something on par with the Second Life interface itself. 
+ So as Emeril would say, BAM! It's now free.
+
+My primary concerns in building this kits were:
+- 0 bugs
+- Ease of use
+- Low-lag so that they don't bog down a store / mall
+- Base features that most people would consider sufficient
+- Customizability with the actual prims
+
+FAQ -
+
+Q: Can you add the feature (insert feature here)? 
+A: I listened to a lot of people on what they wanted, and tried to keep the number of features to what I
+saw would satisfy the overwhelming majority of shopowners would want.  If you want me to add it, IM me
+and perhaps we can work something out.
+
+Q: Why are the scripts no-mod?
+A: Because I don't want people to break my script, resell it, and then have me get tons of IMs from unhappy 
+people. I went over it a few times to streamline it, stress test it - I don't want my name attached to someone
+else modding it unless I know they will only improve it. If you think you can, IM me and we'll see what we can do. :)
+I have many scriptor friends who can vouch for me, am willing to have good scriptors inspect the source code - 
+I have nothing to hide.
+
+Q: Why is the holo-vendor trickier than the other vendors?
+A: So that it looks right. If you don't use the HOLO object with the HOLOprim, it won't rez centered. This way,
+it also gives great flexibility to the vendor-owner without adding lag to the script. A few extra minutes
+to use the holo-vendor means much greater usability.
+
+

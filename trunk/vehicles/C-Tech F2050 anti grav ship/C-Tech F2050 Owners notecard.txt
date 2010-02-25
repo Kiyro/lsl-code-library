@@ -1,0 +1,47 @@
+﻿The F2050 is an anti gravity aircraft, while it shares some traits with conventional planes it is more akin to a helicopter in it's hovering mode. possesing a Sprite X class anti gravity drive and twin kore pulse jet engines the craft has exceptional handling and power.
+
+*****Getting started with the F2050*********
+
+To operate the canopy left click it to open and close it.
+
+To board the craft simply right click it and select pilot from the radial menu. Once aboard left clicking the fuselage behind the cockpit (between the chevron striped airbrakes) operates the ships menu system.
+
+select engines on from the menu, this will enable the ships controls and allow you to fly at first in hovermode. to change the mode and controls open the menu and select race mode.
+
+
+*****Full menu functions**********
+
+**Main menu**
+Colours (enters the colour changing and colour set loading menu)
+engine on / off (turns the engines on and enables flight controls)
+guest on / off (enables guest mode allowing other people to fly the craft)
+help (brings up a menu with options for quick help references)
+race mode / hover mode (changes between flight modes which changes the way the craft handles)
+settings (brings up a sub menu with various settings options)
+
+**colours sub menu**
+load (brings up a sub menu with options for loading new colour sets)
+<<< (returns to the main menu)
+canopy (brings up a menu to change the colour of the canopy with the currently loaded pallete)
+wings (brings up a menu to change the colour of the wings with the currently loaded pallete)
+fuselage (brings up a menu to change the colour of the fuselage with the currently loaded pallete)
+
+**Settings sub menu**
+canopy (changes the transparency of the canopy, 100% is opaque and 25% near transparent)
+<<< (returns to the main menu)
+dust fx on / off (turns on/ off the ground jet wash effects)
+voice fx on /off (turns on /off the audio voice effects)
+HUD on /off (turns on / off the text HUD display showing speed and altitude)
+Invert on / off (turns on/off the pitch invert control, this effects the pitch up and down controls in race mode)
+flight (brings up a sub menu to alter several flight handling properties)
+
+***Customising a colour notecard****
+you can load your own colours in to the craft by modifying the card entitled "colour modify me" the colours are stored as vectors and a simple tool is included to get the vector. put the cube called vector chooser on the floor and set the colour to that which you need. you will see it has hover text that changes to the colour that you selected. once you have set the colours you want it can be loaded in to the craft by selecting colours on the main menu, then load and finaly custom.
+
+
+
+
+
+
+
+

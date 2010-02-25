@@ -1,0 +1,29 @@
+﻿X-Flight enhanced flight script help file
+ver 1.98e
+
+Basic help for commands:
+
+   "X" - Trigger for any commands to be entered
+   "go" - Enable flight enhancements
+   "stop" - Disable flight enhancements
+   "status" - List current modes and their state
+   "speed" - Current impulse, place a number after to set. limit 1-500
+   "accel" - Current acceleration, place a number after to set. limit 10-100
+   "pos" - Current coordinates
+   "accelmode" - Acceleration of movement. Use 'on' or 'off' to set.
+   "turnmode" - Slow down while turning. Use 'on' or 'off' to set.
+   "hovermode" - Allows hovering at all heights. Use 'on' or 'off' to set.
+   "posmode" - Displays position over object. Use 'on' or 'off' to set.
+   "customize" - Allows you to customize certain commands. 'X customize [old command] [new command]' Be sure to use full words without spaces for commands. You will then need to type 'yes' to confirm.
+   "reset" - Resets entire script. WARNING: Will erase all customize data and settings.
+   
+   Default settings are:
+   Speed = 200
+   Accel = 25
+   Acceleration mode = On
+   Turning mode = On
+   Hover mode = On
+   Pos mode = Off
+
+Created by Goodwill Epoch.
+Please IM Goodwill Epoch if you have any questions or special requests for this script!

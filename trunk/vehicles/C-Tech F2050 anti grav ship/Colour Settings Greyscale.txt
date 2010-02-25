@@ -1,0 +1,26 @@
+﻿*DO NOT MODIFY OR YOU WILL LOOSE THE ORIGINAL SETTINGS, USE THE NOTE TITLED COLOUR MODIFY*
+*************
+colour 1 name :White <1,1,1>
+*************
+colour 2 name :Grey 1 <0.9,0.9,0.9>
+*************
+colour 3 name :Grey 2 <0.8,0.8,0.8>
+*************
+colour 4 name :Grey 3 <0.7,0.7,0.7>
+*************
+colour 5 name :Grey 4 <0.6,0.6,0.6>
+*************
+colour 6 name :Grey 5 <0.55,0.55,0.55>
+*************
+colour 7 name :Grey 6<0.5,0.5,0.5>
+*************
+colour 8 name :Grey 7 <0.4,0.4,0.4>
+*************
+colour 9 name :Grey 8 <0.3,0.3,0.3>
+*************
+colour 10 name :Grey 9 <0.2,0.2,0.2>
+*************
+colour 11 name :Grey 10 <0.1,0.1,0.1>
+*************
+colour 12 name :Black <0,0,0>
+*************

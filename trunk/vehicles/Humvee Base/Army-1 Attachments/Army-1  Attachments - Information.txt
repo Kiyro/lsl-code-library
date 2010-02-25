@@ -1,0 +1,34 @@
+﻿Roof Attachments for ARMY-1
+(FOR USE WITH THE ARMY-1 VEHICLE ONLY)
+
+
+These attachments are for use with the TAZ ARMY-1 vehicle ONLY. They are not general-purpose products and are not expected to work properly with other products.
+
+HOW TO USE:
+
+1. Unpack box contents into your inventory.
+2. Sit in your vehicle in the driver seat as normal.
+3. Find the desired attachment in your inventory, right-click and choose "wear" (note: you must be seated in the vehicle FIRST!)
+4. Drive around as usual, and have fun.
+5. Before you leave the vehicle, right-click the attachment on the roof of your car, and choose "detach" (do not select "drop". This could result in losing it).
+
+Make sure you detach the gadget before standing up.
+
+INCLUDED ATTACHMENTS:
+
+1. Army-1 Minigun machine gun roof shooter
+2. Army-1 Sim location Radar roof unit.
+
+
+FIRING:
+
+This version of the gun actually fires. However, it's just for fun and .. maybe .. scaring people away ;)  but don't expect it to be an accurate shooter. Use a hand-held gun if you want the best results. The gun shoots only at the direction of the vehicle, so you have to turn the whole vehicle to shoot at a differnt direction (not practical! I know, and I made it this way on purpose, since as you know, I hate violence :) 
+
+To fire the machine gun, just say "fire". Only the owner can activate the gun using this voice command. To fire more than one cartridge, say fire more than once.
+
+
+
+DISCLAIMER: Please enjoy your vehicle with the new attachments, but try not to annoy anyone with them. The vehicle looks really cool when those attachments are installed, but lets keep it there :)
+
+
+

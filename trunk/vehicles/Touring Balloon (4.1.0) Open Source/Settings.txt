@@ -1,0 +1,43 @@
+﻿#Settings
+#This file contains your default settings
+#The order of entries in this file is important.
+#Do not change the order!
+#You may add comments with lines beginning with "#"
+#
+#Home
+#Region,X,Y,DockZ,TravelZ
+#The location used when you tell the balloon to go home
+#The balloon will automatically go there at the TravelZ
+#altitude, then goto the DockZ altitude, then shutdown
+Morris,50.0,45.0,60,160
+#Default Travel Height
+#The default travel hight used when not specified
+#Value of 0 means to use the current travel height
+0
+#Precision
+#Timer precision, lower is bettter but harder on server
+#Range 0.1-infinite.  In seconds
+0.10
+#Upforce
+#The amount of upward force applied when the flames are on
+243
+#DownForce
+#The amount of downward force applied when the flames are off
+223
+#PushTravel
+#The amount of push during flight
+6.4
+#PushArrive
+#The amount of push when you are within 10 meters of your destination
+1.0
+#DisplayRate
+#The time, in seconds, that an item will be displayed in the central display
+2.75
+#Alternate Command Chanel
+#An additional chat channel that can be used to communicate with the
+#balloon.  Use "/channel command" format to silently communicate commands
+#to the balloon.  Use "//command" to repeat the last channel used.
+#If value is 0, then only the public chat channel is used.
+0
+#Default Tour Notecard Name
+Welcome Tour

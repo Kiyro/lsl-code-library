@@ -1,0 +1,22 @@
+Linden text version 2
+{
+LLEmbeddedItems version 1
+{
+count 0
+}
+Text length 431
+This Bot is just for watching battles if you are new to the game, and wish to observe the action until you decide it you would like to play or not.
+
+If you are standing oddly, you may wish to type 
+/1 ao reset
+
+to follow someone in battle you can type 
+/1 track
+to stop tracking type
+/1 stop
+
+This will bring a menu up so that you can pick a person to follow.
+
+If you have trouble or it is spamming the channel also type 
+/1 track
+}

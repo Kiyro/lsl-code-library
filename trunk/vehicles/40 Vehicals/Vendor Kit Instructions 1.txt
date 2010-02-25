@@ -1,0 +1,52 @@
+﻿Vendor Setup Instructions
+================
+
+This vendor has been created to be very powerful and flexible, but getting it up and running can be a bit daunting for the first-time user. These instructions are here to help you through this process and to make it as painless as possible.
+
+
+Step 1) Create the main vendor object. If you say "vendor" at any time near the Vendor Kit, it will give you a vendor object. Once you have it, just drag it from your inventory onto the ground. You'll see that it attempts to start up, but cannot. This is because it contains no items to sell. At this point you can move the object to wherever you think it looks nice.
+
+
+Step 2a) Create a display model for each item you want to sell. Each display model should fit nicely within the main vendor. In most cases, you should be able to scale an existing item down to the size you want. If you have a highly detailed object with small pieces, this can prove tricky because Second Life will not allow objects with a side smaller than 0.010 meters (one centimeter). In these cases, you will have to modify your model however you see fit.
+
+Step 2b) Rename your display model so it does not have the exact same name as the item you wish to sell. This is so the vendor can distinguish the item to display from the item to sell.
+
+Step 2c) Remove any scripts which may already exist in the display model and insert the Display Model Script into it. If you say "display model" at any time near the Vendor Kit, it will give you a simple, working display model script. Drag it from your inventory onto your display model while holding the CTRL key or enter edit mode for the display model and drag the script onto the display model's Contents folder.
+
+If everything went well, you should now have a slowly rotating display model. Take this model into your inventory and do the same thing for any other items you wish to sell.
+
+Step 3) Add the items and their display models to the main vendor. Drag them from your inventory onto the main vendor while holding the CTRL key or enter edit mode for the main vendor and drag each item onto the vendor's Contents folder.
+
+Step 4) Find out your key. If you say "key" at any time near the Vendor Kit, it will tell you what your key is. Make a note of this key for the next step.
+
+Step 5) Go into edit mode for the main vendor, click the Content tab, and edit the Item Data notecard so the vendor knows what to sell. The notecard expects one item per line, and each line is formatted as follows:
+Sale Item, Display Model, Price, Key
+
+For example, if you are selling a Widgets, the line for that item might look something like this:
+Widget, Widget display model, 500, d9bcb9e0-bfa2-4b8b-a8fc-9d996935ef51
+
+Create one line for each different item you wish to sell.
+
+Step 6) Reset the main vendor script. You can do this by opening it and clicking the Reset button at the lower right corner of the window. The vendor will ask to take money from you. Click yes. After a few seconds, the vendor should display one of your items.
+
+Step 7) TEST EACH ITEM. Purchase each item in the vendor from yourself. Make sure the vendor attempts to give you each item. If something is wrong, it will tell you. The most common problem is that it will say that it cannot find the item. This is probably due to a misspelled item in the Item Data notecard, so that is the first place to look.
+
+
+Congratulations! Your vendor is up and running!
+
+
+
+
+
+Advanced Features
+============
+
+Multiple Authors - This vendor allows multiple authors. That is, you can have a different author for each item, and you can even sell items created by multiple people, and it will split the profit accordingly! Use the Key field in the Item Data notecard to specify authors (you'll have to get each author's key using the key command as instructed). If you have multiple authors for a single item, you must include EACH key, separated by the pipe (|) character on the item's line in the notecard.
+
+Temp on Rez - You can make it so the display models in this vendor do not count against the land's prim limit by creating your display models with the "Temporary on rez" option checked. If you do this, then you must edit the main vendor's script. Change the line:
+    float changeTimer = 300.0;
+to
+    float changeTimer = 65.0;
+This is because temp on rez objects only exist for about 1 minute before they automatically delete themselves.
+
+Open source - This vendor is 100% open-source. This means you can modify it to your heart's delight if you wish. Your imagination is the only limit. :-)

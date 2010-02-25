@@ -1,0 +1,179 @@
+﻿====================
+Hank Ramos Aeronautics
+Touring Balloon 4.1.0
+Open Source (Free as in Freedom and Free as in Beer)
+Donations: please donate to the USL Library in Grignano
+====================
+The Touring Balloon is an automated, destination-based balloon.  Give tours of the world or simply sail through the vastness of SL in splendid serenity byself, with your loved one, or with a party group!
+
+The balloon is controlled through verbal commands by either the owner of the balloon, or by group members that belong to the group set for the balloon in the "General" prim editor tab.  Hower, once you set your destination, you can sit back and relax!  No need to be at the controls during your flight. 
+
+Commands are not case-sensitive.  Notecard Names are case-sensitive!
+
+You can also drag-and-drop Landmarks onto the balloon, and the balloon will take you to that Landmark!!!
+
+The ballon works by you either saying a specific landmark to goto (e.g. "landmark clara,56,78"), dragging a Landmark onto the balloon, or through the use of a "Destinations" notecard which has a list of destinations or tour-stops.
+
+==============
+Startup and Shutdown
+==============
+To startup the balloon and make it float just say...
+startup
+
+To shutdown the balloon and make it freeze in place, just say...
+shutdown
+
+It is good form to shutdown the balloon when you are not using it so that it doesn't move and/or use resources on the server.  The balloon will stop in place while shutdown, and will not float or move.
+
+===============
+Landmark Drag-And-Drop
+===============
+You can create landmarks of places by selecting "Create Landmark Here" from the World menu.  These landmarks are then added to your inventory.  If you drag and drop one of these landmarks onto the balloon, the balloon will automatically read the landmark, and set a course for that landmark's destination.
+
+While enroute, you can vary the altitude by saying...
+altitude 80
+...to goto 80 meters, for example.
+
+Simple as that :)  
+
+Note: the destination must be in a straight line from where you are.  If now, you will need to manually navigate to a place where you are in a straight line before dropping the Landmark on the balloon.
+
+============
+Manual Tour Control
+============
+In this mode, you just say a landmark to goto.  The balloon will take you there.  When you arrive, the balloon will just hover in place until you specify the next landmark to goto.
+
+For example, to goto Clara(186,122) you would say...
+landmark Clara,186,122
+
+To goto a specific location and travel at a specific altitude, such as Clara(186,122) at 70 meters you would say... 
+landmark Clara,186,122,70
+
+To goto the center of Clara you would say...
+landmark Clara
+
+While enroute, you can vary the altitude by saying (i.e. to goto 80m)...
+altitude 80
+
+You can also make the balloon pause and float in place, to allow someone to hop on for example, by saying...
+hover
+
+You then continue onto your destination by saying...
+resume
+
+NOTE: when you specify a destination or landmark, the balloon will travel there in a straight line.  If there is nothing inbetween your origin and destination (i.e. there is a blank spot on your route), then you will need to figure out your own route to yoru destination.
+
+==============
+Automatic Tour Control
+==============
+In this mode, you say a particular stop in a tour notecard and you are taken there.  Depending on how you setup your tour destinations,  you can have the balloon wait at the stop for a specfic amount of time and then automatically move onto the next stop.   You can also specify  "waypoints", which are nothing more than stops where you immediately move onto the next stop. (Useful in situations where you have to move to a specific point and height, then move onto the next point so as to avoid a cliff or building). 
+
+For example, to goto the first stop in the "Welcome Tour" notecard, just say...
+goto 1
+
+To move to the next stop, just say...
+next
+
+The "Welcome Tour" notecard is editable, and is intended to be changed to suit your own personal tours.  Say "reset destinations" to reload any changes you may have made, or reset all of the scripts completely by saying "reset scripts".  You can create as many tour notecards as you need.
+
+To switch to a different notecard rather than the default "Welcome Tour" notecard, just say...
+
+notecard Tour #4
+
+...if you want to load the notecard named "Tour #4"
+
+Note: The name of the notecard is case sensitive!
+
+=================
+ILS Navigation and Docking
+=================
+ILS Navigation is simply the act of clicking or touching an ILS Beacon prim (could be a rooftop or dedicated landing pad configured with the ILS Beacon Script).  When you click an ILS beacon, it will automatically instruct your balloon to goto a preconfigured location (usually the location of the beacon) and will automatically provide travel and docking altitudes to your balloon.  When you arrive at the location, just say "dock" to dock at the station or say "undock" to goto the preconfigured travel altitude.
+
+Simply stated:  Click an ILS beacon and you will goto it.  Say "dock" to dock to it.  Say "undock" to undock from it.
+
+============
+Settings Notecard
+============
+This notecard contains some defaults settings that are used in the scripts.  Edit it as you see fit.
+
+===========
+Finder
+===========
+If you ever lose the balloon, the balloon will IM you (the owner) with it's coordinates immediately after you lose it, and then repeate the notification after a set period of time.  By default the interval is set to 30 minutes, but can be configured with the commands listed below.
+
+finder on - turn the autofinder on
+finder off - turn the autofinder off
+finder rate x - set the notification rate, in minutes.
+finder distance x - set the sensor distance, in meters.
+
+By default, the finder is automatically started when you say "startup" on the balloon, and is turned off when you say "shutdown" . You can independently turn the finder on and off using "finder on" and "finder off".  You can also change the default 30 minute scan rate to something else, like 10 minutes, so that you can be notified more often or less often.
+
+=========
+All Commands
+=========
+Basic Commands
+------------------
+startup - enable physics and initialize, autosets hover
+shutdown - disables physics and turns off everything
+
+altitude x - manually set altitude
+bump x - increses or decreases the altitude by x amount (positive or negative)
+speed x - set the speed.  Default is 4.8 meters per second.  A value of 7.5 is fast, 10 is very fast, 20 really fast, 30 is insane.
+
+hover - hover in place
+resume - resume to previously specified destination
+
+landmark s - goto the specified sim (assume local coordinates 128,128 at 70 meters)
+landmark s,x,y -  goto the specified sim and coordinates (assume 70 meters)
+landmark s,x,y,z - goto the specified sim, coordinates, and altitude
+
+goto x - goto the specified destination number 
+notecard x - sets the name of the Destinations Notecard (default is "Destinations").  This is useful if you want to have multiple destinations notecards
+dock - goto docking altitude specified for the current stop
+undock - goto undocking altitude specified for the current stop
+
+return home - automatically goto the home specified in your Settings notecard.  Will travel to the destination at the specified altitude, dock at the specified altitude, and automatically shutdown
+
+timeout x - manually set the timeout while at a stop or enroute.  Saying "timeout 120" will set the timeout for the current stop to 2 minutes.  If you have been at the stop longer than 2 minutes, you will immediately move to the next stop.
+extend x- extend the timeout for the current stop.  Saying "extend 120" will extend the set timeout at this stop by 2 minutes.
+
+say destinations - say to the public chat window all of the destinations in the current destinations notecard
+volume v - set the sound effect volume.  Volumes between 0.0 - 1.0.  Recommend 0.1 for normal, and 0.05 for quiet.  (Anyone can say this command) 
+
+floor on - reveal the bottom floor
+floor off - hide the bottom floor
+
+Advanced Commands
+-----------------------
+reset scripts - Resets all scripts
+reset notecards - reloads Destinations and Regions notecards
+reset destinations - reloads Destinations notecard
+reset settings - reloads the Settings notecard
+
+chat channel x - configure what channel that you will communicate with the balloon on.  By default this is channel #0, but you can change the channel number on the fly or in the settings script.  To talk on channel #0, just talk in the regular chat window.  To talk on any other channel, use "/channel command" syntax.  Example: "/1234 startup"  Subsequent chat on the same non-zero channel can be shortened to "//startup".
+
+chat on - Messages are displayed in the chat window in addition to the built-in display
+chat off - Messages are only shown in the built-in display
+
+precision x - set the timer precision in seconds (default 0.2 seconds, possible values are 0.1-1.0). This is the amount of time or the "cycle time" that the balloon goes through during flight.  The lower the value, the more the balloon updates itself resulting in quicker changes but at the expense of being harder on the server.  This is useful if you want to reduce the balloons effect on the server in busy areas.
+
+upforce x - the upforce of the balloon. The higher this value, the faster the balloon will rise when the burners are on.  Saying "upforce 1" will increase the value by 1.  Saying "upforce -1" will decrease the value by 1. Higher values make the balloon go up faster. You need to modify this value if you modify the structure of the balloon.  Once you find an acceptable value, enter the value into the Settings notecard so it will be remembered.
+
+downforce x - the downforce of the balloon.  The lower this value, the faster the balloon will drop when the burners are off.  Saying "downforce 1" will increase the value by 1.   Saying "downforce -1" will decrease the value by 1.  Lower values make the balloon go down faster. You need to modify this value if you modify the structure of the balloon.  Once you find an acceptable value, enter the value into the Settings notecard so it will be remembered.
+
+Finder Commands
+-------------------
+finder on - turn the autofinder on
+finder off - turn the autofinder off
+finder rate x - set the notification rate, in minutes.
+finder distance x - set the sensor distance, in minutes
+
+======
+Updates
+======
+Please contact Hank Ramos for future updates to the Touring Balloon.  
+
+============
+Acknowledgements
+============
+Lee Linden with inspiration and 2 vector calculation functions from the official Linden Touring Balloon. 
