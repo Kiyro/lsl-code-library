@@ -1,0 +1,484 @@
+﻿The Big Damn SL Glossary by Carl Metropolitan
+
+NCI's “The Big Damn SL Glossary”
+Version 0.9
+11.29.07
+
+Edited by Carl Metropolitan
+
+Definitions contributed by Candie Apple, SuezanneC Baskerville, Lindal Kidd, Marianne McCann, Carl Metropolitan, Yumi Murakami and Oryx Tempel.
+
+16m2 - (adj) the smallest size of land parcel that can be created in Second Life. Often used for single prim servers or eyesore ads.
+
+Abuse - (n) a violation of Second Life's Terms of Service or Community Standards.
+
+Adfarm - (n) clusters of rotating towers of advertisements, considered by many to be an eyesore.
+
+Admit List - (n) the list of those allowed in an area that otherwise excludes everyone by use of a script.
+
+AFK (Away From Keyboard) - (adj) describes a player who has left his computer to take care of some task in Real Life (RL). Typing "afk" in chat sets your Avatar as "Away" and displays the word (Away) next to their name. After 30 minutes of inactivity, you will be automatically logged off Second Life.
+
+Alpha - (adj) Transparent, from Alpha Channel (cv).
+
+Alpha Channel - (n) a special channel of a texture file used to indicate transparency, marking which parts of the image should be clear and which should be opaque.
+
+Alt (Alternate Account) - (n) many Second Life residents have more than one account for a variety of reasons, including: keeping one’s business life separate from social life, role-playing, avoiding harassment, keeping track of L$ (bank alts), and being able to work uninterrupted by Instant Messages.
+
+Animation - (n) a file or in-world inventory item that moves or animates your avatar. You can use animations to make your avatar clap their hands, dance, blow someone a kiss, and much more.
+
+AO - (n) Animation Overrider. A scripted device that contains replacements for the default walking, sitting, flying, and standing animations of your avatar. Some also have other functions. An AO can be customized by loading your own favorite animations. AOs should be turned off before engaging in poseball or other animations, since the animations can conflict with one another.
+
+AR (Abuse Report) - (n or v) formal report to Linden Lab of a violation of community standards or SL terms of service. Also used as a verb. ("I AR'd the guy.")
+
+Asset Server - (n) the database that tracks all Second Life objects in-world and in inventory. Overloaded asset servers can cause search, inventory, rez, teleport, and Friends list failures.
+
+Attach - (v) usually, to take an item from inventory and cause it to be fixed to a certain part of your avatar's body.
+
+Attachment - (n) an object (clothing, weapons, jewelry, shoes, etc) that can be attached to an avatar at a specific location. Usually location is set by the creator of the object.
+
+Avatar (AV) - (n) (1) the animated being that represents a Second Life resident in the virtual world; the digital representation of your virtual self in Second Life. (2) a "costume" or outfit; a full set of avatar body parts, clothing, and/or attachments that provides a specific look.
+
+Baked - (adj) freshly donned clothing will often look clear and sharply defined and then, a short time later, become fuzzy and clear again. At this point, it can be assumed that everyone in the area can now see your clothing clearly. The textures are then "baked" in.
+
+Ban - (v) (1) the act of explicitly forbidding entry to a land parcel. (2) to add someone to your ban list and thus eject them from your land. (3) permanent removal of someone from Second Life (which can only be done by Linden Lab).
+
+Banlines - (n) lines of floating red letters spelling out “no entry” that appear on the boundaries of a land parcel that your Avatar is not allowed into by the owner.
+
+Banlink - (n) Distributed ban sharing system developed by Travis Lambert and Mera Pixel that allows subscribing locations to share banlists.
+
+Banlist - (n) the list of those banned from an area, by use of a script, or by Landban that otherwise allows visitors.
+
+BIAB (Business In A Box) - (n) often sold to newcomers as an easy way to make money, BIAB packages generally contain merchandise that is poor quality, out of date, stolen from the original creators, or available elsewhere for free.
+
+Bling (n) - jewelry and attachments scripted to emit particle based shimmering “bling” effects.
+
+Blingtard - (n) pejorative term for a user, often a newbie, who wears too many blinging attachments.
+
+Body Part - (n) a component of an Avatar; shape, skin, hair, eyes, and/or prim attachments are Body Parts that combine to create an Avatar's form. Different body parts can be created and saved to a user's inventory and switched between as the mood strikes.
+
+Borked - (v or adj) messed up, broken. "The teleport function is borked again"
+
+Bot - (n) an alt account run by a computer. (see Landbot)
+
+Boxhead - (v) the act of wearing an object, usually a package prim, on your head or other location. Package prims are meant to be rezzed on the ground, but newcomers often mistake them for the object(s) they contain, and try to wear them instead. Originally the default attachment point for objects was the head. Later updates of the Second Life client changed that to the right hand.
+
+BRB - (acronym) Be Right Back, shorthand meant to imply that the speaker is away from the keyboard for a moment, but will return very shortly.
+
+BTW - (acronym) By the Way
+
+Build - (v) (1) to create/make something out of primitives in Second Life, (2) an object comprised of 1 or more primitives, (3) an engineering term for a specific version of the Second Life (or other) software.
+
+Bumpmap - (n) an extra texture layer on objects that adds "bumpiness" to them. This can provide the illusion of detail by resembling wood bark, cut stone or a number of three-dimensional surfaces. Second Life offers only limited bumpmapping.
+
+Busy Mode - (n) a mode where your Avatar does not hear nearby chat, where IMs receive the “busy mode” response, and all inventory and teleport offers are automatically declined.
+
+Cage - (v) to trap an avatar in place by rezzing (qv) an object that surrounds them. Caging an avatar who has not consented to is an AR'able (qv) offense.
+Calling Card - (n) an item with a player's name that goes into the Calling Card section of your inventory. Calling cards serve as a contact list of sorts. Double clicking on a Card opens an IM window to that person. Offering a Calling Card is similar, but less personal than offering Friendship, and can be done from second level of the avatar pie menu.
+
+Camera - (n) the particular viewpoint from which you see the Second Life world. Normally, your camera is behind your avatar. Second Life allows you to move your camera around in many different ways to see things from many different viewpoints.
+
+Camping - (v) the practice of earning small amounts of $L by sitting on a chair or engaging in menial activities. Merchants use campers to make their store look more popular on the grid map. Experienced SL Residents usually don't waste their time camping.
+
+Chat Channel - (n) one of the "pseudo-frequencies" that objects and avatars can chat on. Avatars normally speak on channel 0, and can only hear chat on channel 0. Objects can chat and listen on any channel. SL supports are 4,294,967,294 possible channels, ranging from -2,147,483,648 to 2,147,483,647.
+
+City Sims - (n) a set of four Linden designed sims (Sistiana, Barcola, Miramare and Grignano) meant to represent a city. These are the only mainland sims with a Simulator Object Bonus (qv). Approximately half of each city sim is composed of Linden-owned low-prim streets and walkways, allowing owners of the available space to use twice the prims they normally could.
+
+Clear Cache - (v) the act of setting the SL client to clear its local storage of SL-related data and textures the next time it is started. Often problems with slow-loading textures can be fixed by clearing your cache. Clearing your cache can also make missing inventory items reappear.
+
+Client - (n) Second Life consists of two software parts. The client, or viewer, resides on the user's computer. The server resides in a remote location.
+
+Client Menu - (n) A normally hidden menu in the Second Life client that allows access to extra commands. The Client menu can be toggled on/off by typing CTRL-ALT-D.
+
+Clothing Layers - (n) jacket, shirt, pants, undershirt, underpants, gloves, socks, shoes, skirt--the parts of your avatar that are worn on top of its body and created and edited in appearance edit mode. You can create different articles of clothing and save them in your inventory, then switch between them as the mood strikes. You can even design your own clothing and upload the textures to Second Life.
+
+Community Standards - (n) the agreement all players subscribe to which determines the limits of appropriate behavior while playing the game.
+
+Concierge Service - (n) a higher level of customer service and assistance available only to island owners and mainland land owners paying more than 125US$ per month in tier. This service level includes Lindens dedicated to Concierge support duties and toll-free Concierge level-only phone help.
+
+Cyber - (v) short for cyber-sex. The practice of engaging in sexual roleplay using chat and Second Life avatars and animations.
+
+Damage - (n) in certain regions, it is possible for an avatar to experience "injury" resulting in a loss of points that may result in death. At that point, the avatar is teleported to it's Home and the points are restored. Damage-enabled areas can be set for one person's property or for an entire region. If you are in a damage-enabled zone, you will see a red heart at the bottom of your screen with a number showing points from 1 to 100. The overwhelming majority of Second Life is not damage-enabled.
+
+Dance Balls (also Couple Balls) - (n) pairs (or larger sets) of poseballs (qv) which synchronise with each other to create animations showing avatars dancing or interacting in various ways.
+
+Day - (n) day time is about 2 hours long. Night is about 1 hour long.
+
+Death - (n) when your avatar is in an area that allows damage to occur, a red heart will appear at the bottom of the screen. Next to it is a number that is initially set to 100 percent. If the amount of damage your avatar suffers drops to zero, the avatar dies. It is then teleported to Home and the points are set back to 100%.
+
+Deed - (v) (1) to give a parcel of land to a group. The group must already have enough tier contributed it to own the land; (2) to give a tier contribution to a group so it can own land. Usually done via the Owner Makes Contribution With Deed checkbox; (3) to give an object to a group. The object becomes the property of the group.
+
+De-rez - (v) to remove (derez) an object from a sim within Second Life. Generally is done through deleting the object or taking the object into inventory.
+
+Detach - (v) usually, to remove an item that has been attached to a specific part of the avatar's body and return it to inventory.
+
+Developers Incentives - (n) a now discontinued Second Life feature that paid US$ awards to the owners of the locations with extremely high Traffic.
+
+Draw Distance - (n) the radius centered on your avatar that your client renders the Second Life world. If you are on a slower computer, you may be able to speed up your Second Life experience by reducing your Draw Distance.
+
+Dreamland - (n) the largest private continent in Second Life. Owned and operated by Anshe Chung Studios, Dreamland covers hundreds of sims.
+
+Drop - (v) (1) to remove an attached item from your avatar and drop it on the ground, instead of returning it to your inventory. (2) to place an item on an avatar or a calling card.
+
+Dwell - (n) a now discontinued Second Life feature that paid land owners in L$ according to their land's Traffic. Sometimes mistakenly used as a synonym for Traffic.
+
+Eject (also, Boot or Kick) - (v) to expel from a property. Ejecting a user will cause them to be quickly hurled off your property. The user can come directly back on your property after being ejected unless you also Ban (cv) them.
+
+Estate - (n) one or more privately owned sims.
+
+Estate Controls - (n) local preferences menu (such as sun position, ground texture, and other things that only effect that region). Estate controls (World > Estate... menu) are only available to private island owners. Residents who own mainland sims can not access them.
+
+Event - (n) a group activity, led by a host, that starts and ends at specific times, and can be legitimately listed on the Search/Events calendar.
+
+FIC (Forum In-Crowd or Feted Inner Core) - (n) originally a term for SL residents who received unusual access or special treatment from Linden Lab, it has now become more general to refer to any influential SL resident (“She so FIC”). FIC originated at a time when the Forums were more widely used and were frequented by Lindens.
+
+First Land - (n) a now discontinued feature of Second Life. Formerly Premium Accounts were entitled to a free 512m2 plot of land from Linden Lab.
+
+First Life (FL) - (n) the so-called "real world" away from Second Life. Synonym for Real Life. Possibly an illusion.
+
+First Look - (n) a version of the Second Life client that contains a major enhancement currently being tested on the Main Grid for a near-future release. Residents can often use the Second Life First Look software and try out new features.
+
+Flexi, Flexible, Flexified - (adj) describes an object made up of a prim or collection of prims, e.g. "flexi skirt" that utilize many of the features on the "Features" tab on the object edit screen. These features force the object to move with the Second Life wind vector pressures and/or movement of the avatar to which the object is attached.
+
+Freebie - (n) an item made available at no cost, often with full or extremely generous permissions.
+
+Freebie Resale - (idiom) the practice of selling items at a cost, which are available elsewhere for free. Reselling freebies is generally considered a scam in Second Life.
+
+Freebie Wall - (n) a scripted device offering a "catalogue" of Freebies from which a user can choose from by clicking on a prim representing the desired Freebie. The first Freebie Walls were provided by the Lindens at Telehubs (qv), labeled "Free Linden Content".
+
+Freeze - (v) a function used by landowners to bring a havoc-wreaking resident under control. Once frozen, an avatar stops flying, falls to the ground, and is unable to move.
+
+Full Perms (Full Permissions) - (adj) an object set so it can be freely copied, modified, and transferred.
+
+Furry - (n) Second Life resident using anthropomorphic animal avatars.
+
+Gadget - (n) a particular form of scripted item; usually one that is a) worn by its user; and b) focuses on providing that user with extra functions, as opposed to doing anything externally visible. HUDs (qv) and AOs (qv) are common Gadgets.
+
+Gesture - (n) Gestures are unique combination of sound, animation, and chat that can be preconfigured to go off with a command or a specific phrase (for example, you can have your avatar clap his or her hands and play the sound of applause whenever you type: /clap).
+
+Ghost - (n) an object or avatar that is no longer in the Second Life virtual world, but is still visible on at least one resident's client.
+
+GIRL - (acronym) Guy In Real Life. Sarcastic term for a female avatar controlled by a male player.
+
+God Mode - (n) a special mode of Second Life which only Linden staff members can access. A Linden in God Mode is invisible to sensors, cannot be pushed or damaged, has unlimited L$ and has full permissions access to every object on the grid. All actions that Lindens engage in while using God Mode are logged and inspected; any use of these powers for other than testing and legitimate administration purposes will usually lead to them getting fired,
+
+GOM – (1) (n) Gaming Open Market, a now obsolete currency exchange service, which closed down in response to the creation of LindeX. (2) (v) to GOM, meaning for the Lindens to create a service which competes with something a resident was already providing ("I hear the Lindens are planning to GOM banlink in the next release.")
+
+Gor - (n) series of BDSM-oriented Science Fantasy novels by John Norman that have given rise to dozens of role-playing sims throughout Second Life.
+
+Gorean - (n) Second Life resident who identifies with the culture of one or more of the various Gor sims.
+
+Grey Goo - (n) an object which continuously makes copies of itself. Can be produced by accident, but is generally considered a form of Grid Attack (qv).
+
+Grid - (n) (1) the network of servers that make up the Second Life world (Example: “The Grid is down so the Lindens can fix it.”) (2) a series of intersecting lines that give a regular reference for building.
+
+Grid Address (also Grid Coordinates) - (n) the name of a region combined with three numbers between 0 and 255 for the X & Y (north-south & east-west) coordinates, and from 0 to 760 for the Z (up-down) coordinate. Example: Ahern (200, 155, 50).
+
+Grid Attack - (n) a coordinated attempt by griefers to crash Second Life as a whole, or multiple servers within it. Attempting a grid attack is grounds for instant and permanent banning from Second Life.
+
+Grid Monkey - (n) a Linden (which varies at any given time) assigned to care for the grid and resolve hardware and software issues. There usually is a grid-monkey on-call at all hours of the day/night, making sure someone is ready to take care of any issues at all times.
+
+Griefer - (n) a person whose primary purpose is to harass others and destroy their enjoyment of Second Life. Griefers should be Abuse Reported.
+
+Group - (n) an in-world player-created association. Belonging to a group also includes the ability for several avatars to work on one project.
+
+Group Title - (n) the labels designated for officers and members of a group. Group Titles appear over an avatar's name when that group is active. You can change that title by changing your Active Group. To change that, right click on your Avatar and select “Groups” from the pie-shaped menu. In the Groups window that appears, scroll down to the group you want, and then click the “Activate” button. Group Titles can be up to 21 characters long.
+
+Havok - (n) the physics engine for the Second Life that handles real-time interaction between objects or other characters.
+
+Help Island (HI) - (n) an optional post-Orientation Island new resident learning area. To handle the large number of people joining Second Life, there are a large number of Help Islands which are mirror images of each other. These are referred to as HI1, HI2, HI3, etc… Once you leave Help Island, you can not return, though you can go to Help Island Public
+
+Home - (n) the location that you teleport to when you choose the menu item "Teleport Home" or when you "die." You can set this location with a menu command. Home may be set to land that you own, land that a group you are a member of owns, or Linden Land that is set to allow home to be set (such as Welcome Areas or InfoHubs).
+
+HUD - (n) Head Up Display. A control panel for an AO or other device that appears on screen.
+
+IM (Instant Message) – (1) (n) the chat window that allows two players to speak privately, (2) (v) to instant message another resident.
+
+IM Coma/IM Trance/IM Hell - (n) a state in which one person is not moving, chatting, or responding to chat because he or she is being bombarded with IMs.
+
+Infohub - (n) a Linden Lab-owned information and social area. Infohubs are located at some of the former Telehub locations and are built and managed by residents or resident groups. Some new players first spawn at Infohubs after leaving Orientation Island or Help Island.
+
+Inventory - (n) the window that contains everything you possess that isn't manifest in the world. Your inventory is the collection of clothing, objects, textures, etc. that your avatar possesses. Your inventory travels with you, and you can use any of it at any time.
+
+In-World - (adj) (1) the state of being connected to the Second Life servers and present in the Second Life world (also: online), (2) anything that takes place within the virtual environment of Second Life.
+
+IRL - (acronym) In Real Life
+
+Island - (n) a Sim or group of Sims that are detached from the Linden Lab owned Mainland and only accessible by teleportation (see Private Island).
+
+Kick - (v) (1) the forced log-off of a resident from Second Life by an administrator. An administrative kick is usually followed by a time-out period, during which the kicked resident will be unable to log into Second Life (2) the expulsion of a resident from another resident's land by the landowner (see Eject).
+
+KK - (acronym) equivalent to "OK"
+
+Lag - (n) the condition of running slowly. This can be caused by the server, your internet connection, or the objects, scripts and activities of the players around you.
+
+Land Baron - (n) a resident who makes profit in-world by buying and selling land, or by developing and selling land on Private Estates (qv).
+
+Land Griefing - (v) the practice of buying land adjacent to a victim, placing deliberately ugly or offensive items (such as Ad Cubes) to blocking the view from (or access to) their land, then attempting to sell the adjacent parcel to the victim at an extortionate price. Land Griefing is not AR'able (as Linden Labs is unwilling to restrict what a resident may place on land they own) unless the items placed on the land violate the Community Standards or Terms of Service in some way.
+
+Landban - (v) to ban from a parcel using the SL client ban tools available to land owners authorized members of groups owning land.
+
+Landbot - (n) an alt account run by a program designed to quickly purchase land sold below a set price. Land that is incorrectly priced too low, or is set to sell for a nominal sum to "anyone", will almost certainly be snapped up by a landbot.
+
+Landmark (LM) - (n) landmarks are shortcuts to places in Second Life. If you double click on a Landmark, a window pops up that allows you to see that location on a map or to teleport directly there. You can create a landmark anywhere using a menu command, and can then be given to other players. Landmarks you create or save default to being stored in the Landmarks folder of your Inventory.
+
+Liaison - (n) a Linden staff member who work as front-line technical support or serve as an in-world representative.
+
+Linden - (n) an employee of Linden Labs. Linden employees are referred to as "Lindens" because all of them have that last name when in the game. (2) (n) Linden dollar, the currency of Second Life.
+
+Linden Dollar (L$) - (n) the unit of currency for all monetary transactions in Second Life. Lindens are a microcurrency and can be traded for real world currencies on the Lindex and on other third party exchanges.
+
+Linden Lab (LL) - (n) the creators of Second Life. "Linden Labs" is a common--but incorrect--usage.
+
+Link - (v) when building, multiple prims may be linked together with a menu command. When linked, they can be moved as one unit.
+
+Live Help - (n) a now discontinued feature of Second Life. The "Live Help" command on the Help menu allowed you to access in-world help chat with Lindens and Live Help resident volunteers. Live Help has been superseded by the support portal on the SL website.
+
+Local Coordinate System (LCS) - (n) a way of describing locations in the world relative to an object. The LCS of a particular object has its origin point <0,0,0> at its center, and the 3 correspond to the forward, right, and upward directions from the object's point of view. This is as opposed to the Global or World Coordinate System (GCS or WCS) in which everything is defined by absolute position in the world. For example, if a human lies down on the floor on their left hand side with their head facing North, then in GCS terms their head would be described as "West of their shoulders", since this is their literal position; in the person's LCS, their head would still be described as "above their shoulders", since this is its position relative to the rest of their body.
+
+Lock - (v) to set the lock flag for an item, making it un-modifiable.
+
+Log - (1) (n) a transcript of chat, or of computer activities. (2) (v) to log out, to go offline, to stop playing Second Life.
+
+LOL (acronym) - Laughing Out Loud. Shorthand meant to convey that the writer is actually sitting at the computer laughing at something someone has said or done. "That's some silly cheese hat you have there! LOL!"
+
+Lot (also Parcel) - (n) a contiguous section of land owned by one person or group. Size if measure in meters squared (m2).
+
+LSL - (acronym) Linden Scripting Language. Programming language create interactive content inside SL.
+
+Lucky Chair - (n) scripted chairs that give out prizes when you sit on one that is displaying the first letter of your first name.
+
+m2 - (1) (adj) abbreviation for square meters used in talking about Second Life land. (2) (n) abbreviation for the Metaverse Messenger newspaper.
+
+Mainland - (n) the continents managed by Linden Lab. Land on the mainland is initially auctioned off by Linden Lab in one sim blocks.
+
+Map - (n) the window in the Second Life application that displays the map. It can be used to find locations, individuals, and specific coordinates. (v) to select an avatar's name in the map window so that the avatar can be located, or followed, on the map. Mapping will only work on Avatars on your Friends list that have set their client to allow you to map them.
+
+Map Window - (n) the window in the Second Life application that displays the map. It can be used to mark locations, individuals, and specific coordinates.
+
+Material - (adj) Second Life objects can be made of different materials; this setting affects the collision sound, weight, friction, etc. of the object. Example materials are Stone, Wood, and Rubber. Material setting only affect the physics of the object and do not affect its appearance.
+
+Mature - (adj) rating for a sim that allows behavior forbidden in the PG areas. This may include profanity, nudity and sexual content and activities, to the extent that such behavior is legal.
+
+Mentor - (n) a resident volunteer working with Linden Lab of Second Life who teaches and guides other citizens.
+
+Metaverse - (n) a term for a virtual universe coined by Neal Stephenson in his 1992 science fiction novel "Snow Crash". Stephenson's novel was an inspiration for Second Life.
+
+Metaverse Development Company (MDC) - (n) a real-world business which charges other businesses real money to develop areas or promotions for them in Second Life. Prominent MDCs include: Electric Sheep Company (ESC), Millions of Us, Beta Technologies, Aimee Weber Studios, and Rivers Run Red.
+
+Missing Image - (n) a black and while error texture that appears on an avatar or object when the Asset Server can't locate the correct texture. Missing Image problems on Avatars can often be fixed by Rebaking (cv)
+
+Mouseview (also Mouselook) - (n) typing the letter "m" will change the main window to a first-person camera view that will change according to mouse motions. This is the usual view for weapons fire. It is also useful for flying in some circumstances. Hit the Escape key to exit Mouseview.
+
+Mute - (v) choosing the option that prevents you from seeing the chat from another player.
+
+Neko - (n) mostly human avatars with some cat like characteristics, such as ears, whiskers and/or tails. Has its origins in Anime.
+
+Newbie - (n) a newcomer to Second Life; a resident who has joined for a relatively short period of time and/or is not familiar or comfortable with Second Life's culture, interface, and nuances. The newbie cut-off point is generally considered to be at around 90 days.
+
+Nicholaz Client - (n) An alternate version of the open source Second Life client developed by SL resident Nicholaz Beresford to attempt to fix bugs in the standard client and to provide those fixes to the community prior to an official release.
+
+Night - (n) day time is about 2 hours long. Night is about 1 hour long.
+
+No-Copy - (adj) any object whose permissions do not permit the current owner to make additional copies of the object. These objects have (no-copy) in their name in the inventory.
+
+No-Fly - (adj) any land parcel that does not permit flying. You can fly through no-fly parcels, but as soon as you touch down and stop flying, you'll be unable to fly again until you exit the no-fly parcel. If you get really stuck, teleport somewhere else.
+
+No-Modify (No-Mod) - (adj) any object whose permissions do not permit the current owner to make changes of the object. These objects have (no-modify) in their name in the Inventory.
+
+Non Physical (Non-Phys) - (adj) a method of avatar movement obtained by sitting on a non-physical prim and then moving the prim with the edit tools, or using a script in the prim for controlled movement. A non physical avatar can pass through walls and cannot be pushed; they are considered an immovable object from the point of view of any physical object that strikes them.
+
+Notecard - (n) an inventory item containing text and/or embedded textures, snapshots, objects, or other notecards. Items embedded in notecards must have copy/modify/transfer permissions.
+
+No-Transfer - (adj) any object whose permissions do not permit the current owner to resell or give away the object. These objects have (no-transfer) in their name in the Inventory.
+
+Occlusion - (n) 3D graphics rendering technique that ensures that the computer does not spend time attempting to draw things that are not visible (typically because they remain hidden behind something else).
+
+Office Hours - (n) scheduled times where specific Lindens are available to take questions and comments from residents on their specific areas of expertise.
+
+Offline - (adj) the state of being disconnected from the Second Life servers and absent from the Second Life world.
+
+Oldbie - (n) (1) a resident from the early days of Second Life (pre-2005). (2) anyone who is no longer a newbie. The newbie cut-off point is generally considered to be at around 90 days.
+
+OMG - (acronym) shorthand for "Oh My God!"
+
+Online - (adj) the state of being connected to the Second Life servers and present in the Second Life world. Also: in-world.
+
+OOC - (acronym) role-playing shorthand for "Out of character." Used in role-playing sims to let the listener know that the avatar is speaking as him or herself--not as the character he ore she is playing.
+
+Openspace Sim (also Void Sim) - (n) A sim with a dramatically reduced prim limit (1875 prims) that operate four sims to a single processor. Designed by Linden Lab for creating open fields or seas, they are sold in groups of four for the price of one ordinary Sim.
+
+Orbiter - (n) a physics-based weapon that attacks a resident by rapidly pushing them upwards into the sky with a force that exceeds the amount of counterforce that normal Second Life flight can exert. Orbiters send their victims so far into the sky that it would take hours for them to fall back down in the normal way and/or their coordinates no longer fit within SL's world model. Normally, teleporting away or--in extreme cases--relogging (qv) will fix being orbited.
+
+Orientation Island (OI) - (n) The first area all users of Second Life visit. To handle the large number of people joining Second Life, there are a large number of Orientation Islands which are mirror images of each other. These are referred to as OI1, OI2, OI3, etc… Both Linden Lab and partner companies operate Orientation Islands. Private OIs usually differ considerablely from the Linden OI.
+
+Premium Account – (n) paid subscription to Second Life. Premium Accounts cost between US$9.99 and $6.00 a month (depending whether they are paid monthly, quarterly, or annually), and provide a Stipend (qv) of L$300 a week and 512m2 of Tier (qv). A Premium Account is required to own land on the Mainland.
+
+Outfit - (n) a group of clothing items in a single folder in Inventory that can be dropped on the avatar to effect a fast change of appearance.
+
+Parcel - (n) section of land within one region that is treated as one lot. All land within a parcel shares the same owner, prim limit, About Land settings, ban lists, etc. A person can own more than one parcel in a region, and it is possible (though unlikely) for a parcel to be not contiguous.
+
+Particles - (n) two-dimensional sprites (graphic images that always face the viewer). Second Life's particle system allows a wide variety of particles, enabling residents to create burning fires, glistening waterfalls, vapor trails on jet fighters, tracers on bullets, the occasional macabre spurt of blood, floating hearts of affection, billowing smoke, rainbows, and much more.
+
+Partner - (n) a resident of Second Life who "partners" up with another resident; partners can be spouses, couples, or just friends. It costs 10L$ to Partner with someone, and 25L$ to dump them.
+
+Peak Usage - (n) the maximum total amount of land a Second Life resident owned, at any one time, in a monthly billing period. To reduce possible exploitation of land ownership, Second Life bills land use fees based on peak usage; holding 4096 square meters for one minute costs the same as holding it for thirty days. Note that this amount always includes the resident's group contributions as well.
+
+Permissions (Perms) - (adj) Second Life's built-in "intellectual property" system. Creators can choose whether subsequent owners of their creations can Copy, Modify, and/or Transfer that item. Creators who want to preserve their intellectual property rights usually limit one or more of these attributes.
+
+PG - (adj) describes an area that does not allow profanity, obvious sexuality, or intentional nudity.
+
+Phantom - (adj) setting on a Second Life object which determines whether the object collides. Phantom objects appears insubstantial, and can be freely passed through.
+
+Physical - (adj) objects that have their "physics" flag set are subject to simulated Newtonian effects. These objects will bounce, collide, and be affected by gravity,
+
+Physics - (n) (1) Second Life's software model for how forces and objects interact (see: Havok). 2) a setting on objects that can be enabled, causing the object to fall and react to gravity, as well as collisions with other objects. Without physics, object remain exactly where they were placed, no matter what force is applied to them.
+
+Plywood - (1) (adj) the default texture applied to all newly rezzed Prim. (2) (n) a Second Life comic strip by Moriash Moreau.
+
+Pose - (n) a static animation that puts your avatar into a specific position.
+
+Poseball - (n) balls that contain animations that can make your avatar dance, as well as do many other things. Used by clicking on the ball and selecting "Sit Here" or "Animate" from the menu. Usually colored blue (for men) and pink (for women).
+
+Posing Stand - (n) standing on this item locks your avatar in position. Used primarily for editing the position of attached items like hair and jewelry while being worn.
+
+Prim - (n) short for "primitive" the basic shapes that almost all objects in Second Life are made from. A single object can be made of many linked primitives. Prims are created, shaped, and textured via the Edit window. The basic Prim types are: Box, Cylinder, Sphere, Ring, Tube, and Torus.
+
+Prim Flicker - (n) the condition where two textures seem to overlap and shift one over the other as you move around them. Prim flicker is caused by badly positioned overlapping sections of prims.
+
+Prim Hair (or eyelashes, or fingernails.) – (n) hair made from twisted and textured prims. You can generate a basic hairstyle with the avatar appearance sliders, but a wig made of prims looks much more realistic.
+
+Prim Limit - (n) the number of prims that can be placed on a given parcel of land.
+
+Prim Sculpture - (v or n) use of overlapping, modified prims to create artistic, realistic, and/or organic shapes. The term "Prim Sculpture" originated well before Sculpties (qv) were introduced, to describe skill at working around the fact that custom prim shapes were not available at that time; thus, Sculptie Prims are (paradoxically) not generally referred to as Prim Sculptures.
+
+Prim Taxes - (n) a now discontinued feature of Second Life. Before Second Life 1.2, the amount of prims residents could have in world was limited by "taxes" on each prim deducted from the Avatar's account when prims were rezzed.
+
+Prim Torture - (v) (1) a method for adjusting settings of a Prim which are not normally accessible, by switching the prim between different types. For example, you can set a prim to type Tube, adjust the Profile Cut setting, and then set the prim to type Box. The result is a Box with a Profile Cut applied, which is usually not possible. (2) (v) extreme deformations of prims.
+
+Private Island - (n) a sim owned by someone other than LL.
+
+Private Continent - (n) a large group of privately owned sims.
+
+Private Estate - (n) one or more privately owned sims.
+
+Profile - (n) the window that contains personal information about a avatar. The Profile window can contain a picture of the avatar, a list of the groups they belong to, a description. Additional Profile tabs include space for a website, Picks, Classifieds, a First Life section, and a Notes section.
+
+
+Push Weapon - (n) scripted object capable of applying a force to objects, but especially to other residents. come in numerable styles and implementations. Using Push Weapons on other residents can be considered harassment and is not permitted in Safe zones or non-damage-enabled regions. Landowners have the option to cause Push Weapons not to work on their land.
+
+Rating - (n) a now discontinued feature of Second Life. Ratings once were the positive or negative vote a player could give to another player for their avatar's appearance, the player's building ability and how well the players relates to others.
+
+Ratings Bonus - (n) a now discontinued feature of Second Life that paid stipend bonuses to people with high Ratings.
+
+Rebake - (v) To force one's clothing and body textures to re-rez in order to correct blurred or "Missing Image" problems with one's avatar. The rebake command is accessible via the Character sub-menu of the Client menu.
+
+Rehi - (idiom) shorthand for "Hello, again" Usually spoken to someone who is seen again within a short time of a previous conversation. "Rehi, Kathy. How was supper?"
+
+Release Candidate - (n) a version of the Second Life client currently being tested on the Main Grid for a near-future release.
+
+Relog - (v) To log out of Second Life and then immediately log in again. Occasionally necessary to clear up technical problems.
+
+Rez - (v) (1) to create an object, or bring an object out of your inventory into the world. (2) (v) Rez also refers to objects and avatars loading when you enter a new area, i.e.,“I teleported to the island, but it took forever for the buildings to rez.” (Derives from "de-rez" a fictional hacker term in the movie "Tron".)
+
+Resident - (n) term for a person who uses Second Life. This can refer to the user of the account as well as their in-world avatar.
+
+RL (Real Life) - (n) (1) an imaginary, dream-like world frequently described by avatars shortly after waking up in-world. (2) the constant interruptions that interfere with your ability to stay in-world 24 hours a day.
+
+Ruth - (n) (1) the default avatar: usually female, short, with red swept back hair. (v) (2) Being “ruthed” is Second Life slang for appearing in the shape of the female default SL Avatar (normally due to server lag). To de-ruth yourself, try going into Appearance mode, making a very minor change, and then saving that change. If that fails you can try logging out and then logging back in again.
+
+Safe - (adj) describes areas which are set initially to not allow avatars to take damage. Individual landholders can enable damage on their own land, however.
+
+Script - (n) a program that is written Second Life's Linden Scripting Language (LSL). A script can be placed into an object to cause it to have an effect on those people or things around it.
+
+Scripted Item - (n) an object that contains a program that allows it to behave in various ways. Scripts and animations are the "life" of Second Life.
+
+Scripter - (n) a person who writes scripts in LSL, the Linden Scripting Language.
+
+Sculptie (also Sculpted Prim) - (n) a prim with a customized shape, created outside of Second Life using 3D modeling software. Scultpies are a client-side effect and are rendered by the SL client based on a special type of texture map.
+
+Second Life (SL) - (n) an interactive 3d virtual world almost completely built by the residents operated by Linden Lab of San Francisco.
+
+Security Orb - (n) a scripted object programmed to eject or teleport unwanted avatars from a land Parcel (qv). (Most often, this includes all strangers.)
+
+Server - (n) the processor that runs the programming necessary for one region of the world. Multiple sims are run on different processors in the same computer.
+
+Sex balls - (n) linked sets of pose balls that animate avatars to show sexual behaviors.
+
+Sexgen - (n) trademarked name for a popular brand of scripted furniture from Eros Inc., that incorporate numerous sex and cuddle animations.
+
+Shout - (v) by clicking the Shout button, a line of chat can be audible out to a 100 meter radius.
+
+Sim (also: simulator or region) - (n) (1) A 65,556 square meter (256m x 256m) region of land hosted on one processor, a single "grid square" on the SL map. Sims may be privately owned, or managed by LL. (2) (n) the server that supports a particular region. (Note: In Second Life, a sim refers to a region of land, not an avatar or character.)
+
+Sim Boundary - (n) the border between two sims. Crossing sim boundaries can cause problems, as your avatar and its settings are transferred from one server to another.
+
+Simulator Object Bonus - (n) a special setting on Private Islands which allows the Prim Limit (qv) on some parcels to be increased. However, the sim owner must 'pay back' the extra prims by leaving other areas of the sim empty.
+
+
+Skin - (n) a texture image that replaces the default skin of your avatar. Cannot (usually) be adjusted by the appearance sliders, but looks much better than the default skin.
+
+Skybox - (n) any building located up in the sky, instead of on the ground.
+
+Sliders - (n) controls for customizing Avatar appearance and clothing. These sliding settings levers in appearance mode (right-click on Avatar & select “appearance” to access) change values for avatar and clothing mesh. As an example, foot size can be altered from tiny to large on one slider, rounded to pointy toes on another, thin to thick platforms on another.
+
+SLURL - (n) a type of weblink that launches the Second Life client and teleports you to the location indicated via the slurl.com website.
+
+Spam - (n) an unsolicited instant message, notecard, texture, group invite, animate request, or object sent to multiple people. This can be sent by another player, or by an object containing a script.
+
+Stipend - (n) the money given to a player by Linden Labs on a weekly basis. Premium accounts receive Stipends (300L$/week), though some older accounts have been grandfathered in under previous stipend programs.
+
+Tekkie-Wiki - (n) derogatory term for users with advanced technical knowledge or experience of Second Life, who are alleged to be unable to empathize with those who lack similar knowledge.
+
+Telehubs - (n) a now discontinued feature of Second Life. Telehubs were centralized teleport locations in Second Life. Before SL version 1.7, point-to-point teleporting was not enabled. Teleports all landed at the nearest Telehub to the destination point. From there, you had to fly to your destination. Most Telehubs were eliminated, but some were converted into Infohubs.
+
+Teleport (TP) - (v) to transport oneself instantly to another location. In Second Life, you can teleport by clicking on a landmark, using the map window, responding to a teleport request, or by selecting "teleport home" from the World menu. Also used as a verb meaning offer me a teleport ("Oh--that sounds cool; TP me over please.")
+
+Temporary - (adj) Objects marked in Second Life as not being permanent. When an object is marked as temporary, it will be deleted a few minutes after use. This is great for things like gun projectiles, dominos, or beachballs that might get away from you, disappear somewhere, or end up on no-script land (where their script would prevent them from deleting themselves).
+
+Terraforming - (v) the act of changing the shape and elevation of land. Most Mainland sims are limited to +/- 4 meters terraformability. Land on Private Estates can be terraformed up to +/- 100 meters.
+
+Texture - (n) an image or graphic uploaded to Second Life for application to the surface of an object or to clothing. Textures can be purchased or found for free in-world, or created in third-party graphics programs and uploaded to Second Life for 10 L$ per image.
+
+Tier - (n) (1) the monthly land “tax” you pay to either Linden Lab (on the mainland) or to a private island owner to own land. The more land you own, the higher your monthly Tier fees--but the less you pay per square meter (m2). Premium members get 512 m2 of free mainland tier. (2) one of the levels of land ownership (and associated land use fees).
+
+Tier Up - (v) to raise the level of tier you pay monthly to Linden Lab. Tiering up allows you to own more land and/or make a higher tier contribution to a Group.
+
+Tooltip - (n) the information that appears when a mouse pointer is moved over an item or avatar. Slide the mouse arrow (without pressing any mouse buttons) over the item and the tooltip will appear, telling you the name or cost of an item, or the name of an avatar.
+
+Tortured Prim - (n) a prim that that has been modified into a shape that is normally not possible. (see Prim Torture)
+
+Town Hall - (n) a meeting where a senior Linden addresses and takes questions from residents. Town Halls are usually conducted via voice.
+
+Traffic - (n) a Linden Lab generated measure of how many avatars frequent a parcel of land and how long they stay. Higher traffic results in a higher placement in the "Places" search. (see Camping)
+
+TTYL - (acronym) shorthand for "Talk To You Later"
+
+TY - (acronym) shorthand for "Thank You!"
+
+Vehicle - (n) a scripted object whose movement you can control. Typically, a resident will sit on/in the vehicle and use it as a form of transportation. Vehicles include cars, airplanes, hoverboards, boats, UFOs, and much more.
+
+Vendor - (n) a scripted object that designed to sell objects, clothing, or other items to residents. Many brands of vendors are networked and operate of a central server.
+
+Voting Machine - (n) a machine that is usually marked "Vote" that allows a visitor to register approval for the owner's building. Voting machines were once tied into the now-discontinued SL "Dwell" system where money was awarded to the owner of the property according to how many votes occurred the previous day.
+
+WB - (acronym) shorthand for "Welcome Back!"
+
+Welcome Area (WA) - (n) a Linden Lab-owned and designed information and social area. The two largest Welcome Areas (Ahern and South) are located at the intersection of four sims to support a large number of people, and are surrounded by Linden-owned greenspace. Some new players first spawn at one of the Welcome Areas after leaving Orientation Island or Help Island.
+
+Whisper - (n) speech (usually by objects containing scripts) that is audible only within a 10 meter radius from the object.
+
+Windlight - (n) Sky and atmospheric and lighting effects for Second Life, developed by Windward Mark Interactive, which was purchased by Linden Lab for their technology.
+
+X-Axis - (n) the East-West axis of the in-world coordinate system.
+
+XCite - (n) brand name of a popular line of scripted erotic attachments. Third-party scripted erotic attachments are often promoted as “XCite Compatible”.
+
+Y-Axis - (n) the North-South axis of the in-world coordinate system.
+
+Yiff - (v) slang term for furry sex.
+
+Z-Axis - (n) the up-down axis of the in-world coordinate system.
+
+Zoning - (adj) limits to what may or may not be placed on given areas of land. Almost all Mainland sims have no zoning (other than PG or Mature), but many private islands / estates / continents do.
+
+~ Carl Metropolitan

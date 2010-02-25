@@ -1,0 +1,59 @@
+﻿CON ARTISTS
+
+Introduction
+
+     Con artists are sadly everywhere, even SL.  Con artists are often found pretending to be "shop employees" who are offering a one time/day discount on a product you're perusing.  Do not fall for this trick.
+
+Here are some sage words from Thinkerer Melville:
+
+     The con is simply to offer objects for a low price and not deliver. 
+
+How to get cheated in Second Life:
+     1. Pay money directly to somebody you don't know. (This works in Times Square, too)
+     2. Buy from somebody who has been in Second Life only a few days. You can find that info on the person's profile (right click the person and choose Profile...). Don't embarass them by asking how they found such good deals after just a few days inworld.
+     3. Buy from somebody with no place of business. That way you won't be able to find them again if you are not happy with the deal.
+
+If you want a less interesting buying experience:
+     1. Buy from a vending machine in an established place of business.
+     2. Look up the person who owns the vendor in search> people. How long has the person been in SL?
+     3. Send out an IM to a large group you belong to. Ask for advice about the person and the deal. (If you don't belong to a group, join one. Sledu, eLumenata, and SeconfLife Hobos are open enrollment ands will welcome you.)
+     4. Offer a friendship link to anyone trying to sell you something. Ask them to TP you to their home for further discussion. If they actually take you some place, check to see that the land belongs to the person you are talking to.
+
+
+BUSINESS IN A BOX (BIAB)
+
+     They're a bad idea.  They are a rip off.  They appeal to your compulsion to try and make a quick buck.  But they're filled with stolen, freebie or poor quality items.  And anyone who's spent any time in SL will not buy the items from a BIAB.  They will NOT make you money.  Do not buy them.  Ever.  
+
+
+SALE OF FREEBIES AND STOLEN ITEMS
+
+     Unfortunately, not quite new residents will often try to make a quick buck selling freebies to very new residents.  As above, do not buy something from someone who does not have an established business in SL.  And if they do seemingly have an established business in SL, look around.  What are they seling?  Is some of it junk or inconsistent in terms of quality?  How long have they had their store there?  How long have they been in SL?  
+     
+     Also, right click items, then click Edit> More to see who the [Creator] is.  Does it match the person trying to sell you the item?  Click on the Creator's [Profile...] as well as the [Owner...].  Do they have anything in common (such as common Groups that they belong to)?  Click their profile's [Picks] and [Classifieds] and read very carefully.  Creators who know their work is being resold in an unauthorized capacity will often make mention of this in their own profile.  
+
+     For items like animations, do more than right click the item.  After you right click the item and go into Edit mode, go to the [Contents] tab.  From there you will want to right click each animation or item in the Contents tab to see who the REAL creator is.  It's amazing how much theft happens in SL.  If the deal is too good to be true, it often is.  Don't support thieves.  Report them to the creator (i.e. send a message to the creator with who you think might be ripping off their work).
+
+     And finally, if all else fails, take a moment to IM the Creator and ask if the purported seller is authorized to sell their goods.  It won't hurt to wait a day or two to buy that item.  
+
+
+EVIL ITEMS
+
+     There are those individuals who find it amusing to make detrimental items and label them innocently, hoping the unsuspecting newbie falls for their trick.  Quoted from Mortus Allen:  "A "Modern Table" that in fact when you attempt to rez it is actually rezzes grass, or that "Holy Bible" that actually rezzes a listener. Some freebies are misleading and should be rezzed in a "no script" sandbox first to be sure it is actually what you expect."  -- Great advice.
+
+     What I will do, if I am suspicious, is rez an item in a sandbox location, right click the item, inspect the name, the creator, and click on the [Content] tab to try and view any scripts inside.  As an aside, a script is a sequence of code written out and stored inside an object or prim that will cause something to happen (i.e. it can make a door open when you walk nearby plus a million other things).  Scripts can activate either by touching a rezzed item or even just rezzing an item.  It is otherwise benign sitting in your inventory.  Sometimes I will go so far as to check out the creator's "store" to ensure they and their creations are credible.
+
+     ALWAYS read every pop up dialog box that you are confronted with.  Do not just blindly click [YES].  What are you agreeing to?  Make sure.  If in doubt, do not consent to anything you do not understand.
+
+
+TAKING SOMETHING FROM SOMEONE
+
+     There is a con where someone may ask you to "test" at item for them.  They will give you an item and if you rez it, it will run a malicious script or cause havoc for you and/or the area you are in.  People who create items almost always have their own friends who can beta test for them.  They don't need strangers to do so.
+
+     And guess who gets Abuse Reported (AR) when YOU rez a malicious object?  That's right... you do.
+
+
+EARLY DAYS PURCHASING PRACTICES
+
+     Don't pay more than L$1 for any item during your first week.  This may prevent you from making some unknowingly poor purchases (i.e. paying for something that's normally free, paying too much for an item of inferior quality etc.).
+
+~ Lucrezia Lamont

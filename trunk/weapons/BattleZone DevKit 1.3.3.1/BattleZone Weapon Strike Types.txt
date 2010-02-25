@@ -1,0 +1,54 @@
+﻿Strike, Damage:
+---------------------------------------------
+Standard SafeZone:
+---------------------------------------------
+sword, 15%
+kick, 10%
+flip, 10%
+punch, 5%
+
+---------------------------------------------
+BattleZone Standards:
+---------------------------------------------
+poison, 1%-5%
+fire, 3% - 9%
+trap, 3% - 20%
+
+---------------------------------------------
+Gorean Combat System/1 Specifics:
+---------------------------------------------
+punch, 6%
+kick, 9%
+flip, 9%
+dagger, 12%
+sword, 15%
+axe, 18%
+blunt, 18%
+great, 21%
+
+thrown, 9%
+arrow~splash, 9%      Used for splash area effect.
+arrow, 15%                  Used for direct hits.
+arrow~direct, 30%     Used for head shots exclusively.
+bolt~splash, 9%         Used for splash area effect.
+bolt, 18%                     Used for direct hits.
+bolt~direct, 36%        Used for head shots exclusively.
+
+---------------------------------------------
+BattleZone Combat System/2 Specifics:
+---------------------------------------------
+punch, 3.5%
+kick, 5%
+flip, 5.5%
+dagger, 8%
+sword, 12%
+great, 14%
+axe, 15%
+blunt, 15.5%
+
+thrown, 6.5%
+thrown~dagger, 11%
+arrow, 18.5%
+bolt, 25.5%
+thrown~spear, 25.5%
+siege, 30%

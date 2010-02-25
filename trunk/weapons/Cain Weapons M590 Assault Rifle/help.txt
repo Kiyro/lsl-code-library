@@ -1,0 +1,25 @@
+﻿M590 Assault rifle 
+
+-5 Bullets, Training, Damage, Push, Phantom and Shieldbreaker Damage!
+-2 Firing modes Auto and Single
+-Dropping clips and shell effects with detaching clip action!
+-Custom sounds, animations and textures.
+-Realistic ammo system.
+
+Commands
+
+nosafe - Disengages safety
+safe - engages safety
+reload - manually reload the gun
+training - switch to training bullets (0 damage)
+damage - switch to damage bullets (100 damage)
+push - switch to push bullets (fairly far push)
+phantom - switch to downpushing orbitter phantom bullets
+shieldbreaker - switch to damage shiedlbreaking spawn seeking bullets
+single - switch to single firemode
+auto - switch to full auto firemode
+texton - enables settext display
+textoff - disables settext display
+resetgun - resets gun scripts
+help - shows this notecard
+

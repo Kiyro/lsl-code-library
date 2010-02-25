@@ -1,0 +1,19 @@
+﻿Cid Vilas here.  Thank you for taking interest in this Particle Generator.  I began this project
+to make a generator instead of buying one, but i got side tracked and now i dont want to
+finish it.  It has alot of useful features that many people will enjoy. 
+
+If you appreciate what i have provided please feel free to donate and send some linden moneys
+my way.  Even 1 L$ is appreciated.
+
+I didnt document the script very well but i dont feel i have the time to anymore.  Simple explanation
+would be that the buttons contain the display code and the sphere contains the particle gen code
+and button press detection code.
+
+Feel free to document it as much as possible and redistribute this item.
+
+I do as for everyone to NOT...NEVER under any cercumstances Resell this item!  EVER.  This was given
+out for free and must continue being free.  There is alot of people out there with the need for this.
+
+SHARE  Second life forever!  Whooo!!
+
+My future mall is in    �

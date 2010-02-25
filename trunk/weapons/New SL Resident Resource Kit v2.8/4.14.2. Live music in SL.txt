@@ -1,0 +1,25 @@
+﻿Live music in Second Life
+
+Live music is alive and kicking in Second Life. There are many ways to add music to your Second Life, but the first thing to do is getting it to play. 
+
+Look at the bottom of your screen ..do you have a music control box? If you DO and don't hear music ...try turning it on by pressing the play button. You may have to press stop and play a few times for it to start. Also, you have to be on a property where the owner has chosen to have music playing.  
+If you DON'T have the music control box at the bottom of your screen, go to EDIT at top of  your screen, then down to preferences at the bottom of the menu. Find the tab that says audio and video and check the "play streaming music".  This will make the music control box appear, at least if you are on land where streaming music is being played. 
+
+Now you’re ready to explore LIVE music in SL, which is also a fun way to meet new people! 
+The live music scene is thriving and still growing rapidly, with more and more performers finding their way to the numerous venues and stages. They range from DJs to singers, instrumentalists, singer-songwriters, even whole bands. There have even been performances by an entire orchestra. 
+
+How does this work? Put simply, the performers sit at home or in their studio and play their music. This is then broadcast into a venue in SL via a so-called music stream, often provided by the venue. 
+So if you are at a live music event in SL, you are indeed listening to somebody playing live! 
+
+But how to find live music? ….. Simply open “Search”, click the “Events” tab, select “Live Music” in the drop-down menu and press “search”. You will find a long list, with sometimes as many as 30 performances going on at the same time! If you click on a particular event you will often see a description of the kind of music or event you can expect. If you see something interesting on right now simply click “Teleport”.  Or check back to the list later. All listings are in SLtime. 
+Once you arrive at your destination, it makes sense to wait for your surroundings to appear. These events can be quite busy and you could be walking into people you can’t see yet. 
+Then press play on your music controls box and enjoy! And don’t be afraid to say hello, music events are social events as well! If you have problems hearing the music remember to press stop and play a few times, or ask the host for help. 
+
+There are a few things you can do to make the experience even greater for everyone. First of all you can disable the clicking sound when you type so it doesn’t interfere with the music. This can be done in two ways …… first of all by typing a / before everything you say in open chat. 
+You can also disable the typing sound in the “Client” menu at the top of your screen. If you don’t see that menu, you can pull it up by typing Ctrl-Alt-D. Once you see the menu, open it and click on “debug settings". In the pull-down menu that you see, select “PlayTypingAnim” and set it to “False”. 
+
+And last but not least, try paying the performer(s) and venue/host a tip. Most performers will have a tip jar on stage with them and many venues will also have a tip jar or poster. The owners of live music venues spend a lot of money to provide the stages and streams and often also pay the musicians to play. They deserve our support as members of the audience for providing us with huge amounts of fun and entertainment.   
+
+Enjoy!!!
+
+~ Sally Silvera

@@ -1,0 +1,18 @@
+﻿This system helps you easily calculate and set a sit target for any prim.
+
+Written by Lex Neva.  Please distribute willy-nilly.
+
+Instructions:
+
+1. Place the "sit target setter" script into a prim that will get the sit target.
+2. Rez the Sit Target Helper.
+3. Sit on the Sit Target Helper.
+4. Move the Sit Target Helper so that you are positioned exactly where you want the sit target to be.
+5. Click the prim you put the "sit target setter" script in.
+6. Now the sit target is set.  You can use the code the script outputs in a poseball script.  Once the
+     sit target is set, you can remove the "sit target setter" script.
+     
+NOTE: To use a sit animation, place one copy in the helper and one copy in the base object.  If the animation is no-copy, place the animation in the helper first while you position yourself, and then move it over to the base after you click it.  Only the first animation in the inventory will be used.
+
+
+MORE HELP: This is a completely free, open-source system.  As such, I am not available to support it.  Please feel free to ask for help on the forums.

@@ -1,0 +1,53 @@
+﻿TERMINOLOGY FAQ
+
+What is a Sim?
+
+     A sim is an entire piece of land, sized 65536 m2 (256 m x 256 m), and what is originally auctioned in SL.  A sim can be owned by one or more individuals.  An entire sim or parts of a sim can be sold by the original auction winner.
+
+
+What is a Parcel?
+
+     An individually (or group) owned piece of land which can be part of a sim or an entire sim.
+
+
+What is a Ban Line?
+
+     An invisible barrier running along the perimeter of a parcel, preventing residents from crossing over.  They are usually used by those who wish extreme privacy or temporarily when someone is in the middle of building an area where it would be easiest for them to do so without intrusions.  They are also very disruptive to travel and vehicles.
+
+
+What is a Griefer?
+
+     Someone who deliberately harasses another individual or land in SL.  Also see:  http://en.wikipedia.org/wiki/Griefer
+
+
+What do I do if I am Griefed or witness to Griefing?
+
+     AR (Abuse Report) the incident.  (1) If the Griefer is still present, Freeze them (right click them and choose [Freeze[) temporarily.  If the Griefer is not present, right click on the Griefing item to obtain the name of the owner (Edit> More> General).  (2) File an abuse report (right click the item and choose [Report Abuse], and follow the instructions).
+
+
+What is an RP sim?
+
+     A sim or region of SL dedicated to role-playing (RP), such as Dune (􀀀), Midian City (Midian City 139, 45, 30 (Mature)), Beauty and various Harry Potter and Gorean regions.  Participants are “in character” and interact with one another playing their various roles.  Visitors are often welcome, but must respect and adhere to the RP sim’s various rules (often including wearing a “Visitor’s Badge”) which range from lenient to strict.
+
+
+What is an Asset UUID and why do things ask for it?
+
+     An asset UUID is an alphanumeric code that is associated with every thing in your inventory and that SL keeps track of on its asset servers (computers that hold all this information).  If you are using an item that asks for the asset UUID of a notecard, texture etc. (bulletin boards may ask for this), right click this item and then [Copy Asset UUID].  Simply paste it as appropriate with a keyboard shortcut (<Ctrl + v> for PC users).
+
+
+What does (insert term here) mean?
+
+     Finally, a definitive glossary from NCI.  Click to open the notecard below.
+
+􀀁
+
+MORE TERMINOLOGY RESOURCES
+
+http://wiki.secondlife.com/wiki/Glossary
+http://www.slhistory.org/index.php/Category:Glossary
+http://www.suzikiama.com/Home/GlossaryofSLLandTerms/tabid/62/Default.aspx
+http://second-life-user-guide.wikispaces.com/Glossary
+http://forums.secondlife.com/showthread.php?t=202653
+
+
+~ Lucrezia Lamont

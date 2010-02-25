@@ -1,0 +1,42 @@
+﻿INTRODUCTION
+     
+     Following are a list of tips that have confounded a number of individuals when they were new residents.  This is not meant to be used as a building guide -- just a listing of useful tips because most of us begin playing with building before we get serious and take a course.
+
+     Sandboxes can be both a joy and an annoyance to learn to build in.  Some sandboxes are frequented by Griefers, which can diminish your experience greatly.  However, such experiences can toughen you to some of the more unsavory aspects of SL.  On the other hand, you might meet some helpful people at a sandbox as well.
+
+
+QUICK TIPS
+
+     1.  Right clicking is essential.  It brings up a nice wheel of pie slices with many options.  Right click and [Create] on the ground to create something new or right click and [Edit] an object to edit or have a look at what makes it tick.
+
+     2.  After you right click and [Edit] an Object (clicking [More>>] if need be), you can see how many Primitives (prims) make up an object, which is useful if you are on a prim budget for furnishing a home.
+
+     3.  After you right click and [Edit] an Object (clicking [More>>] if need be), click Select [Texture] and then one "side" of an object to access and affect that particular texture.  Select more than one side's texture by Shift Clicking.
+
+     4.  After you right click and [Edit] an Object (clicking [More>>] if need be), choose the [Texture] tab and play with the [Repeats Per Face] (you may need to select an individual texture as per point 3 above).  Amazing things happen then.
+
+     5.  After you right click and [Edit] an Object (clicking [More>>] if need be), choose the [Content] tab and know that you can drag items, scripts, animations, notecards etc. INTO an object.
+
+     6.  Most "prim" clothing items can be worn and edited to custom fit your body.  Make a copy first, if possible.  Definitely use a posing stand (see the "Tools to Wear or Use" folder in this kit).
+
+     7.  Save system resources and make items Phantom ([Object] tab after entering [Edit] mode).  Only make items that do not need to be physically obstructive [Phantom] (i.e. rugs, trees, plants, decor items etc.).
+
+     8.  See something you like?  Find out the Creator by entering [Edit] mode of the object and looking on the [General] tab.  Check their Profile and subsequently their shop.
+
+     9.  If you stretch something smaller ([Stretch] radio button on the main [Edit] object window) and it won't decrease in size, that's because one of the prims in the object is the thinnest it will be.  Select that individual prim (check [Edit linked parts]) and make the rebellious prim thicker ([Size] on the [Object] tab).  THEN try stretching smaller.
+
+     10.  When building something, ensure that the object lines up with the XYZ coordinates of the world ([Rotation], usually Z, on the [Object] tab).  Once you're finished your build, THEN place and rotate it according to aesthetics.
+
+     11.  Link all prims of a build before taking it into your inventory.  Select each prim (Shift Click), and then click the main menu's Tools> Link.  The last item you link to will become the root prim.  Root prims are important for holding scripts.  An object's "Name" will take the name applied to the root prim.  Do not take an object into your inventory until you have named it ([Name:] under [General] tab).
+
+     12.  When building, rez a basic prim block and sit on it to give you added stability while moving around your object.
+
+     13.  The [Library] in your inventory at the very bottom of your list may contain some very useful building elements.  It's a good area to explore when you're learning or even if you need a quick rock texture or more.
+
+
+LEARNING MORE
+
+     To learn more about building, go to the Ivory Tower Library of Primitives.
+􀀀
+
+~ Lucrezia Lamont

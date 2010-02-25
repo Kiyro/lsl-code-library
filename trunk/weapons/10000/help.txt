@@ -1,0 +1,46 @@
+﻿[KAC] FN S.C.A.R.
+
+<<By Kirill Moskvitch and Chaos Kilara of Kilara Armament Company>>
+
+[Quick Intro]
+Thank you for your purchase. This gun was designed with SL combat in mind. This gun is compatible with most combat systems, HUDs, etc...
+
+For fact, this gun works with (When 'damage' round is selected:
+
+RCS (Roleplay Combat System)
+Carnage Island Tactical HUD
+Health Enabled Zones
+
+[Instructions]
+1. Wear object '[KAC] FN S.C.A.R.'
+2. Deactivate safety (Use menu or  enter 'nosafe' in chat)
+3. Use mouselook to aim and shoot. (Hide chat box and press 'M' or go to View -> Mouselook
+
+[Configuration]
+If you need to configure or set the gun to your specifications, either click the gun when worn or use these commands in chat:
+
+{Basic Commands}
+nosafe
+safe
+auto
+single
+holst
+unholst
+textoff
+texton
+reset
+
+{Bullet Selection}
+damage
+phantom
+push
+training
+
+[Troubleshooting]
+Make sure safety is off and you are not in no script zone.
+
+[Updates]
+Contact Kirill Moskvitch for free updates. Must provide proof of gun.
+
+[Disclaimer]
+Kirill Moskvitch, Chaos Kilara, and Kilara Armament Company are no way responsible for misuse of this item. 

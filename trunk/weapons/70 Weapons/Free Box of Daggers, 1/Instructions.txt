@@ -1,0 +1,34 @@
+﻿Thank you for trying out the Freebie Dagger Set
+
+========
+Instructions
+========
+Wear the Right and Left version of a pair of weapons.  They can be interchanged.
+
+=======
+Commands
+=======
+
+/1s         sheathes  the weapon(s)
+/1uns   unsheathes  the weapon(s)
+/1off       turns off controls and animations
+/1on        turns on controls and animations
+      
+========      
+Controls
+========
+Hold left mouse button and press the arrow keys in order to perform attacks. Each arrow key has its own attack. These attacks are RCS compatible.
+
+========
+What do paid products offer that these don't?
+========
+a) Higher quality craftsmanship
+b) More attacks
+c) Extra features
+d) Unscripted and sheathed versions
+
+If you like these, please visit my shop. ^_^
+
+~Luos Lowe
+
+

@@ -1,0 +1,43 @@
+﻿This guide is intended for skilled animators wishing to create new styles for the Lightsaber Construction Kit.
+The guide is provided as-is and is subject to change without notice.
+
+The creator of the LCK retains all rights as author to the kit, however any additional material created for it remains the soul property of the addition's author. Selling additional styles perfectly permissable, however the buyer of those styles will need to purchase the LCK from the original author in order to use them.
+
+///GETTING STARTED\\\
+
+===NAMING CONVENTIONS===
+
+Try to keep your style name constrained to one word for sake of ease in typing. Each move animation must begin with your style name(case sensitive) followed by an underscore and the name of the move. For instance, you've created a style called Agressive. The move "Strong3" animation's name would look like:
+
+"agressive_strong3"
+
+Likewise sounds files are named much the same, but begin with the letters "SND" plus and underscore, so the sound associated with the above move would look like:
+
+"SND_agressive_strong3"
+
+When the user hits the key combo for strong3 while the agressive style is active, your animation and sound would play.
+
+===BREAKDOWN OF MOVES===
+Below is list of moves the LCK supports and a brief description of what each one is.
+
+"ready"
+This is the move that defaults when the player activates the saber.
+
+"enguard"
+When the left-mouse button is held, this is the move the player assumes, showing readiness for combat.
+
+"sleft, sright, sdown, sup"
+These are the slash moves done when the respective keys are pressed. Slash left, right, down, and up respectivly. These should be basic slashes, guard, or blocks.
+
+"strong1,strong2,strong3"
+These are the stronger moves used with certain key combinations. They should be more animated than previous moves and show a lot more damage being dealt. 
+
+"power"
+This is THE power move, best used as a finisher. The animations for this should be very strong and powerful, showing a lot of movement and perhaps some slow motion.
+
+Remember to have associated sounds for each move. That way the saber swing sound can be properly synchronized with the movement of the blade.
+
+///WHAT'S THE POINT\\\
+If you're a skilled animator, you can create an entire new style that is all yours. No one else would have it.Likewise, you could create two or three styles in a single blade. Supposed you had a double-ended saber.You could activate one end of it and use it as a conventional lightsaber. Then you could activate the other end and switch to a saber-staff style all without putting your saber down.
+
+

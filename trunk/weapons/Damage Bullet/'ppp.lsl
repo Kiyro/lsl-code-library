@@ -1,0 +1,108 @@
+﻿poof(integer pooftype)
+{
+    //1 - Land
+    //2 - Object
+    //3 - Avatar
+    if(pooftype == 1)
+    {
+    
+        llParticleSystem([
+         PSYS_PART_FLAGS, 0 | PSYS_PART_EMISSIVE_MASK | 
+         PSYS_PART_INTERP_COLOR_MASK | PSYS_PART_INTERP_SCALE_MASK | 
+         PSYS_PART_FOLLOW_SRC_MASK | PSYS_PART_FOLLOW_VELOCITY_MASK,
+         PSYS_SRC_PATTERN,PSYS_SRC_PATTERN_EXPLODE,
+         PSYS_PART_MAX_AGE,1.10000,
+         PSYS_PART_START_COLOR,<0.60000, 0.60000, 0.60000>,
+         PSYS_PART_END_COLOR,<0.60000, 0.6000, 0.60000>,
+         PSYS_PART_START_SCALE,<0.1500, 0.15000, 0.15000>,
+         PSYS_PART_END_SCALE,<0.1000, 0.1000, 0.1000>,
+         PSYS_SRC_BURST_RATE,10.5000,
+         PSYS_SRC_ACCEL,<0.00000, 0.00000, 0.00000>,
+         PSYS_SRC_BURST_PART_COUNT,30,
+         PSYS_SRC_BURST_RADIUS,0.400000,
+         PSYS_SRC_BURST_SPEED_MIN,0.300000,
+         PSYS_SRC_BURST_SPEED_MAX,0.700000,
+         PSYS_SRC_TARGET_KEY,(key)"",
+         PSYS_SRC_INNERANGLE,1.550000,
+         PSYS_SRC_OUTERANGLE,1.540000,
+         PSYS_SRC_OMEGA,<0.00000, 0.00000, 5.00000>,
+         PSYS_SRC_MAX_AGE,0.000000,
+         PSYS_SRC_TEXTURE, "1b3df9ad-0cc4-21a9-2653-f62a313d59e0",
+         PSYS_PART_START_ALPHA,0.600000,
+         PSYS_PART_END_ALPHA,0.010000
+         ]);
+    }
+    if(pooftype == 2)
+    {   
+        llParticleSystem([
+         PSYS_PART_FLAGS, 0 | PSYS_PART_EMISSIVE_MASK | 
+         PSYS_PART_INTERP_COLOR_MASK | PSYS_PART_INTERP_SCALE_MASK | 
+         PSYS_PART_FOLLOW_SRC_MASK | PSYS_PART_FOLLOW_VELOCITY_MASK,
+         PSYS_SRC_PATTERN,PSYS_SRC_PATTERN_EXPLODE,
+         PSYS_PART_MAX_AGE,1.0000,
+         PSYS_PART_START_COLOR,<1.00000, 1.00000, 0.00000>,
+         PSYS_PART_END_COLOR,<1.00000, 1.0000, 1.00000>,
+         PSYS_PART_START_SCALE,<0.05000, 0.10000, 0.10000>,
+         PSYS_PART_END_SCALE,<0.050000, 0.10000, 0.10000>,
+         PSYS_SRC_BURST_RATE,10.5000,
+         PSYS_SRC_ACCEL,<0.00000, 0.00000, 0.00000>,
+         PSYS_SRC_BURST_PART_COUNT,20,
+         PSYS_SRC_BURST_RADIUS,0.400000,
+         PSYS_SRC_BURST_SPEED_MIN,1.300000,
+         PSYS_SRC_BURST_SPEED_MAX,2.600000,
+         PSYS_SRC_TARGET_KEY,(key)"",
+         PSYS_SRC_INNERANGLE,1.550000,
+         PSYS_SRC_OUTERANGLE,1.540000,
+         PSYS_SRC_OMEGA,<0.00000, 0.00000, 5.00000>,
+         PSYS_SRC_MAX_AGE,0.000000,
+         PSYS_PART_START_ALPHA,1.000000,
+         PSYS_PART_END_ALPHA,0.050000
+         ]);
+    }
+    if(pooftype == 3)
+    {
+        llParticleSystem([
+         PSYS_PART_FLAGS, 0 | PSYS_PART_EMISSIVE_MASK | 
+         PSYS_PART_INTERP_COLOR_MASK | PSYS_PART_INTERP_SCALE_MASK | 
+         PSYS_PART_FOLLOW_SRC_MASK | PSYS_PART_FOLLOW_VELOCITY_MASK,
+         PSYS_SRC_PATTERN,PSYS_SRC_PATTERN_EXPLODE,
+         PSYS_PART_MAX_AGE,1.20000,
+         PSYS_PART_START_COLOR,<1.00000, 0.10000, 0.10000>,
+         PSYS_PART_END_COLOR,<1.00000, 0.1000, 0.10000>,
+         PSYS_PART_START_SCALE,<0.1000, 0.10000, 0.10000>,
+         PSYS_PART_END_SCALE,<0.30000, 0.30000, 0.30000>,
+         PSYS_SRC_BURST_RATE,10.5000,
+         PSYS_SRC_ACCEL,<0.00000, 0.00000, 0.00000>,
+         PSYS_SRC_BURST_PART_COUNT,20,
+         PSYS_SRC_BURST_RADIUS,0.400000,
+         PSYS_SRC_BURST_SPEED_MIN,0.300000,
+         PSYS_SRC_BURST_SPEED_MAX,0.600000,
+         PSYS_SRC_TARGET_KEY,(key)"",
+         PSYS_SRC_INNERANGLE,1.550000,
+         PSYS_SRC_OUTERANGLE,1.540000,
+         PSYS_SRC_OMEGA,<0.00000, 0.00000, 5.00000>,
+         PSYS_SRC_MAX_AGE,0.000000,
+         PSYS_SRC_TEXTURE, "1b3df9ad-0cc4-21a9-2653-f62a313d59e0",
+         PSYS_PART_START_ALPHA,0.500000,
+         PSYS_PART_END_ALPHA,0.010000
+         ]);
+    }
+}
+default
+{
+collision_start(integer num_detected)
+    {    
+        if(llDetectedType(0) & AGENT)
+        {   
+            poof(3);
+        }
+        else
+        {
+            poof(2);
+        }
+    }
+    land_collision(vector pos)
+    {
+        poof(1);
+    }
+}

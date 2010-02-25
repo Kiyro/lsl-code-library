@@ -1,0 +1,63 @@
+﻿The following is a list and brief explination of the vocal commands for use with the Lightsaber Construction Kit.
+
+Please Note: None of these commands are case sensitive.
+
+/ls on
+This will activate your saber.
+
+/ls off
+This will deactivate your saber.
+
+/ls anim off
+This will turn off control and animation of the Lightsaber, so that you can move about normally while still holding it.
+
+/ls anim on
+This will activate the control and animation functions of the lightsaber. (Default State)
+
+/ls hide cal
+This will make the Calibrator invisible. (See Notecard: Building and Customization)
+
+/ls show cal
+This will make the Calibrator visible again, should adjustments need to be made.
+
+/ls mode <mode>
+This will set the saber to a specific combat mode. Different combat modes change the amount of push and  damage dealt by the saber.
+Modes are:
+Low - intended for practice. No damage and little push.
+Normal - Normal every day saber use. Medium damage and push.
+High - When there is a threat on hand, this is the mode you want. High damage and a lot of push.
+1hitkill - This is the insanity mode. It will launch someone nearly across a sim and do the maximum amount of damage it can. Use this mode with respect.
+For example: To set your saber to the practice mode, say into chat:
+/ls mode low
+
+/ls style <style>
+This will switch to a different style, should it be installed. If it is not installed, there will be many animation and sound errors. By default, the saber kit comes with the BASIC style already installed. 
+
+/ls color <color>
+This will switch to one of five pre-set colors or alternativly allow you to define a new color.
+Predefined colors are:
+Blue
+Green
+Red
+Purple
+Gold
+
+Other Color Combinations
+Better Blue: /ls color <64,64,255>
+Better Red: /ls color <255,32,32>
+Better Gold: /ls color <253.226,149>
+Silver: /ls color <192,192,192>
+Viridian: /ls color <103,137,117>
+Yellow: /ls color <255,255,0>
+Pink: /ls color <255,0,64>
+Cyan: /ls color <65,105,225>
+
+To create a new color, make a vector of three values, RGB, surrounded by < and > signs. For example to set a soft Aqua color, the command would be:
+/ls color <0,208,255>
+
+//////////////UPDATED\\\\\\\\\\\\\\\\
+/ls dmg on
+Turns damage on, push off.
+
+/ls dmg off
+Turns damage off, push on.

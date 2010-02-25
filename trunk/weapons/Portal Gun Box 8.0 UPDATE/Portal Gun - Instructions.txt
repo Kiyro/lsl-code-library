@@ -1,0 +1,16 @@
+﻿Instructions:
+
+-After copying to inventory, find folder called 'Portal Gun [version number]'.
+
+-Right click object 'Portal Gun' and select 'Wear'.
+
+-After the Portal Gun attaches, click the 'Mouselook' button at the bottom of the screen.
+
+-While in mouselook aim at an object and left mouse click to shoot the first portal, then aim at another object and left mouse again to shoot the second portal.
+
+-Move towards portal A, and you will be pushed to portal B.
+
+Keep in mind that the Portal Gun is still under development and may act unprictable on occasion..
+
+Enjoy!
+

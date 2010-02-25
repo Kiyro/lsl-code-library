@@ -1,0 +1,67 @@
+﻿****************************
+*             Rifle User Manual               *
+****************************
+
+Thank you for using this wonderful rifle.
+
+Features Overview :
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+- Amazing realist super-detailed model
+- Silencer
+- Working M203 grenade launcher attachment
+- Training, grenade (M203), damage, and shieldbreak ammunitions
+- Optionally-limited clip of 30 bullets
+- Shell ejection
+- Realistic reload sequences with optional clip ejection
+- Muzzle flash
+- Spine holst
+- Amazing sounds
+- Chat and menu operated
+- Free auto-updates for life
+
+
+How To Use :
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+This gun is very simple to use, because it is chat and menu driven. To use the menu, only click on the gun, or type "menu" without quotes in the chat. All the commands in chat need to be typed on channel 0 (default one).
+
+Here are the commands to be used in the chat/menu (not case sensitive) :
+
+NOTE:
+¯¯¯¯¯¯¯¯¯
+ -if the first letter is capital, it's like that in the menu, and can be typed in lower case in chat
+ -if the first letter is lower case, it can only be used in the chat
+ -if there's a slash (/) between 2 words, left one is to be used in chat and right one in the menu
+_____
+m4 help : Gives you this notecard
+Grenade : Enables grenade launcher
+Damage : Enables damage bullet
+Training : Enables training bullet; inflicts; 1 dmg
+Shieldbreak : Enables shieldbreak bullet; inflicts 100 dmg and goes throught almost any shield like butter
+Semi : Enables semi firing mode
+Auto : Enables auto firing mode
+Burst : Enables burst firing mode
+menu : Brings up the rifle menu
+Reset : Resets the scripts of the gun
+slon/Silencer on : Enables the silencer
+sloff/Silencer off : Disables the silencer
+shon/Shell on : Enables shell ejection
+shoff/Shell off : Disables shell ejection
+clon/Clip on : Enables clip ejection and disables infinite bullets
+cloff/Clip off : Disables clip ejection and enables infinite bullets
+r/Reload : Loads a new clip
+Unsafe : Disables safety lock
+Safe : Enables safety lock
+texton/Text on : Enables text display
+textoff/Text off : Disables text display
+Duck : Enables duck shoot
+Prone : Enables prone shoot
+Stand up : Disables duck & prone and makes you stand up
+Sling : Places the gun in holst on spine
+Draw : Takes back the gun to your hands
+-----
+
+*phew* We finished the commands list. Finally, thank you again to use this gun. We hope that you enjoy it, and if there is any problem you can : 
+
+- Re-read this notecard
+- IM Agent Revolution
+- Send an email to sl.dna.corp@gmail.com

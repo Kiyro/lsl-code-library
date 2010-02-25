@@ -1,0 +1,13 @@
+﻿INSTALLATION
+
+The core script is called "PCS Combat System" with a version number. The core must go in the pilot's seat/root prim of the vehicle. The root prim must be oriented so that when all three axes are rotated to zero, the vehicle is facing "east". 
+
+Place the scripts "PCS Mouselook Ship" (Bomber, Fighter or Heavy Fighter) and the Sit_Control (PCS Mouselook) in the seat/root prim as well. If you wish to include a missile/bomb, place the appropriate Missile or Missle/Bomb script and the Bomb and Missile in this prim as well. You may need to adjust the llApplyImpulse setting at the end of this script to make your ship go between 56-70m/s in hyperdrive mode. (any faster could cause problems with ships de-linking and or sim crashes. Phoenix Industries will not be held responsible for any sim crashes caused by ships.)
+
+In a prim that can be seen by the pilot, place the script "PCS HUD (Throttle/Altitude/Damage). Normally this will be an invisible prim or a control panel. Also, in this prim place the script "PCS Nudger". 
+
+"PCS Particle Gun" goes in a prim that will act as the visible "gun". It sprays a particle stream out of the positive face ont he Z axis. For instance, if you're using a cylinder for a gun, rotate it so the "top" of the cylinder faces forward. (Bullet, Ion and Laser are included.)
+
+"PCS Destroyed" is a special effects script you can place in prims representing engine cowlings or nacells. It will make an explosion noise and start black, oily smoke particles when the PCS sends the destroyed message. It is also open source, so feel free to make your own effects.
+
+"PCS Engine Particles" goes in the engine prim. You may edit this to make your ships engines look like they're shooting particles out the back.

@@ -1,0 +1,32 @@
+﻿Building your Lightsaber!
+Please read carefully before beginning. If you purchased a completed saber, you can ignore this notecard.
+
+//////NOTICE\\\\\\
+This kit does NOT have a hilt. The hilt is meant to be a personal expression of the saber's owner. As such it is meant for you to build a saber hilt that is uniquely yours before attaching it to this kit. It can be anything from a high prim work of art to a single prim cylinder with some impressive texturing.  As an alternative, there will be some ready-made hilts available at the Imperial Supply Depot where you purchased this saber kit.
+
+//////GETTING STARTED\\\\\\
+Constructing the lightsaber is meant to be simple, but there are a few things to keep in mind. 
+
+The white handle on the Saber as default is called the Calibrator. It is a good general length for a saber hilt and as big around as the saber blade.  The top end of the calibrator is also where the blade begins, to situate the placement of the saber kit into your hilt.
+
+For ease, it is beneficial for the saber hilt to be all one single linked object.
+
+Make sure all adjustments and building have been finished on your hilt prior to linking it to the saber kit. Making adjustments afterwards is both tricky and quite difficult.
+
+To begin:
+1) Rez, both your hilt and the saber kit.
+2) Type the command "/ls oldschool" without the quotes. This will signal the kit that you are assembling in old school mode.
+3) Position the hilt so that the point where you want the blade to emerge meets just barely above the top of the calibrator. Please ensure that the calibrator is centered on hilt.
+4) Select your entire hilt object, then right-click and select EDIT.
+5) Holding down the SHIFT-key, select the saber kit so that both your hilt and the saber kit are selected.
+6) In the top Menu, click on Tools -> Link. This will merge your hilt and the kit into a single object with the Saber kit holding the Root primitive.
+7) Be sure to name your saber something appropriate, then right-click and select TAKE to put it in your inventory. 
+8) Locate the saber in your inventory, then right click and select WEAR.
+
+Optional: Place an empty version of your hilt on your back/belt and put the LCK-A Alpha Script corresponding to which hilt it is inside of it.
+
+To create your throw bullet:
+1) Rez the Throw Bullet kit like you would the LCK-A kit.
+2) Attach it to your hilt using the same procedure you used to assemble your saber.
+3) Delete the object "Throw Bullet" inside your completed saber.
+4) Pick up the assembled Bullet, and place it in your completed saber. (It goes in Primary blade only, not offhand. In Double Bladed Sabers, it goes in the double bladed saber.)

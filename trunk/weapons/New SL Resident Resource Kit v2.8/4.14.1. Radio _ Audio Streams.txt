@@ -1,0 +1,176 @@
+﻿INTRODUCTION
+
+     So you have rented a place or bought some land and wish to change the audio stream.  Click on World> About Land> Media.  Under Music URL: use any of the following, plus whatever you may find elsewhere (i.e. shoutcast).  Audio streams can disappear, so be prepared for this possibility.
+
+THE LIST
+
+     This list is provided courtesy of Lindal Kidd.
+     
+http://129.173.67.99:8000   -description-  WeFunk
+http://205.188.215.231:8004   -description-  radio.wazee
+http://89.248.167.22:4060   -description-  1.AB-SoulfulClassicJazz
+http://64.62.252.130:8030   -description-  1.FM - Blues
+http://64.62.252.130:8070   -description-  1.FM - Channel X
+http://64.71.145.133:8010   -description-  1.FM Chillout Lounge
+http://64.71.145.130:8055   -description-  1.FM Jamz
+http://64.62.194.11:8020   -description-  1.FM-Country
+http://216.66.69.100:6210   -description-  1.FM-Flashback
+http://64.5.130.50:8000   -description-  1920s Radio Network
+http://213.251.186.167:8000   -description-  1-RaDioNIMBOODA.com
+http://67.15.180.35:8020   -description-  2Believe-Spanish
+http://66.250.45.52:7575   -description-  3WK Classic Underground
+http://66.250.45.52:7800   -description-  3WK Classic Undergroundradio
+http://88.191.24.102:1755   -description-  8 0 's H o t M i x
+http://64.202.98.51:808   -description-  808 Live Reggaecast
+http://81.169.182.149:808   -description-  808 Live Reggaecast
+http://205.234.168.52:80   -description-  90.7 KWMU-FM
+http://205.188.215.229:8004   -description-  977 80s
+http://66.0.192.157:8000   -description-  ABS Bluescast
+http://66.199.227.218:8000   -description-  Absolute Technoise Radio
+http://209.9.238.4:9298   -description-  Always Country
+http://205.188.215.226:8018   -description-  Angel Fire Radio WDDT Rock & Roll
+http://205.188.215.226:8012   -description-  Bassdrive
+http://38.99.68.230:9010   -description-  Bay Smooth Jazz
+http://207.200.96.232:8006   -description-  BeatBlender
+http://83.133.119.93:80   -description-  Beatles Radio - Fab Four & More
+http://64.62.252.134:5100   -description-  Belly Up 4 Blues
+http://69.22.167.174:8000   -description-  BIGUPRADIO.COM Slamming Dancehall Reggae
+http://88.191.17.219:80   -description-  Black Dog Radio
+http://62.75.202.238:13000   -description-  BlackBeats.FM
+http://85.214.55.100:8000   -description-  BlackJam-Radio.de
+http://220.85.13.109:7700   -description-  BlueClassic
+http://210.109.97.69:8000   -description-  Blues On Air
+http://38.96.148.26:7890   -description-  Blues Radio UK
+http://87.98.150.1:8000   -description-  Bollywood Music Radio
+http://87.98.150.2:9200   -description-  Bollywood.mu
+http://207.200.96.232:8014   -description-  Boot Liquor
+http://205.188.215.225:8002   -description-  Breaks
+http://213.251.176.192:3015   -description-  Canal creole
+http://205.188.215.225:8010   -description-  ChroniX Aggression
+http://205.188.215.225:8004   -description-  Classic Electronica
+http://130.166.72.1:8006   -description-  Classic Heartland
+http://213.73.255.244:2026   -description-  Classic Soul Network
+http://205.234.179.203:80   -description-  Classical Minnesota
+http://64.71.145.106:8004   -description-  Classical WGBH 89.7-HD2
+http://89.248.167.7:13000   -description-  COCORADIO.COM
+http://130.166.72.1:8006   -description-  Country-Heartland PUBRadio
+http://205.188.215.232:8028   -description-  Cowboy Cultural
+http://64.202.98.133:9130   -description-  CRC Hard Rocking 80's
+http://207.200.96.225:8022   -description-  Cryosleep
+http://85.21.79.5:8040   -description-  Deep Mix Moscow Radio
+http://85.12.7.2:8000   -description-  DEFJAY HIP-HOP AND R&B
+http://129.16.159.166:8000   -description-  DigitalGunfire-Hard Hitting
+http://205.188.215.228:8006   -description-  DIGITALLY-IMPORTED
+http://64.92.199.69:8240   -description-  Dinner Jazz Excursion
+http://88.191.16.70:10780   -description-  Diva Radio
+http://207.200.96.229:8030   -description-  Drum & Bass
+http://69.5.81.72:7550   -description-  ELVISMEN-SALSA
+http://205.188.215.228:8016   -description-  FLARESOUND
+http://194.158.114.68:8000   -description-  FREQUENCE3-Paris France!
+http://88.191.18.198:8220   -description-  Fun Radio - Soul&Dance
+http://62.250.7.133:8000   -description-  Funk HiQ
+http://195.234.45.50:8000   -description-  GothVille Radio
+http://207.200.96.228:8076   -description-  Groove Salad
+http://222.122.131.95:8000   -description-  HAPPYDAY
+http://222.122.131.95:8000   -description-  HAPPYDAY*New Age
+http://217.64.173.227:19720   -description-  HBR1-Dream Factory
+http://38.96.148.38:8755   -description-  Hiphop Philosophy
+http://205.188.215.228:8018   -description-  HOUSEMUSIQUE
+http://213.251.129.50:8080   -description-  idobi Radio-Alternative
+http://140.142.8.222:8000   -description-  KEXP Live
+http://66.90.118.85:10014   -description-  KGRL
+http://207.44.222.47:8080   -description-  Khaha.com
+http://81.173.3.20:80   -description-  kinkfm.com
+http://207.218.248.42:8000   -description-  KOQX Blues Radio
+http://66.225.205.53:80   -description-  KXPR Radio-Classical
+http://213.251.133.49:9320   -description-  La Radio de La Mer
+http://213.251.129.22:8000   -description-  Led Jam Radio
+http://205.188.215.225:8018   -description-  Limbik Frequencies
+http://64.62.161.77:8000   -description-  LiveHardRock.com
+http://88.191.28.74:8090   -description-  LOUNGE-RADIO
+http://195.56.146.186:8220   -description-  M3MUSIC Classical
+http://218.189.210.17:4800   -description-  MAGNATUNE.COM
+http://205.188.215.228:8012   -description-  Megarock Radio
+http://69.12.217.101:8000   -description-  Memories 89 One KCEA-FM
+http://213.186.41.214:80   -description-  MIZIKRADIO
+http://213.251.173.211:9446   -description-  MKM RADIO
+http://69.13.65.118:8002   -description-  Mountain Apple Company
+http://38.118.158.78:8070   -description-  MPEGRadio.Com
+http://194.97.52.210:8700   -description-  mth.Alternative
+http://208.53.158.16:100   -description-  Music Massage
+http://129.241.205.150:8080   -description-  Music One
+http://89.248.163.114:5502   -description-  Nashville FM
+http://145.58.33.32:8022   -description-  NPS Output Webradio
+http://84.244.180.46:8034   -description-  OLDIES45.NL-50s60s70s80s
+http://209.51.162.163:8070   -description-  One Dot FM
+http://211.43.215.166:8136   -description-  ORSRADIO-Best Latin Hits!
+http://64.62.253.223:9030   -description-  Otto's Baroque Musick
+http://64.72.117.112:8000   -description-  Pegajosa
+http://66.90.118.85:9502   -description-  Pirate Cat Radio
+http://213.73.255.244:10500   -description-  Prolocation:IranianRadio
+http://194.158.114.67:5000   -description-  PulsRadio
+http://64.27.19.195:8668   -description-  Puro Reggaeton
+http://145.58.33.32:8048   -description-  Radio Netherlands
+http://207.200.96.226:8056   -description-  Radio Paradise
+http://88.191.11.123:8767   -description-  Radio Rivendel
+http://205.188.215.231:8004   -description-  radio.wazee
+http://82.149.227.170:11600   -description-  Radio700-Schlager und Oldies
+http://207.200.96.227:8060   -description-  RadioDarvish-Persian
+http://66.98.164.56:12614   -description-  RadioJackie-London
+http://208.53.131.181:8000   -description-  Radiophile
+http://64.72.117.112:8000   -description-  RadioReggaeton
+http://217.118.212.74:8500   -description-  Radioseven
+http://88.191.27.15:8128   -description-  RaDioTEENTAAL
+http://205.234.220.66:7970   -description-  RAGGAKINGS
+http://66.254.105.246:8000   -description-  Random Loveline-Talk
+http://72.36.247.66:9000   -description-  Reggaetoneando-Peru
+http://211.43.215.169:8376   -description-  ROMANTICA FM
+http://72.236.125.114:8050   -description-  ROOSTER CLASSIC COUNTRY
+http://212.72.165.24:9012   -description-  rootsrockreggae
+http://205.188.215.231:8010   -description-  SALSASTREAM-Best Salsa
+http://207.200.96.225:8010   -description-  Secret Agent-Downtempo
+http://205.188.215.227:8008   -description-  SKY.FM - Modern Jazz
+http://82.96.64.7:8080   -description-  SKY.FM COUNTRY
+http://66.250.45.118:7694   -description-  SKY.FM-Classic Rap &HipHop
+http://205.188.215.225:8000   -description-  SKY.FM-Roots Reggae
+http://205.188.215.232:8014   -description-  SKY-Class&Flamenco Guitar
+http://66.147.221.76:8012   -description-  SLBC-Classical/Talk-Newstalk
+http://66.147.221.76:8016   -description-  SLBR-R & B/Hip Hop-R&B Favorites
+http://66.147.221.76:8018   -description-  SLCC-Christian Contemporary
+http://66.147.221.76:8006   -description-  SLCR-Classic Rock-Classic Rock
+http://67.19.78.90:8096   -description-  Sleepbot
+http://66.147.221.76:8004   -description-  SLFY-Oldies-Oldies
+http://66.147.221.76:8000   -description-  SLKY-Hot Country-Cat Country
+http://66.147.221.76:8014   -description-  SLLT-Lite Favorites
+http://66.147.221.76:8002   -description-  SLMX-Top Forty-Mix
+http://66.147.221.76:8008   -description-  SLTO-Techno/Dance-Dance
+http://66.147.221.76:8010   -description-  SLXG-Alternative-The X
+http://216.179.194.131:8978   -description-  Smoothbeats.com
+http://207.200.96.226:8052   -description-  SMOOTHJAZZ.COM
+http://66.232.110.34:8000   -description-  SmoothLounge
+http://212.72.186.18:8180   -description-  Soft N Easy Net Radio
+http://205.188.215.228:8000   -description-  Spirit of KJAZ-San Fran.
+http://69.9.183.97:9224   -description-  Star104
+http://38.96.148.19:8300   -description-  Steel Radio
+http://69.28.128.148:80   -description-  stream/radioio_country_free_hi,Radio Country
+http://82.197.165.137:80   -description-  Swiss Inet Radio-Classical
+http://82.197.165.139:80   -description-  Swiss Inet Radio-Opera
+http://82.197.167.138:80   -description-  Swiss Inet Radio-swing
+http://80.237.158.27:8000   -description-  Techno4ever Radio
+http://80.154.37.109:80   -description-  TechnoBase.FM
+http://38.96.148.19:9950   -description-  TELLSTREAM DANCEHALL(UK)
+http://38.96.148.26:8155   -description-  The AfriRythms
+http://67.159.5.135:8010   -description-  The Classic Soul Network
+http://205.234.179.4:80   -description-  The Current
+http://67.43.161.248:6005   -description-  The EDGE ROCKS!!
+http://212.48.126.146:8230   -description-  This Is Corrosion
+http://66.197.250.37:15068   -description-  TOSSM RADIO
+http://66.111.198.196:6256   -description-  UrbanSoulNation
+http://220.95.210.103:8000   -description-  We Met In Classics
+http://64.62.252.134:2680   -description-  Whole Wheat Radio
+http://66.225.205.8:8030   -description-  WKSU Classical Channel
+http://66.225.205.109:80   -description-  WNYC2 Classical
+http://xltrax.com:8000   -description-  XLTRAX.COM
+http://63.241.4.18:8069   -description-  XTC.RADIO.LONDON
+http://38.96.148.19:9950   -description-  TELLSTREAM DANCEHALL(UK)
+

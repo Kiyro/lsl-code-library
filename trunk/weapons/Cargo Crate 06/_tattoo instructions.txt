@@ -1,0 +1,32 @@
+﻿This pack contains 8 tattoo designs- each  in a variety of upper body positions.
+
+A quick photo reference of the designs can be found in the 'tattoo photo guide' included in this pack.
+
+How to wear your new tattoos:
+
+Because each of these tattoos is in raw texture format, they can be worn a number of ways, and in a number of combinations...
+
+1) As Clothing-
+
+     Select: Edit > Appearance >
+        
+       then choose Undershirt, Shirt, Jacket
+       or Gloves
+       
+       Click on "Fabric" (for jackets, "Upper")
+       then select the tattoo you'd like to wear.
+       
+Make sure the clothing layer you choose is over an area of exposed skin  ( i.e.: if you wear a center back tattoo as a jacket, your shirt and undershirt should be showing skin in that area...)
+
+Some tattoos made for the arms can also be worn as gloves, as indicated by  name.
+
+2) As Skin:
+
+     Select: Edit > Appearance > Skin
+     
+     Click on "Upper Tattoo" then select your 
+     tattoo.
+
+Play around with layers and combinations until you find the body art that's right for you...
+I hope you enjoy them.
+

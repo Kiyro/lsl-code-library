@@ -1,0 +1,104 @@
+﻿*******************************
+VX-SERIES LAND AMMUNITION SERVER
+Quick Start Guide (version 1.0)
+*******************************
+
+
+OVERVIEW
+
+VX-Series weapons come with a few land ammo options (Eject, Ban, Teleport Home) that require proper land permissions to work.  Generally this means that the avatar wielding the weapon (and NOT a group) must own the land its being used on in order for these rounds to be effective.
+
+Because this is not always the case, the VX-SERIES LAND AMMUNITION SERVER serves two purposes:
+
+    1) When deeded to group, it can allow land ammunitions to work on the parcel the server is on.
+    2)  It allows a land owner to enable other avatars to use their land ammunition on his/her land.
+    
+This means that with this server, you can use your VX-series land ammunition on group-owned land (assuming, of course, you are a member of the land group and can deed the server to the group).  It also allows you to employ others (equipped with VX-series weapons) to police your land, giving them the permission to use their VX-series weapons to ban, eject, and teleport avatars home.
+
+IMPORTANT:  This server will NOT allow you to use land ammo on ANY plot.  You must either own the plot (and wish to enable others to use land ammo) or be a member of the land's group.
+
+
+
+PLACING THE SERVER
+
+The first thing you will need to do is place the server somewhere on the parcel you wish to enable.  Note that these servers work by parcel, and not region-wide.  If your entire region is one parcel, you'll only need to place one of these servers.  However, if your region is separated into multiple parcels, you will need to place one server on each parcel you wish to enable.  You may place the server anywhere on the parcel you choose.
+
+IMPORTANT:  If you are placing this server on group-owned land, do not deed it yet!  Once you deed the server to the group you may no longer be able to edit the configuration notecard.
+
+
+
+CONFIGURATION
+
+Inside the server you will find a notecard titled "Configuration."  This is where you will list your admins, authorized users, and immune persons.  List these people by name, one per line, under the appropriate headings.  
+
+There are four headings in the Configuration notecard:
+
+    1)  ADMINS - Administrators are authorized users who are also able to turn the server on and off. 
+          If you list a person as an Administrator, you do NOT have to list them as a user.
+    2)  USERS - These are the people you wish to allow to use land ammo on this parcel.  If anybody 
+          you have listed here uses land ammo on the parcel, it should work properly, regardless of their
+          active group.  You may also use the word "GROUP" (on its own line) to indicate that you want
+          anybody in the group to be able to use land ammo.  If they are not listed seperately, they will
+          need to have their group tag activated in order to use land ammo on the parcel.
+    3)  IMMUNE - These are people you wish to be immune to land ammunition.  If one of these people
+          are hit with land ammunition, the server will not allow the ammunition to work on them.  Note
+          that Administrators and Users are automatically considered immune.  Again, you may use the
+          word "GROUP" (on its own line) to indicate that you want anybody in the same active group as
+          the server to be immune.
+    4)  ABILITIES - In this section, enable and/or disable the abilities you want users to have.  Admins
+          have all abilities, but you can restrict users to certain land actions.  Enable or disable each
+          action by setting it to TRUE or FALSE.
+          
+IMPORTANT: Names are not case-sensitive (capitalization is not important), but the spelling must be exact. 
+
+VERY IMPORTANT:  You DO need to list yourself!  If you deed the server to a group, it no longer recognizes you as the owner, so your name will have to be listed as Admin in order for you to use the server.
+
+Whenever you save the notecard, the server will automatically read it and update your list of names.  You may also comment any name out (by putting a "//" in front of the name) if you wish to temporarily remove a name but leave it on the notecard.
+
+
+
+PERMISSIONS & OWNERSHIP
+
+The server must be owned by the same owner as the land.  If the land is group-owned, the server must be DEEDED to (not just set to) the group.  To deed an object to group, edit it to access the Build menu for that item.  In the general tag, set the proper group, check the "Share with group" box, and click Deed.
+
+IMPORTANT:  Do not deed the server until you are done configuring it!  Once you deed the server, you will no longer be able to edit it or take it back into inventory.  It is best to copy your notecard before deeding it, so that if you ever need to edit the notecard, you can delete the server, rez another one, and put the notecard back inside the server, rather than having to write a whole new notecard.
+
+
+
+UNDERSTANDING COLORS
+
+The server has a brightly-lit, colored portion to display its current status.  There are three colors:
+
+    1)  Red - A red light indicates that the server does not have the proper permissions to work.
+    2)  White - A white light indicates that the server has proper permissions, but is currently turned off.
+    3)  Green - A green light indicates that the server has permissions and is currently active.
+    4)  Yellow - A yellow light indicates that the server is processing ammo requests and is busy.
+    5)  Blinking - A blinking light of any color means the server is currently thinking.
+    
+IMPORTANT:  If you move the server to a different plot, change its ownership, or change the ownership of the land, the light may turn red.  This indicates that you will need to check to ensure that the permissions are properly set before turning the server back on.
+
+
+
+ACTIVATING & DEACTIVATING
+
+An administrator may click the server to turn it on and off.  When off, no land ammo will be processed through the server.
+
+
+
+NOTES
+
+Please be aware that this is a prototype product.  We will continue to improve features as we go.  Also, it is important to note that banning avatars sleeps the script for five seconds, which means that if multiple requests are processed they will be delayed.
+
+
+
+SUPPORT:
+
+If you have read the user manual, and still have questions or experience problems, please feel free to visit our support center at http://www.aubretec.com/support, or email support@aubretec.com with your question.  For in-world questions, you may IM aubreTEC Commerce.
+
+
+
+
+          
+
+
+

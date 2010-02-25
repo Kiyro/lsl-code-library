@@ -1,0 +1,57 @@
+﻿The latest version can always be found here:
+􀀃
+or you can rez (drag to the ground) the item "Rez me (drag to ground) to check for updates to this kit" in your inventory.  If nothing happens after you've dragged the box to the ground, then you have the latest version.  If there is a newer version, the new version will be automatically delivered to you upon rezzing.  If there is no new version, then the box will just sit there happily, doing nothing until you delete it.  Always delete the box when finished (right click and delete).
+
+
+August 2007
+
+Hello, hello.  This note is a bit long winded, but please bear with me and read it fully.
+
+My name is Lucrezia Lamont and while I've only been in SL since early 2007, I had a bit of rough go of it at times (thanks to the wonderful people who helped me out.  You know who you are).  
+
+Although I still have lots to learn (we always do here) I would like to share what I have gleaned thus far and hope that something in here helps you out.  I'll continue to update this kit so long as it's useful (a few of you keep handing the thing out, so that's encouraging).  A very special thank you to everyone who assisted with the contents of this kit.  You're all truly amazing and helpful people, and you're what SL is all about.
+
+What the "New SL Resident Resource Kit" is NOT:
+     It's not loaded with freebies and samples.  However, I do list a number of Landmarks for freebie stores that you can visit on your own and acquire items that are reflective of your interests and tastes.
+
+What the "New SL Resident Resource Kit" is:
+     A few helpful items to "get you going" (i.e. flight feather, a magic carpet).
+     Quick Tips & How Tos (I suggest reading these in the order they are presented).
+     Guides Direct from the SL Forums which are inserted as appropriate into the Quick Tips & How To notecards.
+     Landmarks for places to explore, shop, meet others, get help and obtain freebies.
+     A list of places to obtain free hair, skin etc. for those who are specifically less than 30 days old.
+     Additional notecards of information as supplied by others that may be of interest to some new residents.
+
+Every so often I am asked by a creator if they can give me items for the New Resident Kit.  The answer is usually "no" as I like to keep the items to a minimum, but will entertain the notion of adding helpful tools.  If you are a creator who has a freebie or newbie kit, send me a Landmark and I'll happily add it for the next version.
+
+It's up to you to discover what SL will be for you.  For everyone it's different.  The contents of this kit are intended to serve as possible pathways and may not be useful to everyone.
+
+Second Life is what you make it.  What do you want it to be for you?  And if you don't know, it will find you through your constant explorations.  In fact, SL is cheaper, and often more effective, than a therapist ;-)  I can only encourage: having an open mind, don't be quick to make decisions or jump to conclusions, and be reasonably cautious.
+
+Please do visit the official Second Life Internet forums (http://forums.secondlife.com/), particularly the "Resident Answers" section.  And finally, you may also wish to find answers in the Second Life Knowledge Base (https://secure-web10.secondlife.com/community/support.php).
+
+If you are an experienced SL resident and have some landmarks or information you feel should be included in this kit, please send them my way and I'll incorporate them in the next release.
+
+Have a super day and enjoy SL!
+~ Lucrezia Lamont (neko onmyoji), owner of Luneko
+􀀄
+
+􀀀
+􀀁 -- there is a tea house where you can change, if you like, and also relax.
+􀀂
+[the above "links" are Landmarks to my personal lands and one (Sensi's) nearby that is public -- click to go there, sit somewhere comfortable, and begin reading through this kit in tranquility]
+
+And finally, a note regarding description conventions.  The following are naming and descriptive conventions for interfacing with SL as explained in my notecards.
+     
+Main SL menu = File, Edit, View, World, Tools, Help, Client, Server
+<keyboard key(s)>
+[clickable button or region of dialog box]
+click Button> Option> Suboption = left click each Button and Option in sequence (including buttons, tabs, check boxes, radio buttons and text fields).
+
+February 2008 Updates:
+- With the SL notecard issue resolved, embedded SL Forum guides directly into the Quick Tips notecards as appropriate.
+- Verified Landmarks and added new Landmarks to both Landmarks notecards.
+- Added a new notecard, "3.1. Quick & Dirty New Avatar", to help those with a new avatar move from place to place acquiring free or near free items for their avatar.
+- Added a new notecard, "4.6.1. The Big Damn SL Glossary", a definitive glossary (you'll need munchies for this one).
+- Added a new notecard, "4.7.1. Starting a Business in SL", to assist those who wish to start a business.
+- Added a mew notecard. "4.14.1. Radio / Audio Streams", providing a list of audio streams for land owners/renters.

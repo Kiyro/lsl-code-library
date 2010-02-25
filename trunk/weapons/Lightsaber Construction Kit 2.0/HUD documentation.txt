@@ -1,0 +1,16 @@
+﻿QUICKBUTTONS:
+On the bottom right of the HUD, you will find eight Style quickbuttons. This will allow you to quickly switch between styles without having to type a long string of commands. 
+
+To use the quickbuttons, right click and edit the HUD. You will find a notecard called "STYLES" within the contents. Once you have installed your styles into your LCK, edit this notecard and add the name of your style to an open slot directly after the '=' sign leaving no space between. 
+
+Please note that these names are case sensitive. The HUD will reset itself and add that style to the next available quickbutton. 
+
+The HUD currently supports up to eight style buttons.
+
+HIDING THE HUD
+On the bottom left, you will see the generic Jedi symbol. Touching this symbol will hide the HUD. Touching it again, will show the HUD once more.
+
+COLORING YOUR SABER
+At the top left, you will see eight color buttons, six pre-defined and two custom.
+
+Touching any of these buttons sets the color of the LCK blade. The last two buttons may be modified to create a custom color. Right click on the hud and select "Edit Linked Parts". Select one of the two custom buttons, then click on the texture tab. Set the color to a desired tone, then leave edit. When you touch the button, that color will be applied to the saber blade.

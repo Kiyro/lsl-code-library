@@ -1,0 +1,20 @@
+﻿//•/•/•/•/•/•/•/D>Flight IV/•/•/•/•/•/•/•//
+
+Greetings virtual Explorer;
+
+>>>> Info;
+Flight tool to help you control your flying experience! Touch it to get the control menu.
+Some brief info has been added to the message on each menu option ;) You can also
+select "Help" from the menu options. 
+Into scripting/programming/coding? This product is now open source `0'
+
+>>>> Support Resources;
+Sadly as free things get spread far n wide I can't offer support.. otherwise after not very long
+I'd be snowed under by many many questions.. preventing me from creating anything else~
+However..If it is urgent!! you may contact our customer services rep "Customer Footman".
+
+>>>> Updates;
+This product is updated automatically, if you feel this may not be working you can grab the latest
+copy from the "Open Source ReSource". Search the places tab, we are nomadic by nature ;)
+
+///////////////////////////////////////////

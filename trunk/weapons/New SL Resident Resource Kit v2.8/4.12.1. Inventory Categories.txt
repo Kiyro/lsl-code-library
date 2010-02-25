@@ -1,0 +1,105 @@
+﻿!BUILDS
+!GIFTS & NEW RESIDENT KIT
+.0 BODY
+.1 ANIMATION/POSES
+.2 GADGETS, SCRIPTS & BUSINESS
+.3  BUILDINGS & GARDEN
+.4  FURNISHINGS
+.5  ANIMALS
+.6  VEHICLES & WEAPONS
+.7  TEXTURES
+.8  AUDIO
+.9  MISCELLANEOUS
+FREEBIES
+
+__________________________________________
+
+
+!BUILDS
+LM & Notes
+WIP
+
+!GIFTS & NEW RESIDENT KIT
+Gifts
+New Resident Kit
+
+.0 BODY
+.0 a_ Foundation
+.0 c_ Hair
+.0 e_ Clothes
+.0 g_ Shoes
+.0 i_ Jewellery
+.0 m_ Glasses
+.0 o_ Hats
+.0 q_ Canes
+.0 r_ Gloves
+.0 s_ Misc Accessories
+.0 v_Shapes
+.0 w_ Skins
+.0 x_Avatars
+.0 y_ Eyes
+
+.1 ANIMATION/POSES
+.1 b_ Personal AO
+.1 c_ Interractive AO
+.1 e_ Gestures
+.1 g_ Poses
+.1 j_ General Animations
+.1 m_ Couple Animations
+.1 p_ Dancing Animations
+.1 s_ Combat Animations
+.1 v_ Misc Animations
+
+.2 GADGETS & SCRIPTS
+.2 c_ Rezzing
+.2 f_ Particle Effects
+.2 i_ Teleporters
+.2 l_ Misc Gadgets
+.2 p_ Misc Scripts
+
+.3  BUILDINGS & GARDEN
+.3 a_ SPECIFIC HOUSE
+.3 c_ Structures
+.3 e_ Doors
+.3 g_ Fences
+.3 j_ Misc House
+.3 k_ Trees & Shrubs
+.3 l_ Flowers & Plants
+.3 o_ Misc Garden
+.3 p_ Outdoor Structures
+.3 q_ Outdoor Lighting
+.3 s_ Outdoor Bridges
+.3 u_ Outdoor Road & Path
+.3 w_ Outdoor Patio
+.3 y _ Outdoor Misc
+.3 z_ Water
+
+.4  FURNISHINGS
+.4 a_ Bedroom
+.4 b_ Bathroom
+.4 d_ Living Room
+.4 e_ Dining Room
+.4 g_ Kitchen
+.4 h_ Den & Library
+.4 j_ Entryway
+.4 n_ Misc Tables
+.4 p_ Misc Seating
+.4 r_ Misc Lighting
+.4 t_ Misc Rugs
+.4 v_ Misc Appliances
+.4 w_ Misc Decor
+.4 y_ Misc Items
+
+.5  ANIMALS
+
+.6  VEHICLES & WEAPONS
+.6 c_ Misc Vehicles
+.6 m_ Misc Weapons
+
+.7  TEXTURES
+
+.8  AUDIO
+
+.9  MISCELLANEOUS
+
+FREEBIES

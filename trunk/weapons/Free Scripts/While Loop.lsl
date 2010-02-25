@@ -1,0 +1,13 @@
+﻿default
+{
+    state_entry()
+    {
+       while(1)
+       {
+           llTargetOmega(<0,1,0>,1,1);
+           llSleep(1.0);
+           llTargetOmega(<0,-1,0>,1,1);
+           llSleep(1.0);
+        }
+    }
+}
