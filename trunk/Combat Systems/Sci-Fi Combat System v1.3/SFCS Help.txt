@@ -1,0 +1,16 @@
+﻿The Sci-Fi Combat System (SFCS) is an RP system made to facilitate Sci-Fi Roleplay within Second Life.
+Currently, it supports Star-Wars Roleplay, with future updates being added for Stargate Roleplay. (It may even allow the intermixing of the two.)
+
+Commands:
+/1 sfcs - Brings up SFCS Menu with these functions.
+/1 help - Gives you this file.
+/1 hud - Gives you the SFCS HUD
+/1 fullreset - Resets all settings (color and title), as well as resetting health and stamina to 100%
+/1 reset - Resets health and stamina to 100%
+/1 color <R,G,B> - Sets Color. Replace R, G and B with Values from 0 to 255. The brackets and commas are required
+/1 title text - Sets your personal title. Replace text with your title. To clear the title, replace text with none.
+/1 update - Looks for the next update.
+/1 regen - Start Regeneration of Health from Stamina
+/1 stopregen - Stop Regeneration of Health from Stamina (Before completion)
+
+To block (hold Up + Down simultaneously while not attacking (no holding the mouse button at the same time))

@@ -1,0 +1,238 @@
+﻿================================================
+NOTICE: If you paid for this, you got scammed! This pack is free for everyone!
+The latest version of the LoLSBS Starter Pack is available at: http://www.slexchange.com/modules.php?name=Marketplace&file=item&ItemID=94699
+
+Want to become an All Worlds Affiliate? The latest Affiliate Pack is available at: http://www.slexchange.com/modules.php?name=Marketplace&file=item&ItemID=641511
+================================================
+
+
+
+Thank you for using the Lance of Longinus Shield Breaker system!
+
+This note card will explain how to use the scripts included in this package to make a LoLSBS gun.
+
+
+
+1.    Introduction
+
+2.    Using the scripts
+
+3.    Changing other scripts
+
+4.    Other Info
+
+5.    LoLSBS Gun Maker Info
+
+6.    Change Log
+
+7.    General info
+
+
+
+
+
+1. Introduction
+
+The Lance of Longinus Shield Breaker System is a modular bullet system. What this means is that the features and abilities of the gun are not held within the gun itself, but are in the bullets. This lets the customer pick and choose what they want their gun to do. For example, a customer buys a hand gun and then uses a Buckshot Bullet, the hand gun will then fire buckshot. If they use an Orbiter Bullet, the gun will orbit anyone it shoots. If they use a Napalm Bullet, the gun becomes a flamethrower Etc...
+
+This allows gun makers who don't know how to script to release guns that can compete with leading gun makers. Or if you do know how to script, this lets you easily add extra features and value to your gun without compromising any of its usability. Many gun makers are now adding a "LoLSBS Mode" to their guns, instead of only using LoLSBS bullets.
+
+
+
+2. Using the scripts
+
+The LoLSBS gun script is simple to use. You only have to put the scripts in and change a few options. This section will explain how to do so with each script.
+
+
+The LoLSBS Gun Script:
+
+Put the script in to the guns inventory, and then double click it to open. At the top of script is a setup area with a list of options. Most options require you to just change it to TRUE or FALSE, or type in a name. Here is a list of the options with a short explanation of each one. 
+
+//***************
+//General Options
+//***************
+
+string FIRESOUND = "";  //Type the name of the sound that plays when the gun is fired between the quotation marks, leave blank to not play a sound.
+
+string ANIMATION = ""; //Type the name of the animation you would like to use between the quotation marks. If this is left blank, the default animation will be used.
+
+//Built in animations:
+//hold_r_handgun
+//hold_r_rifle
+//hold_r_bazooka
+//For a list of internal animations, visit http://wiki.secondlife.com/wiki/Internal_Animations
+
+integer MULTIBULLET = TRUE; //Set this to TRUE to enable Multi-Bullet mode. This allows the user to load more bullets in to the gun, and change them through the guns menu. NOTE: This option requires a loader ball in the guns inventory, unless you are customizing the script yourself.
+
+integer EFFECTS = TRUE; //Set this to TRUE to enable muzzle flashes and other special effects.
+
+float FIRINGDELAY = 0.5; //Set this to delay you would like the gun to wait after firing to fire again, set to 0 to disable the delay.
+
+integer HOLSTER = TRUE; //Set this to TRUE to enable holstering, or FALSE to disable it.
+
+integer VOICECHAN = 0; //Set this to the default channel used for voice commands. For example, if this is set to 2, and the user wants to open the ammo menu, they will then say /2 ammo
+
+list EXCEPTIONS = ["Loader", "Shell"]; //This is a list of objects that will not be included in the ammo menu if you have MULTIBULLET enabled. If you have any extra objects in the guns inventory, include them in this list.
+
+//*******************
+//Firing Mode Options
+//*******************
+
+integer FULLAUTO = TRUE; //Set this to TRUE to enable Full Auto, or FALSE to disable it.
+
+integer BURST = TRUE; //Set this to TRUE to enable Burst firing mode, or FALSE to disable it.
+
+//*****************
+//Reloading Options
+//*****************
+
+integer RELOAD = TRUE; //Set this to TRUE to enable reloading.
+
+integer CLIPSIZE = 10; //If reloading is enabled, this sets the number of bullets before the gun has to reload.
+
+float RELOADTIME = 1.0; //This is how long reloading takes in seconds.
+
+string RELOADANIMATION = ""; //This is the animation that will be played when the gun reloads. Leave this blank to not play an animation.
+
+string RELOADSOUND = ""; //This is the sound that will be played when the gun reloads. Leave this blank to not play a sound.
+
+//**********************
+//Shell Ejection Options
+//**********************
+
+integer SHELLEJECTION = TRUE; //Set this to TRUE to enable shell ejection, and FALSE to disable it. NOTE: If shell ejection is enabled, a menu option will be shown in the guns menu to turn it off and on as the user wishes.
+
+string SHELLNAME = "Shell"; //Set this to the name of the shell you would like to use if SHELLEJECTION is enabled. Make sure to add this shell to the guns inventory, and add the name to the exceptions list.
+
+vector SHELLPOS = <0, 0, 1>; //This is the relative starting position the shell will be rezzed at.
+
+vector SHELLVEL = <0, 0, 1>; //This is the relative velocity of the shell when it is ejected.
+
+vector SHELLROT = <0, 0, 0>; //This is the relative rotation of the shell when it is ejected.
+
+
+The Fire and Shell Scripts 1-3:
+
+These scripts need to be placed alongside the LoLSBS Gun Script. They rez bullets and shells for the gun to get around rez delays, this lets the gun fire faster than it otherwise could. No editing is required for these; just place them in the gun.
+
+The Dialog Script:
+
+This script handles dialog menus for the gun. Simply place this in the gun alongside the other scripts, no editing is required.
+
+Once all scripts have been added, please make sure the "Running" checkbox is checked in each one.
+
+
+The Loader Script:
+
+Included in this package is a Loader ball. To use the loader system, put the Loader in the guns inventory, and enable the MULTIBULLET option in the gun script. Make sure the loader object has modify and copy rights otherwise the user may not be able to put bullets into it! If you wish, the Loader object can be modified into other objects besides a ball.
+
+When the user selects Loader from the guns menu the loader object will rez above their head. They can then put the bullets in to the loaders inventory. After putting the bullets in the loaders inventory, they can then load them into the gun by clicking on the loader object and clicking on "Load".
+
+
+The Holster Scripts:
+
+Holsters work by having a scripted holster object, which is a copy of the gun model placed in to a holster. It works by turning either the entire holster object invisible when the gun is unholstered, or just the gun model part of the holster object.
+
+There are 3 possible ways of creating a holster with the scripts included in this package. Please only use ONE of these options.
+
+A. "Holster Script Single". This is the easiest option. Simply place this script in the root prim of your holster object, and it will turn invisible when the gun is unholstered and visible again when it is holstered. This is the suggested option.
+
+
+B. "Main Holster Piece Script" and "Prim Holster Piece Script". This is second easiest option. Place the "Main Holster Piece Script" in the root prim of your holster object, and then the "Prim Holster Piece Script" in every prim that should stay visible when the gun is unholstered.
+
+This allow you to have a holster that stays visible when the gun is unholstered, but without showing the gun in the holster. It works by turning the entire holster object invisible, and then making each individual prim that the "Prim Holster Piece" script was placed into visible again.
+
+
+C. "Main Holstered Gun Script" and "Prim Holstered Gun Script". This is the hardest to use option, and can use more sim resources than the other options. Place the "Main Holstered Gun" script in to the root prim of the holster object, and the "Prim Holstered Gun" script in to every prim that should turn invisible when the gun is unholstered.
+
+This option works by turn each individual prim the "Prim Holstered Gun" script is placed into invisible when the gun is unholstered and visible when the gun is holstered again.
+
+
+Again, once all scripts are added, make sure that the "Running" checkbox is checked within each one.
+
+
+The Muzzle Flash Script:
+
+To add a muzzle flash to your gun, add some prims with a muzzle flash texture on them to the end of the barrel. Then place the "Muzzle Flash" script in to each of these prims, and enable the EFFECTS option in the main gun script. The muzzle flash prims will then blink when the gun is fired.
+
+
+3. Changing other scripts
+
+Changing another script to use the LoLSBS is as easy as changing a few numbers. Open up the script and find the line with llRezObject. This is the line that fires the bullet. At the end of the line should be a number. Change this number to 100. This number will control the bullet speed. 100 equals %100 of the bullet speed which is preset in the bullets script.
+
+
+
+4. Other Info
+
+Voice Commands:
+
+Voice commands can be used by saying the keyword on the correct channel. The default channel is 0, but if another channel is used, voice commands can be sent by saying "/# command", where # is the channel number and command is the keyword.
+
+"Channel #", this changes the voice command channel. Just say "Channel #" where # is the channel you wish to change it to.
+
+"Speed #", this changes the default speed of bullets when fired. 100% is the default speed, but to change it, say "Speed #" where # is the speed you would like to change it to.
+
+To change bullets, simply say the name of the bullet and it will automatically be selected.
+
+All other voice commands can be sent by speaking the command as it appears in the guns dialog menu. For example, saying "Ammo" would bring up the ammo list. All voice commands are case-insensitive.
+
+
+Full Perm Bullets:
+
+Included in this pack are 6 full perm bullets. It is suggested that you included some or all of these in your gun by default. NOTE: It is suggested that you change the name of one of the bullets you include with the gun to "Bullet". This will be the default bullet loaded in the case of a script reset or an error.
+
+
+
+5. LoLSBS gun maker info
+
+If you are interested in selling your guns at one of our stores, or need an affiliate bullet vendor for your own store, please contact Auron Prefect.
+
+Also, please make sure to join the "LoLSBS Developers" group for important announcements, updates, and opportunities. Simply search for it under the "Groups" tab.
+
+
+
+6. Change Log
+
+June 6th, 2008
+==============
+
+LoLSBS Gun Script V6.1:
+
+Fixed a small bug that was causing problems with holstering and unholstering.
+
+
+Main Holstered Gun Script, Main Holster Peice Script, and Holster Holster Script Single:
+
+Adjusted a few things to fix a bug. These scripts MUST be replaced if you are using them to fix the bug.
+
+==============
+
+June 2nd, 2008
+==============
+
+LoLSBS Gun Script V6.0:
+
+Changed the script to use the dialog system by Nargus Asturias. This will fix the 11 bullet limit, fix the problem with bullet names being too long, and just simplify things in general. NOTE: The new Dialog script MUST BE INCLUDED IN YOUR GUN for the dialog menu to function correctly.
+
+Adjusted the rez position of bullets to help prepare for new 3rd party bullets.
+
+Re-added the "Reset" command by request.
+
+Added case insensitive bullet loading for voice commands.
+
+Added option to change default voice command channel in the setup portion of the script, also added a voice command for the user to change the voice command channel.
+
+Added bullet speed adjustment menu and voice commands.
+
+
+Loader:
+
+Updated the loader to script to remove the bullet limit. If you have an old Loader in your gun, it MUST be replaced to remove the bullet limit. If you have customized the Loader in your gun, you can just replace the script.
+
+==============
+
+
+7. General info
+
+The LoLSBS bullets and LoLSBS compatible guns are available at the new Armory Island sim, as well as many stores all around SL. Thank you for using the LoLSBS!
+􀀀

@@ -1,0 +1,329 @@
+<h1>MMORPG-over-SL Toolkit - Design document</h1>
+<h1>Contents</h1> 
+<ul>
+<li>Introduction
+<li>Scope
+<li>Deliverables
+<li>Concepts and Guidelines
+<li>Risks
+<li>Security
+</ul>
+
+
+<h1>Introduction</h1> 
+
+The MMORPG-over-SL Toolkit makes it easy for anyone to create MMORPGs and MMOGs.<p>
+
+For now, this runs over the SecondLife graphical and multiplayer runtime because this matches our requirements precisely.<p>
+
+<h1>Scope</h1> 
+
+The project will create a set of generic scripts and modules that make it easy for anyone to create MMORPGs and MMOGs over the SecondLife runtime engine (<a href="http://secondlife.com">http://secondlife.com</a>).<p>
+
+Anything graphical, with the possible exception of basic particle effects, is outside of the scope of this project.<p>
+
+All particular customizations for specific MMORPG and MMOG instantiations are outside of the scope of this project.<p>
+
+<h1>Deliverables</h1> 
+
+The MMORPG Toolkit project will produce the following deliverables:<p>
+
+<h4>Documentation</h4>
+- The project design (this post, will evolve iteratively) 
+
+<h4>Core script modules: </h4>
+
+These modules will be available on a GPL OpenSource basis.  They would be closed prior to actual instantiation in the game world in order to lock them, eg with channel number. <p>
+<ul>
+<li>Generic monster modules: core modules for MMORPG monsters
+<li>Generic weapon modules: core modules for MMORPG weapons
+<li>Generic avatar modules: core modules for MMORPG-participating avatars
+<li>Generic spell modules: for casting spells
+<li>Generic protection modules: for shields and protective clothing
+</ul>
+
+<h4>Example instantiations: </h4>
+
+A set of example instantiations will be created in order to:
+<ul>
+<li>provide a demonstration to prospective Games Masters
+<li>provide examples of how to integrate the MMORPG Toolkit into a real MMORPG instance, and how to personalize it to fit one's own requirements
+<li>facilitate testing
+</ul>
+
+The example instantiations will include:
+<ul>
+
+<li>Example monster
+<li>Example avatar GRI Tag
+<li>Example weapons:
+<ul>
+   <li>melee weapon
+   <li>projectile weapon
+   <li>area-effect weapon
+</ul>
+<li>Example spell implementation
+<li>Example shield
+</ul>
+
+<h1>Concepts and guidelines</h1> 
+
+<h4>Zone design, Games Masters</h4>
+
+The client of this Toolkit will be Games Masters who will use it to create exhilarating and imaginative worlds which players will enjoy.
+
+The Toolkit is OpenSource.  Games Masters will be able to Lock the code on instantiation and control precisely how the game works in their Gaming Zone.
+
+A Gaming Zone can be an area, a set of areas, or merely a set of combatsystems that work together.  The common binding force that unifies the areas and players is the CS GRI Tag.  It's a bracelet, or similar, tuned to a specific secure Channel number, and which defines how the world fits together according to the whims, asperations and dreams of each Games Master.
+
+<h4>Gameplay</h4>
+
+Where gameplay decisions are intrinsic within the Toolkit, they will tend to follow the following guidelines:
+
+- encourage teamwork
+- create opportunity for tactical play
+
+As a concrete example of encouraging teamwork, the MMORPG Toolkit project will seek to facilitate the partitioning of roles, which encourages people to work together.
+
+A concrete example of presenting opportunities for tactical play is the provision of slow projectile weapons, which provide the opportunity for the intended victim to dodge and the requirement for the attacker to predict the victim's reactions and subsequent spatial positioning.
+
+<h4>Security</h4>
+
+There is the possibility that a channel number, or other secure protocol parameter, will become widely-known at some point, compromising the stability of the game world. 
+
+To mitigate this we need to consider methods to: 
+- modify the channel number, or equivalent, throughout the effected gameworld 
+- segment the gameworld to limit the damage caused by any single breach. 
+
+As far as channel numbers, we might consider using a different channel per zone. The zone designer designates the appropriate channel number. 
+
+If the zone designer owns all objects in his/her zone, we can have the objects respond to a change_channel request, as long as it comes from his/her id. 
+
+In an initial project implementation, each avatar is local to the zone. In future updates, we might choose to conserve this, and to provide gateway systems to seamlessly move between zones. That allows us to shut down a compromised zone by removing it from the gateways' systems. 
+
+<h1>Risks</h1> 
+
+<h4>Risks outstanding: </h4>
+
+- Risk that unable to create convincing and fun monsters -> risk outstanding, prototyping in progress 
+- Risk that convincing and fun monsters will be too resource intensive -> risk outstanding, awaiting results of prototyping 
+- Risk that demise of project owner would kill off existing implemented dungeons -> very low because all modules are freely available as OpenSource 
+
+<h4>Risks with Status=Closed:</h4>
+
+- Make a sword to hit people -> prototyped, works ok 
+- Make a sword to hit objects -> prototyped, works ok 
+- Store life points and stuff, kill avatar as required -> prototyped, works ok 
+
+<h1>Detailed Design - introduction and key design decisions</h1> 
+
+We can split the required functionalities as follows: 
+- secure comms (in-channel shouts) 
+- receive damage 
+- receive effects 
+- send damage 
+- send effects 
+- stats (life, money...) 
+- AI (for monsters) 
+- movement (for monsters and possibly for avatars) 
+- control interface (for avatars) 
+
+We need to consider for each module the extent to which: 
+- it must be easily updatable 
+- it should be stable wrt changes 
+- it should be secure/locked wrt players and wrt zone designers 
+
+For the effects/damage modules, we basically need that we can flexibly add new weapons and effects into the game, whilst all objects already in the game will respond appropriately to them. 
+
+To this effect, we will split the damage/effect modules into receive and send. The send modules will be fairly flexible and can change with time. The receive modules must be very stable wrt new attacks. 
+
+Dynamically loaded scripts were considered but not retained for now because of the load they would impose on the sim motors. 
+
+<h4>Module design </h4>
+
+Damage/effect receive modules will respond to six primitive attack types: 
+- directdamage(amount) 
+- damageovertime(amount, duration) 
+- movespeed(percent, duration) (can be more or less than 100%) 
+- attackspeed(percent, duration) 
+- attackpower(percent, duration) 
+- sensorpower(percent, duration) 
+
+Damage/effect send modules will use these primitives to create a range of attack types. 
+
+Projectiles can be implemented within this framework because the receive modules dont need to know with what they are being attacked, just the amount of damage inflicted. 
+
+The receive modules will be using Listens to sense attacks. Since scripts/modules are not threaded the listen must exit immediately, without undue delay, ie no llSleeps, and delegation to other events/scripts as necessary. 
+
+A stats module will store current avatar state, ie Life, Money, Movespeed, AttackSpeed, AttackPower, SensorPower. 
+
+<h1>Detailed design - systems and modules</h1> 
+
+<h4>Systems to be created: </h4>
+
+- CombatSystems GRI (GRI = "Game Rules Instantiation") 
+- Weapon/spell system 
+- Shield system 
+- Money system 
+
+<h4>Modules to be created: </h4>
+
+CombatSystems GRI system: 
+- Stats module 
+- Receive dmg module 
+- Send dmg module 
+
+Shield system: 
+- shield module 
+
+Weapon/spell system: 
+- weapon module 
+
+Money: 
+- money module 
+
+<h4>Money </h4>
+
+Money will be stored as objects in your inventory. This makes life really easy for the developers. You can convert your money from different types at the bank. Money will communicate with other modules, ie GRI stuff, over ChannelMoney. 
+
+<h4>Shield System </h4>
+
+Shields will work by replying to PROTECTIONPING messages. The shield module enforces their being worn as an attachment. The CombatSystem GRI will do periodic pings to work out how much armor you are wearing. Shield modules will send an INVCHNG message on attach and detach. 
+
+Shield will communicate with the CombatSystem GRI via ChannelShield. 
+
+Shield types 
+
+We will have the following shield types: 
+
+- AC (vs melee attacks) 
+- MR (vs magic attacks) 
+- Projectile (vs projectile attacks) 
+
+Note that shields are not linked to the CombatSystem GRI. All communications is via inter-object communiation (initially shouts) 
+
+<h4>Weapons/magic staves </h4>
+
+Weapons/magic staves are separate objects from the CombatSystem GRI. 
+
+They are worn as attachmnets, and the weapon module enforces this. 
+
+Weapons will attack by being asked to do so by the player (via takecontrols or channel 0 or whatever). 
+
+Weapons cant directly attack anything, because they run on a separate channel, ChannelWpn. What they do is send an attack message to the CombatSystems GRI SendDmg module, which will validate it and broadcast it to the appropriate victim. 
+
+We will pipe weapons messages via the CombatSystems GRI to provide a certain amound of centralized validation, eg we can turn off certain rogue weapons, control cooldown and so on. 
+
+AS far as cooldown, two possibilities: 
+
+- global cooldown. EAch weapon has a cooldown associated with it, that it sends in its attack message to the CS GRI. The CS GRI blocks all further attacks, from any of this players weapons, until CoolDown has elapsed. 
+- Weapon specific cooldown. Certain weapons can bypass the global cooldown and be fired simultaneously 
+
+Weapons will send the following information in their attack message: 
+- attack type (DirectDamage, Reduce MoveSpeed, etc...) 
+- power 
+- duration 
+- attack substrate (magic/melee/projectile), which is used to trade off against shield types 
+
+Weapons can have a recharge time, and can have a limited ammunition/number of charges. Weapons are responsible for enforcing this. 
+
+<h4>DoTs </h4>
+
+DoTs will be instantiated by firing an object at the target that "sticks" to him her for the duration of the effect. This can be visible (like a poison dart/arrow), or not. This makes life easy for the damage send/receive modules. 
+
+<h4>CombatSystems GRI Modules </h4>
+
+The core of the system.  This defines what you can and can't do in your MMORPG/MMOG.
+
+There will be 3 or 4 base modules, which may be fusioned or fissioned as time goes on. Concretely these are scripts embedded in a single attached object, such as a bracelet. 
+
+The attached object is termed the "GRI Tag" and must be worn to take part in the game. If you take it off, you're out, and may be ejected from the land. To rejoin, just put it back on, but there will probably be a small delay during this respawn. 
+
+The GRI modules are: 
+
+- receive damage module 
+- send damage module 
+- stats module 
+- and possibly a secure comms module 
+
+Now you've seen the other systems, you can imagine what these will do, but read this anyway. 
+
+<h4>Receive damage module: </h4>
+- responsible for receiving ATTACK messages from other Actors via the SecureComms module 
+- validates the ATTACK messages against currently cached shield stats, to generate actual damage inflicted. 
+- sends SUBSTRACTSTAT linked messages to the Stats module 
+- listens for STATCHANGE linked messages from the Stats modules and handles the Death condition 
+
+Handling the Death condition in the STATCHANGE event makes this work within an async comms framework. 
+
+The following damage can be received: 
+
+- DirectDamage (health stat) 
+- Mana (mana stat) 
+- AttackSpeed (AttackSpeed stat) 
+- AttackPower (AttackPower stat) 
+- AttackRange (AttackRange stat) 
+
+<h4>Send damage module: </h4>
+
+- receives ATTACK messages from the weapons system (different attachment) on ChannelWeapon. 
+- modules them for currently cached attackspeed, attackpower and attackrange stats 
+- forwards them to the SecureComms module for onward transmission to the unfortunate target 
+- may or may not enforce global cooldown timing 
+
+This is a one-way pipeline and will work just fine with async comms. 
+
+<h4>Stats module </h4>
+
+This stores the stats for the player. 
+
+Stats include: 
+- Health 
+- Mana 
+- AttackSpeed 
+- MoveSpeed 
+
+and probably AC, MR and Projectile Armor 
+
+To work within the async module comms framework, the stats module will send a broadcast linked message every time a stat changes, and other modules will cache the stats they are interested in. Coupling is minimal to the extent that the modules only cache what they're interestd in, so can add new stats variables without having to rebuild the entire GRI. 
+
+<h4>SecureComms module </h4>
+
+Responsible for inter-Actor communication on ChannelInterActor. 
+
+It's a separate module becuase: 
+- means we can abstract the current shout system from the other modules, and migrate easily to direct object-to-object communication when we get it 
+- makes changing the ChannelInterActor number really easy 
+- it will encapsulate encryption and other stuff if we need 
+
+<h4>Other systems not covered here: </h4>
+
+Monster AI. A module that can be placed in monsters to make them fun to kill. 
+
+Monster Move Module. Separate or fusioned with the Monter AI Module. Provides routines for making Monsters move about. 
+
+<h1>Project Status</h1> 
+
+All base combat modules delivered in beta.
+
+Outstanding modules:
+- money
+- mission systems
+
+<h1>Where we will go from here in the short-term</h1> 
+
+- The ReceiveDmg module will be extended to provide more attack primitives such as ModifyAttackPower and ModifyMoveSpeed.
+- Additional core weapons modules will be created
+- Powerup modules and powerup examples will be added
+- financial systems will be added
+- mission control systems will be added
+
+<h1>Conclusion</h1> 
+
+The MMORPG-Over-SL Toolkit project is well on track and achieving the goals which it set itself in the initial beta project design (<url>http://forums.secondlife.com/showthread.php?s=&threadid=7055</url>)
+
+Initial usage of the MMORPG Toolkit confirms that this is something that interests and will interest a sizeable population, both current participants within SL, and experienced gamers and developers from outside.  They will join for the opporunities that the MMORPG Toolkit provides and for the Games that the new Games Masters will create.<p>
+<a href="index.html">Home</a><p>
+
+<a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=YOUR_GROUP_ID_GOES_HERE&amp;type=5" width="210" height="62" border="0" alt="SourceForge.net Logo" /></a>
+
