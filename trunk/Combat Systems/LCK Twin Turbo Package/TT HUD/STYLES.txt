@@ -1,8 +1,0 @@
-﻿style1=basic
-style2=strong
-style3=basic
-style4=strong
-style5=basic
-style6=strong
-style7=basic
-style8=strong

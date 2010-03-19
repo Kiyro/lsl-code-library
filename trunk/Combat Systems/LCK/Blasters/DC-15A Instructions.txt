@@ -1,2 +1,0 @@
-﻿To Draw: type /80 draw
-To Sling: type /80 sling
