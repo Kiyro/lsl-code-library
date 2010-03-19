@@ -1,5 +1,0 @@
-﻿The ZX4 Non-Combat Helicopter is a re-engineered version of the outstanding attack helicopter by David Street.
-
-Where these two helicopters differ is in the way they fly. The attack helicopter uses mouselook flight. The Non-Combat Helicopter uses standard SL flight.
-
-To power up your helicopter, say START in chat. To power down, say STOP. Arrow keys move you in the direction you want to move. PAGE UP and PAGE DOWN control your altitude. Enjoy.
