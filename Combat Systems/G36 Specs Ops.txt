@@ -1,0 +1,62 @@
+﻿Thank you for your purchase of the G-36 Special Operations Tactical Rifle!
+
+------------------------------------------------------
+Designer and Builder Renee Marshall
+------------------------------------------------------
+This item can be obtained from these fine establishments
+
+(Drag and drop your landmarks where you are selling this gun here.)
+
+------------------------------------------------------
+FEATURES
+
+    - Safety - On /Off
+        * So you don't accidently wack your comrades.
+    
+    - Silencer - On / Off
+        * Unscrew it, screw it back on!
+    
+    - Single Shot
+        * Where less power and more accuracy is needed.
+    
+    - Tri Burst
+        * Where more coverage is needed.
+    
+    - Full Auto
+        * Spray the whole area and watch them scatter!
+    
+    - Realistic Sounds and Animations!
+        * Your Stance, Aiming, and Reloading are all fully animated!  Sounds change from silencer off to                silencer on; Reload sounds accompany the animation.  Tracer FX as well as riccochets!
+         
+    - Aim / No aim
+        * Changes your ready stance
+        
+    - Push Bullet
+        * Give your victems a little shove in the right direction.
+        
+    - Damage Bullet
+        * For those areas where Damage is allowed and scored.
+        
+INSTRUCTIONS:
+------------------------------------------------------
+
+    * safe - Engage Safety.
+    
+    * unsafe - Disengage Safety.
+    
+    * Single Shot, Tri Burst, Full Auto modes - Tap the M key on your keyboard.
+    
+    * Manual Reload - Tap the R key on your keyboard.
+    
+    * To set Silencer options, Aim / No aim, Push Bullet, Damage Bullet - 
+        Left Mousclick on the G36 when equiped.
+        
+Thank you again for your purchase of the G36 Special Ops!  We hope you enjoy the hard work, time, attention to detail and the realism that we put into all of our items.
+
+Check back every now and again for future updates!
+
+Note that this Gun is still Beta stages, Plez Report any bugs you may find, remmber updates are 100% free
+
+
+
+* Disclaimer - Renee Marshall does not hold responsibility for misuse of this item.

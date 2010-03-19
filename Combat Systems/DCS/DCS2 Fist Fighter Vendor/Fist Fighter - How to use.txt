@@ -1,0 +1,4 @@
+﻿How to Use
+-------------
+Wear the weapon
+Hold down left mouse and then press a movement key to attack.

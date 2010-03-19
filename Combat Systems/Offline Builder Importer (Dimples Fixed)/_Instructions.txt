@@ -1,0 +1,28 @@
+﻿// Second Life Offline Builder Importer
+// Copyright (C) 2006 Thraxis Epsilon
+
+// This program is free software; you can redistribute it and/or
+// modify it under the terms of the GNU General Public License
+// as published by the Free Software Foundation; either version 2
+// of the License, or (at your option) any later version.
+
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+
+// You should have received a copy of the GNU General Public License
+// along with this program; if not, write to the Free Software
+// Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+
+1. In Blender, click the Save button at the bottom of the editing window.
+2. Save the file to a location you can easily get to (like the Desktop)
+3. Open Notepad (or your favorite plain text editor), and open the file you just saved.
+4. Select all the text in the file (Edit > Select All, or windows: ctrl+A, macintosh: command+A)
+5. Copy the text to the clipboard (Edit > Copy, or windows: ctrl+C, macintosh: command+C)
+6. Create a new notecard in your inventory, open it to edit.
+7. Paste from the clipboard (Edit > Paste, or windows: ctrl+V, macintosh control+V)
+8. Save the notecard.
+9. Drag the notecard you just created onto the Offline Builder Importer
+10. Wait. Your prims will rez shortly :-)

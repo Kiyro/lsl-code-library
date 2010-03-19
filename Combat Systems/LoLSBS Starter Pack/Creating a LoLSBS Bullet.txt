@@ -1,0 +1,40 @@
+﻿================================================
+NOTICE: If you paid for this, you got scammed! This pack is free for everyone!
+The latest version of the LoLSBS Starter Pack is available at: http://www.slexchange.com/modules.php?name=Marketplace&file=item&ItemID=94699
+
+Want to become an All Worlds Affiliate? The latest Affiliate Pack is available at: http://www.slexchange.com/modules.php?name=Marketplace&file=item&ItemID=641511
+================================================
+
+
+
+
+This portion of the starter pack is for advanced users ONLY. A basic knowledge of scripting is required to create a new LoLSBS bullet.
+
+
+
+1. How Most LoLSBS Bullets Work
+
+2. Examples
+
+
+
+
+
+
+1. How Most LoLSBS Bullets Work
+
+Most LoLSBS bullets work with a very minimal level of interaction with the gun itself. This allows for complete compatibility with all LoLSBS guns. As seen in the example scripts, the only input from the LoLSBS gun is the start parameter which adjusts the bullet speed. Most LoLSBS bullets have a default speed, and treat the start parameter as the percentage of that speed. For example, if the default bullet speed is 50 m/s, then a start param of 100 would fire the bullet at 50 m/s, but if the start param were set to 50, then the bullet would be fired at 25 m/s. This allows for the bullet maker to set the default bullet speed, but also allows the user to change the bullet speed if it is needed. If the bullet requires to be fired at a very specific speed, or performs some sort of unique function, it can also just completely ignore the start parameter.
+
+Examples of this system can be seen in the included scripts and full perm LoLSBS bullets.
+
+
+
+
+
+2. Examples
+
+Included are 2 example bullets. A simple bullet and script, as well as a 2 stage bullet.
+
+The 2 stage bullet is just an example of a more complicated bullet design. It allows for the bullet to more easily control when where and how the bullet is rezzed, as well as perform any actions that may be required before the bullet is actually "fired".
+
+Also included in a separate folder given to you with this pack are 6 full perm bullets. Simply rez them out by hand and they will enter a diagnostic mode that will allow you to look through their parts without them being deleted.
