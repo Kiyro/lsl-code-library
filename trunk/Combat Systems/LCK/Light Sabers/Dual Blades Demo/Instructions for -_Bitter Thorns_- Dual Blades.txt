@@ -1,0 +1,71 @@
+﻿   ->Bitter Thorns<-  Dual Blades
+--=====================--
+Design: Juliet Ceres
+Animations: Cracker Hax
+Scripting: Melanie Milland
+
+
+Features:
+- awesome design (as usual)
+- awesome animations
+- combat ready
+- free updates
+- color- and texturechange function
+- works in most combat sims (except Midian)
+
+
+
+Instructions:
+
+To go into Attack Mode type:
+
+/92 draw
+
+and to leave Attack Mode type:
+
+/92 sheath
+
+You can use the included gestures so you will only have to Press F7 and F8 to draw and holster the blades.
+
+
+Attacks
+--------
+
+When you're in Attack Mode press down and hold the left mouse button while pressing the keys for forward, backward, left, right abd crouch movement (W, A, S, D and C). Each of these keys will start a different attack.
+
+Forward(W): a charge attack
+Left(A): double down stap
+Right(D): upslash
+Down(S): spin attack
+Crouch(C): a vicious kick
+
+
+Colorchange Function
+------------------------
+
+Type
+
+/92 menu
+
+in main chat. This will open a menu at the top right corner of your screen where you can select the blade color (12 colors), interior leather texture (9 textures) and exterior color (black or white).
+Please turn on Shiny in your Graphics options for best results.
+
+The "Reset" button resets the colors to black and white defaults with white leather.
+
+Hint: 
+If you want to show off your new weapon to your friends but don't want to go into combat mode, you can sheath and unsheath your weapon with
+
+/92 show
+
+and 
+
+/92 hide
+
+
+Please message Juliet Ceres about suggestions and complaints. We hope to deliver some of the finest quality accessoires and we'd like to keep that way. 
+===========================
+
+
+Thank you for purchasing this product of Bitter Thorns. Be sure to join our group (Bitter Thorns) for updates or announcements of new products.
+Also check out the Bitter Thorns Blog at http://bitterthorns.blogspot.com.
+If you want to send an item as a gift which has copy and mod but no transfer permissions, check out the Bitter Thorns at SLexchange: http://www.slexchange.com/modules.php?name=Marketplace&MerchantID=32226 . Most Bitter Thorns products can be purchased there and sent as a gift.
