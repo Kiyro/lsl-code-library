@@ -1,0 +1,6 @@
+﻿style1=basic
+style2=strong
+style3= 
+style4= 
+style5= 
+style6= 

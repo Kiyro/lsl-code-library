@@ -1,0 +1,25 @@
+﻿The VICE SDK includes  several freebie examples for your enjoyment and learning:
+
+Infantry guns:
+    VICE SCG Test Gun:  Thompson submachine gun with hand grenades and a punching melee attack
+    VICE SMG Test Gun:  FN FAL (higher-calibre assault rifle) with a punching melee attack
+    VICE SSG Test Gun:  Mauser K98 rifle (single shot sniper rifle) with hand grenades and a punching melee attack
+    VICE SMB Test Gun: Rocket propelled grenade
+    VICE MLE Test Scimitar: A melee-only sword, for close encounters
+
+Vehicles:
+    VICE ALA Test Aeroplane : A simple biplane with a pair of light machine guns in the wings.  It supports VICE with 2 LMG guns and a single bomb, as well as TCS
+    
+Other:
+    VICE Test Target: A destructable steel barrel, which regenerates after 30 seconds
+    VICE Official Scoreboard 5-char: A VICE scoreboard created using the  VICE observer script
+    VICE Test Observer Egg : A simple combat announcer, which uses the VICE observer script  to announce the deaths of players
+    
+    
+You might find the following gestures useful when using the infantry guns:            
+􀀀
+􀀁
+􀀂
+􀀃
+
+Enjoy!

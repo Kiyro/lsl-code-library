@@ -1,0 +1,40 @@
+﻿Quickstart
+
+The skills menu is brought up either with the red Skills button on the hud or by typing '/9 skills' or using the F2 CCS Main Menu Gesture.
+
+Commands:
+
+/9 skills - Brings up the skills menu
+/9profile - Takes you to your web profile page
+/9 color <RGB Color> - sets the CCS text color.
+
+/9 off - Turns the CCS off.
+/9 on - Turns the CCS on.
+
+Note: The CCS syncs with the database every 5 minutes. After that time, values for Color and Title will be saved as well as life, stamina, points, and experience.
+
+/9Healing - Opens up the healing skills menu.
+/9Offense - Opens up the offense skills menu.
+/9Support - Opens up the support skills menu.
+
+/9 menu - Opens up a menu to select one of the above options.
+
+
+NOTE: You will not gain experience with the CCS turned off!
+
+===CCS Meters===
+The meters hold your Life bar and Stamina bar. As you lose life or stamina, these will decrease. On the rightmost portion of the bar is where your status ailments are displayed. The black box on the bar shows Communication status with the CCS Database Server. The red 'Skills' button opens up your skills menu.
+
+===LEVELING UP===
+
+Once you have gained enough experience to level up, you will be prompted by a pop up that you are ready. And taken to a website. Instructions are availible on the website on how to level up.
+
+===Status Ailments===
+CURSE - Life/Stamina do not regenerate and you many not engage in Mele attack while cursed.
+DAZE - Unable to move or attack while Dazed.
+CHARM - Pending....
+CONFUSE - Mele attacks go wild, leading to possibility of harming an ally.
+POISON - Life steadily decreases during duration of poisoning.
+WEAK - Can only do 1 Mele Damage point.
+BERZERK - Lose control and wildly attack the nearest target.
+

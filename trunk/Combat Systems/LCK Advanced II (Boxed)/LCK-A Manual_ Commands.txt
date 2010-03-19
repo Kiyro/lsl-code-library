@@ -1,0 +1,28 @@
+﻿LCK-A Capabilities and Commands:
+
+All commands are accessed by the LCK-A Menu Gesture (make sure its attached). It is usable by pushing F10. You can also type /1 menu to access it.
+
+To activate Saber Throw via Gesture, push F11. Otherwise use the menu or type /69 throw.
+
+The LCK-A has the following capabilities through the menu
+
+New: Destroyable Objects (WITH ACS)!
+Saber Throw (Now Targets via Mouselook!)
+Saber Glow
+Color Changing
+Forms/Styles
+Damage Modes (Low, Normal, High and Kill)
+Damage Types (RP, SL Damage, Push)
+Turning Blur on and Off
+Alpha scripts for the belt and back hilts.
+
+Forms and Styles are accessed by typing /69 form 'formname'. LCK-A comes with only the basic and strong forms, but users can buy new forms and add them.
+
+Predefined colors are in the system as well.
+To create a new color however, the commands are listed by the menu or you can just type
+/69 color <r,g,b>
+and
+/69 color2 <r,g,b>
+
+Color 1 being saber 1
+Color 2 being saber 2.

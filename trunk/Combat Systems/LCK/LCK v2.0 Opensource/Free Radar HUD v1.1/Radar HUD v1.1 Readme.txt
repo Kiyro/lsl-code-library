@@ -1,0 +1,105 @@
+﻿
+Free Radar HUD v1.1 by Crystal Gadgets
+Coded by Anthony Hocken, Nov 06
+
+Visit Crystal Gadgets at:
+􀀀
+
+______________________________________________________
+GETTING STARTED
+
+1) Visit our store (if you havent already) and click 
+   the "Radar HUD" plaque to receive your free Radar HUD.
+
+2) Locate the folder "Free Radar HUD v1.1" in your inventory.
+
+3) Right-click on "Radar HUD" and select "Wear".
+
+4) You will see a new "Radar" HUD shown in the bottom-right
+   of your screen. This lists all avatars within 96 meters of
+   your current position. Only you can see that list, and it 
+   auto-refreshes every 2 seconds by default.
+
+______________________________________________________
+MAIN FEATURES
+
+► Detect avatars up to 96m.
+► Fast real-time scanning.
+► Lists avatars on Head-Up Display.
+► Notifies when new avatar detected.
+► Chat, Close and Long range alerts.
+► Friends list with sound alert.
+► Enemy list with sound alert.
+► Partial avatar name matching.
+► Custom scan rate.
+► Custom command channel.
+► Custom volume level.
+► Custom close-range distance.
+► Logs location when enter new sim.
+► Easy to use with "help" command.
+
+______________________________________________________
+COMMANDS
+
+Tip: This list can also be quickly viewed by typing /3help while wearing the Radar HUD.
+
+/3chan [number]  -- Change the command channel.
+/3closerange [number]  -- Set the close range used for notifications.
+/3delete [name] -- Removes name from friends/enemy list.
+/3enemy  -- List all avatars on your Enemy list.
+/3enemy [name]  -- Add an avatar to your Enemy list.
+/3friends  -- Lists all avatars on your Friends list.
+/3friend [name]  -- Add an avatar to your Friends list.
+/3mem  -- Tells you the total free memory available.
+/3on  -- Turn radar on.
+/3off  -- Turn radar off.
+/3rate  -- Tells radar scan rate in seconds.
+/3rate [number]  -- Set radar scan rate in seconds.
+/3scan  -- List all avatars in radar range.
+/3shop  -- Receive landmark for Crystal Gadgets store.
+/3sim [on/off]  -- Turns on/off location info when you enter a new region.
+/3version  -- Tells version of radar. Visit store for updates.
+/3vol  -- Tells the current sound volume.
+/3vol [number]  -- Set sound volume for friend/enemy alerts (from 0 to 100).
+/3wipe [friends/enemy]  -- Wipe friends or enemy list.
+
+______________________________________________________
+UPDATES
+
+Be sure to join our Updates group to receive the latest news about our products. You'll be the first to know about new versions of this tool as well as new gadgets as they're released. To join our group visit Crystal Gadgets and click the "Join Our Group" sign. Please note that no chat or spam is allowed - this is just for occasional news updates by us.
+
+______________________________________________________
+POSITIONING YOUR HUD
+
+If you would rather attach the HUD to a different part of your screen then you can do that as follows. Detach the HUD if you're currently using it. Right-click on "Radar HUD" in your inventory and select "Attach To HUD" followed by the corner you prefer.
+
+After attaching a HUD to a different area of your screen you may find that the HUD disappears from view. If this happens you can use the following general technique. Please be advised though that you're on your own here. I can't offer assistance here for reasons of practicality and time.  It's a fiddly process but once you have mastered it you can use this technique with all your other HUDs.
+
+1) Firstly ensure you have access to any HUD on screen (doesnt even have to be this tool). If you don't see any other HUDs on screen then attach one from your inventory. If you don't have any other HUDS in your inventory then simply use a regular prim as a HUD as follows: Rez a new prim on the ground, hit ESC key to exit edit mode, right-click the prim, select "Attach HUD" then "Centre" - You should now see that prim fixed to the centre of your screen (later on simply right-click it and select "Detach" when you're finished).
+
+2) Right-click any HUD and select "Edit". This will put you in HUD edit mode.
+
+3) Zoom out. You should be able to use your mouse scrollwheel to do this.
+
+4) Everything will appear smaller now. The white square represents the edge of the screen. And you should see the Radar HUD tool now.
+
+5) Left-click the Radar HUD tool.
+
+6) You will find that the zoom level springs back to normal. But the Radar HUD tool is still selected even though you can't see it.
+
+7) Now zoom back out again.
+
+8) Reposition the tool so that it's within the white square.
+
+9) Hit the ESC key to reset the zoom level. Your tool should be within view. You can make further alterations to the position now.
+
+______________________________________________________
+REVISION HISTORY
+
+1.1
+► Removed long range advertising (spam) when HUD is first worn.
+► Reversed order of listed avatars on HUD.
+► Now has three to four times as much available memory for friends/enemy and scanning.
+
+1.0
+► Initial Release.

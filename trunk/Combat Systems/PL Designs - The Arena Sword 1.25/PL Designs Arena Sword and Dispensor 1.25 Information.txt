@@ -1,0 +1,67 @@
+﻿Tal Friends (and others)
+Thanks for using a product from Patrik Ling Designs. This is a free arena sword that I give away. You may get it from  my vendors or from a simple dispensor that can be bought for 10 lindens and setup in your arena. The blade of the weapon is blunt and should for that reason not be used for purposes other than sparing or tournaments.
+
+The weapon works with MetaLife meter, Gorean Meter, Gorean Ladder Meter Gorean Battle Meter, Skieweb Combat System, Dynamic Combat System (non enhanced), Ling Combat System, Osiris Combat System (non-enhanced for the free area sword as I need to pay for licences) and a range of SafeZone meters. The weapon can be set to work with a these meters by giving a set of commands (se below 1.d). From version 1.21 a  W A S D version is included in the package for those users who prefer W A S D fighting style. The for compability with DCS2 and Osiris meters you need to use the W A S D version of the sword to inflicts damage.
+
+
+NOTA BENE!! 
+- First time the weapon is attached to your avatar it will be configured to be used with the MetaLife Meter System. Simply click the sheath or give any of the meter commands (se below 1.d) to set weapon to the meter mode applicable for your needs.
+
+
+1. Usage
+a) Attach sword sheath and sword on you avatar. The damage scripted right hand/forearm version of the sword can be worn on either on right hand or on the forearm. All other attachment points are dissregarded and will cause the sword to detach. If you try to attach more than one damage scripted sword one of the swords will automatically detach itself. 
+b) Draw and sheath the blade
+        To draw weapon type "/1 draw sword" in chat**.
+        To sheath sword type "/1 sheath sword" in chat**.
+        
+        You may also click the sheath while weapon is sheatned and a menu will pop up or attach uHUD (from Tala) and click the name of the weapon in the  hud menu to either draw and sheath the blade
+
+
+c) Swing your blade
+    - If you attached the "click" version of the sword, use the sword by clicking on you left mouse button while weapon is drawn. 
+    - If you attached a "wasd" version of the right hand sword you hold down left mousekey while tapping w a s d keys (or movement keys) on your keyboard.
+
+
+d) Set meter mode
+By giving the sword commands on channel one you can set the weapon to work with different combat meters (see below). The weapon responds to the following set of commands by typing the following command in your chat:
+        "/1 ml" sets the  weapon in MetaLife meter mode
+        "/1 gm" sets the  weapon in Gorean Meter mode
+        "/1 glm" sets the  weapon in Gorean Ladder Meter mode
+        "/1 gbm" sets the  weapon in Gorean Battle Meter mode
+        "/1 sz" sets the  weapon in SafeZone Meter mode
+        "/1 scs" sets the  weapon in Skieweb Combat System mode
+        "/1 lcs" sets the  weapon in Ling Combat System mode
+        "/1 dcs" setup the  weapon to work with Dynamic Combat System mode (N.B. this only works with the WASD version of the sword)
+        "/1 osiris" sets the  weapon in Osiris Combat System non-enhanced mode (N.B. this only works with the WASD version of the sword)
+        "/1 defensive stance" sets the weapon in a defensive stance with range of 2.65 m and delay 0.65 s
+        "/1 offensive stance" sets the weapon in a offensive stance with range of 2.5 m and delay 0.55 s
+        "/1 sword menu" to bring up the sword settings menu
+        "/1 status sword" and the weapon will list its current settings
+        "/1 reset sword" will make the weapon script reset and bring back the original settings
+        
+    You may also: 
+            a) click the sheath and a menu will pop up
+            b) attach uHUD (from Tala) and click the hud to change the blade settings
+        
+
+2. Weapon Specifications
+For the metersystems ML, GM, GLM, GBM and SZ this weapon follows the guidelines provided in the notecard "Gorean Meter Weapon Guide 2.6".
+   Delay = 0.60s defensive stance and 0.55s offensive stance
+   Sensor Range = 2.65 m defensive stance and 2.5 offensive stance
+   Damage = sword (15) (N.B. damage  may VARY due to e.g. Meter Server settings etc)
+   Sensor arch = 180 degree
+   
+For SCS meter system the following stats are set:
+    Delay = 0.5s
+   Sensor Range = 2.5m
+   Damage = Large Melee
+   Sensor arch = 180 degree
+   
+
+When weapon is set in  DCS/LCS/Osiris mode  it does not do damage on any of the Gorean meters. 
+DCS and Osiris has range and delay is set to match the meter strike speed and range. 
+When set in LCS mode used with LCS meter the weapon sets itself up according to weapon class. From version 1.25 the weapon adapts its settings so they match LCS calculated settings for your character.  Use meter command "/1 melee status" to view weapon characteristics for your character using this weapon type. These settings only apply to weapon when set in LCS mode and will not affect settings on any other meter system.
+
+
+** = The shield will react to the "draw and sheath sword command if it is attached when you draw your weapon and follow the sword drawing and sheathing
+

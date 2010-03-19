@@ -1,0 +1,10 @@
+﻿Ship to Ship / Ship to Single Person Missile:
+
+if CCC, PCS or DCS is on
+type /1 arm in chat
+aim at target and fire.
+
+Ship to Ground -- Area Damage missile
+if CCC, PCS or DCS is on
+type /1 arm2 in chat
+aim at target on ground and fire. (this missile does NOT track the target. it has splash damage.)

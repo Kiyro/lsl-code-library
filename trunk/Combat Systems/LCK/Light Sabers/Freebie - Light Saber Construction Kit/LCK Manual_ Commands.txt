@@ -1,0 +1,58 @@
+﻿The following is a list and brief explination of the vocal commands for use with the Lightsaber Construction Kit. 
+
+
+PLEASE NOTE: Due to the inplimentation of the HUD attachment, All commands listen on channel 72
+
+New commands for version 1.5 are marked between the
+////////UPDATE\\\\\\\\
+and
+//////////End update\\\\\\\\\\
+symbols.
+
+Please Note: None of these commands are case sensitive.
+
+/ls on
+This will activate your saber.
+
+/ls off
+This will deactivate your saber.
+
+/ls anim off
+This will turn off control and animation of the Lightsaber, so that you can move about normally while still holding it.
+
+/ls anim on
+This will activate the control and animation functions of the lightsaber. (Default State)
+
+/ls hide cal
+This will make the Calibrator invisible. (See Notecard: Building and Customization)
+
+/ls show cal
+This will make the Calibrator visible again, should adjustments need to be made.
+
+/ls mode <mode>
+This will set the saber to a specific combat mode. Different combat modes change the amount of push and  damage dealt by the saber.
+Modes are:
+Low - intended for practice. No damage and little push.
+Normal - Normal every day saber use. Medium damage and push.
+High - When there is a threat on hand, this is the mode you want. High damage and a lot of push.
+1hitkill - This is the insanity mode. It will launch someone nearly across a sim and do the maximum amount of damage it can. Use this mode with respect.
+
+////////UPDATE\\\\\\\\
+
+defense - No push nor damage. Saber is able to deflect incoming projectiles so long as it is swung. Timing is a critical factor.
+
+//////////End update\\\\\\\\\\
+
+For example: To set your saber to the practice mode, say into chat:
+/ls mode low
+
+/ls style <style>
+This will switch to a different style, should it be installed. If it is not installed, there will be many animation and sound errors. By default, the saber kit comes with the BASIC style already installed. 
+
+Please refer to HUD documentation for coloring your saber.
+
+/ls dmg on
+Turns damage on, push off.
+
+/ls dmg off
+Turns damage off, push on.
