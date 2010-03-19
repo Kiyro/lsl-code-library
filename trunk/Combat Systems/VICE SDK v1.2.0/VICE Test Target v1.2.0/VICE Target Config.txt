@@ -1,0 +1,11 @@
+﻿INIT_HP=25             ; Initial HP (minimum is 1)
+REGEN_TIME=30    ; Regeneration time in seconds after being destroyed (minimum time is 30s)
+DAMAGE_TYPE=1   ; Type of Damage to receive.  (1, 2, or 3)
+
+; Type 1 is weakest and takes  damage from all types of guns.  Damage is comparable to an infantry unit's.
+
+; Type 2 is medium weight; the damage scaling is similar to that of a medium-sized airplane; bullets from infantry will have a minimal damage effect.  This type is recommended for things like wooden structures.
+
+; Type 3 is heavy weight; it is invulernable to infantry units, takes minimal damage from LMG and HMG.  It takes some damage from from cannon rounds (CAN) and explosive weapons (SMB, MDB, LGB, TRP, KMK).  This type of damage curve is recommended for heavy metal and concrete structures (like a heavy plated bunker door, for example).
+
+; For more finely-tuned damage scaling, try changing the initial HP until the desired durability is achieved.

@@ -1,0 +1,11 @@
+﻿VICE CMB Potato Masher,NULL,NULL,NULL
+<1.5,0.3,0.3>,NULL,NULL,NULL
+<0.0, 0.0, 0.0, 1.0>,NULL,NULL,NULL
+<7.0,0.0,3.0>,NULL,NULL,NULL
+
+# The first line shows the names of the bomb types.  Note that a bomb won't be considered an VICE weapon unless the bomb name starts with "VICE", followed by the type of bomb.  The bomb types in VICE are CMB, SMB, MDB, LGB, and TRP.
+# The second line shows the rez offset of the bomb, relative to the root prim.  The best values depend on the airplane's geometry, but any offset of distance >10m will silently fail.
+# The third line corresponds to the local rotation to rez the bomb at, relative to the airplane. Angles are expressed in quaternions, so <0.0, 0.0, 0.0, 1.0> corresponds to "zero rotation".
+# The fourth line corresponds to the velocity at which the bomb is rezzed, in relation to the rezzer's velocity and rotation.  For the infantry-type small bomb rezzer, the maximum offset velocity is 12m/s.
+
+# If you want to create your own bombs, simply add their information to the 4 comma-separated lists in the first 4 lines of this notecard.
