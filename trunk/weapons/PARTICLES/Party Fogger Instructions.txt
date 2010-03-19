@@ -1,6 +1,0 @@
-﻿                **************Party Fogger*****************
-                
-                
-                
-                
-The party fogger has a simple on-off function that responds to your touch. The party fogger is set to make fog on your dance floor if you place it in the middle of you light trellace. If you would like to put it somewhere else, some minor script modifications need to be made. In the fogger script you can set the size of fog as well as the location it will appear in relation to the fogger unit.

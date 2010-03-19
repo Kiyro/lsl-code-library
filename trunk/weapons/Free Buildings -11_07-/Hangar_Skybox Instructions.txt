@@ -1,1 +1,0 @@
-﻿This is a small (single aircraft) hangar/skybox. The hangar is in one piece (11 prims). The door, which is flexipath, is optional. Place it if you want to use it. Also, there is a control panel (non funcitional) with the hangar that can be placed to your wishes. Enjoy

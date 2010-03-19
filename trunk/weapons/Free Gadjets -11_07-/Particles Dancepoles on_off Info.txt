@@ -1,5 +1,0 @@
-﻿Particles on/off speak in Chat:
-
-/on
-
-/off

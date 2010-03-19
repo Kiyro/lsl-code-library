@@ -1,98 +1,0 @@
-﻿Thank you for using the Lance of Longinus Shield Breaker system!
-
-This note card will explain how to use the scripts included in this package.
-
-
-
-1.    Introduction
-
-2.    Using the scripts
-
-3.    Changing other scripts
-
-4.    LoLSBS gun maker info
-
-5.    General info
-
-
-
-
-
-1. Introduction
-
-The Lance of Longinus Shield Breaker System is a modular bullet system. What this means is that the features and abilities of the gun are not held within the gun itself, but are in the bullets. This lets the customer pick and choose what they want their gun to do. For example, a customer buys a hand gun and then uses a Buckshot Bullet, the hand gun will then fire buckshot. If they use an Orbiter Bullet, the gun will orbit anyone it shoots. If they use a Napalm Bullet, the gun becomes a flamethrower Etc&
-
-This allows gun makers who dont know how to script to release guns that can compete with leading gun makers. Or if you do know how to script, this lets you easily add extra features and value to your gun without compromising any of its usability. Many gun makers are now adding a LoLSBS Mode to their guns, instead of only using LoLSBS bullets.
-
-
-
-2. Using the scripts
-
-The LoLSBS gun script is simple to use. You only have to put the scripts in and change a few options. This section will explain how to do so with each script.
-
-
-The LoLSBS gun script:
-
-Put the script in to the guns inventory, and then double click it to open. At the top of script is a setup area with a list of options. Most options require you to just change it to TRUE or FALSE, or type in a name. Here is a list of the options with a short explanation of each one. Please note that this script is the only script needed in the gun itself. All other scripts are for other objects and should not be put in the actual gun.
-
-string firesound = ""; //Type the name of the sound you would like to use when firing between the "". If you do not select a sound, it may cause a few problems with the gun.
-integer customanimation = FALSE; //Change to true to use a custom animation. If its set to false, the gun will use a default gun animation built into SL.
-string customname = ""; //Type the name of the animation between the "" if you are using a custom animation.
-integer handgun = TRUE; //If you are not using a custom animation, set to TRUE to use a default handgun animation. Set to FALSE to use a default rifle animation. Each of these are built into SL and do not have to be in the guns inventory.
-integer multibullet = TRUE; //Set to TRUE to enable multi bullet. This allows the user to put in multiple bullets, and change them by clicking on the gun. This is always suggested; as if it is turned off the bullet the user wants to use will have to be named Bullet by hand. Set to FALSE to turn off.
-integer fullauto = TRUE; //Set to true to allow the user to switch from single shot to full auto. Set to false to stop them. Full auto will fire bullets for as long as the mouse button is held down.
-integer burst = TRUE; //Set to true to allow the user to use burst fire mode. When in burst firing mode the gun will fire 3 shots every time the trigger is pulled.
-integer reload = TRUE; //Set to true to force the user to reload after a number of shots are fired. During reloading, the user will not be able to fire the gun.
-integer clipsize = 10; //How many shots are fired before the user has to reload.
-float reloadtime = 1.0; //How many second it takes to reload the gun. Its suggested that it takes about the same amount of time as the animation if you are using one for reloading
-integer reloadanimation = FALSE; //Set to true if you want to use a reload animation.
-string rcustomname = ""; //Type the name of the reload animation between the "" if youre using one
-integer reloadsound = FALSE; //Set to true to play a sound when reloading.
-string rsound = ""; //Type the name of the sound you want to play when reloading between the "" if youre using one.
-integer holster = FALSE; //Set to true if you are using the included free holster script.
-integer loader = TRUE; //Set to true if you are using the loader system for loading bullets. If you do not use the loader, users will have to drop the gun on the ground and put the bullets in its inventory by hand.
-list exceptions = ["Loader"]; //If you have objects in the gun besides bullets, add them to this list to prevent the bullet scanner from adding them. The format for lists is ["Object1", "Object2", "Object3"} and so on. This is useful if you have edited the script to drop shells or do anything requiring an object that cannot be used as a bullet. Make sure to keep Loader in the list if you are using the loader system.
-
-
-The Loader script:
-
-Included in this package are a Loader script and a Loader ball with the script already put in. To use the loader system, put the Loader script in an object and name the object Loader. After the script has been put in the loader object, name it Loader and put it in the guns inventory. Make sure the loader object has modify and copy rights otherwise the user may not be able to put bullets into it!
-
-When the user selects Loader from the guns menu the loader object will rez above their head. They can then put the bullets in to the loaders inventory. After putting the bullets in the loaders inventory, they can then load them into the gun by clicking on the loader object and clicking on Load.
-
-
-The holster scripts:
-
-A normal holster is composed of 2 pieces; the actual holster, and then a copy of the gun that is linked to it. When a gun is un-holstered, the copy of the gun that is linked to the holster doesn't actually move. It just becomes invisible, and the real gun that is still attached to the users hand becomes visible again. When a gun is holstered, the reverse happens. With the gun attached to the users hand becoming invisible and the one attached to the holster becoming visible.
-
-The gun script handles the change by itself, but for the holster you have to pick and choose which prims will change. To do this, you need two scripts.
-
-Put the main holster script into the root prim of the holster. Then put the prim holster script into every prim of copy of the gun that is linked to the holster that will go invisible/visible. The main holster script controls the prim holster scripts and tells them when to change.
-
-
-The menu click script:
-
-This script will open the gun menu when the object it is in is clicked on. It's best to put this in a holster if you are using one, and any other wearable parts that come with the gun. This also has an option in the script to turn the object invisible/visible with the gun. To change this, just open up the script and set to TRUE.
-
-
-
-3. Changing other scripts
-
-Changing another script to use the LoLSBS is as easy as changing a few numbers. Open up the script and find the line with llRezObject. This is the line that fires the bullet. At the end of the line should be a number. Change this number to 100. This number will control the bullet speed. 100 equals %100 of the bullet speed which is preset in the bullets script.
-
-In older versions of the LoLSBS the bullets were fired like normal but at a lower velocity, and then accelerated themselves. It is suggested that you lower the rez velocity so that the gun is compatible with older versions of bullets. To do this, look for a line in the script that says speed = something; or fwd *= something; Change this number to five. What you want is for the gun to fire the bullets at 5 m/s.
-
-
-
-4. LoLSBS gun maker info
-
-Included in this pack is a free LoLSBS bullet with resell rights. It is suggested that you include this in all of your guns as the default bullet. Simply add this to your guns inventory and rename it to Bullet if you are using the gun script included in this package.
-
-If you are interested in selling your guns at one of our stores, please contact Auron Prefect or Apollo Case. We also offer LoLSBS bullet vendors that you can place in your own store.
-
-
-
-5. General info
-
-The LoLSBS bullets and LoLSBS compatible guns are available at the new Armory Island sim, as well as many stores all around SL. Thank you for using the LoLSBS!
-�
