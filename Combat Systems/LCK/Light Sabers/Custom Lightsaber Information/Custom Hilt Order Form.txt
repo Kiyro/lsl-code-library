@@ -1,0 +1,16 @@
+﻿Hello valued customer, to speed along the process of placing an order, I have created an order form for you to use and send in directly to me (Millenia Infinity). I will contact you once I receive it to make sure I got all the information correctly. Once the hilt is complete, payment is due. I do not accept partial payments, substitutions or trades. If you are unable to pay at the time the hilt is complete, I will hold onto the hilt for 3 weeks before putting it in my store to sell. If there is anything I have missed or you want to change the design after the order is placed, please contact me so I can change the hilt accordingly
+=======================================================
+***************************** ORDER FORM *******************************
+=======================================================
+Customer's Name:
+Desired Hilt Name:
+Hilt design: Jedi/Sith
+Color(s):
+Features you'd like it to have:
+Description:
+links to other lightsabers you'd like to incorporate:
+
+Notes:
+
+
+=======================================================
