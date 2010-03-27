@@ -1,0 +1,34 @@
+﻿====================
+= BNWCS Vendistributor
+= by Matthias Rozensztok
+====================
+
+======
+= Contents
+=====
+
+    1. Setup
+    
+    2. Notes
+    
+    3. Support
+    
+=====
+= Setup
+=====
+
+    1. Rez the Vendistributor and grant it debit permissions when it asks. This is so that a cut of any BNWCS purchase can be paid back to the creator - and the Vendistributor won't work without it :)
+
+    2. You're done. The Vendistributor will give away free combat systems until it runs out, at which point it will begin charging for them. If someone tries to pay it while there are still free combat systems remaining, it will refund them (another reason it needs debit permissions) and send one for free.
+
+=====
+= Notes
+=====
+
+    The Vendistributor pays 15% comission.
+    
+=====
+= Support
+=====
+
+    If something goes wrong with your Vendistributor, drop me, Matthias Rozensztok, a notecard and I'll be happy to fix it for you.

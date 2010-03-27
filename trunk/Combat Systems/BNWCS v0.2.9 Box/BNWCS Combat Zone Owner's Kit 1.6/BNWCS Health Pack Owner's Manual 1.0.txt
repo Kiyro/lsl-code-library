@@ -1,0 +1,36 @@
+﻿====================
+= BNWCS Health Pack
+= by Matthias Rozensztok
+====================
+
+=====
+= Contents
+=====
+
+    1. Setup
+    
+    2. Notes
+    
+    3. Support
+    
+=====
+= Setup
+=====
+
+    1. Rez the Health Pack.
+    
+    2. Edit the Health Pack's description. There are two numbers, separated by commas. The first number is how much the health pack will heal an avatar. The second number is how many seconds before the Health Pack will re-appear and be able to be picked up again.
+
+    3. Done!
+    
+=====
+= Notes
+=====
+
+    The Health Pack will NOT heal the avatar who owns it.
+    
+=====
+= Support
+=====
+
+    Problems with the health pack? Sure you're not trying to heal yourself with one you own? Feel free to drop me, Matthias Rozensztok, an IM or Notecard, and I'll see what I can do.

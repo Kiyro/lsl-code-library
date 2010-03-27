@@ -1,0 +1,42 @@
+﻿====================
+= BNWCS Landmarker
+= by Matthias Rozensztok
+====================
+
+=====
+= Contents
+=====
+
+    1. Setup
+    
+    2. Notes
+    
+    3. Support
+    
+=====
+= Setup
+=====
+
+    1. Rez the Landmarker.
+    
+    2. Type a short description of your combat zone into the Landmarker's description. This will show up in search, and as the first listing on the BNWCS website. Your parcel's description will be used for a longer description.
+
+    3. Touch the Landmarker to reset it.
+    
+    4. Done!
+    
+=====
+= Notes
+=====
+
+    If the Landmarker is un-rezzed for over 24 hours, your combat zone will no longer display on the BNWCS website.
+    
+    To remove your combat zone from the BWNCS website immediately, enter "delete" (without the quotation marks) in the Landmarker's description, then touch it to reset.
+
+    If you put a landmark inside the Landmarker, it will give it out when visitors touch it.
+    
+=====
+= Support
+=====
+
+    Problems with the Landmarker? Let me, Matthias Rozensztok, know, and I'll do what I can to fix it.
