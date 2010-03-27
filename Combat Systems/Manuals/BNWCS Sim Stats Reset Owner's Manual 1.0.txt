@@ -1,0 +1,32 @@
+﻿=====================
+= BNWCS Sim Stats Reset
+= by Matthis Rozensztok
+====================
+
+======
+= Contents
+=====
+
+    1. Setup
+    
+    2. Support
+    
+=====
+= Setup
+=====
+
+    1. Rez the "BNWCS Sim Stats Reset" object.
+    
+    2. If the parcel you are on is owned by you personally, you may skip the rest of this step. Otherwise, the "BNWCS Sim Stats Reset" will complain to you, and insist you deed it to the group that owns the land. If this is the case, deed it, then touch it to continue.
+
+    3. The "BNWCS Sim Stats Reset" object will ask you if you are sure you want to clear your sim's statistics. Touch it to answer 'yes.'
+    
+    4. The "BNWCS Sim Stats Reset" object will ask you again to confirm, and require you to wait 10 seconds. It will tell you when the 10 seconds are up.
+
+    5. Touch the "BNWCS Sim Stats Reset" object one more time. It will attempt to clear your sim's statistics. If it succeeds, it will let you know and delete itself. If it fails, it will let you know and remain rezzed. Touch it to try again.
+    
+=====
+= Support
+=====
+
+    Can't get it to clear your sim's stats? Drop me, Matthias Rozensztok, an IM or notecard, and I'll see what I can do.

@@ -1,0 +1,17 @@
+﻿teams=Red Team,Orange Team,Yellow Team,Green Team,Blue Team,Purple Team,Pink Team
+teamGroups=none,none,none,none,none,none,none
+damage_mod=1
+headshot_damage_mod=8
+respawn_time=10
+default_state=off
+disable_non_combative=no
+rez_skull=yes
+fall_damage=on
+team_damage=off
+allow_fly=yes
+floating_text=on
+allow_medic=yes
+medic_rate=3
+hit_cap=3
+silent=no
+minimum_version=0.7.6

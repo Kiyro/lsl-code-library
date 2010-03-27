@@ -1,0 +1,25 @@
+﻿How to use:
+
+You must have Copy and Modify rights to any object you want to rez with these scripts.  To use, edit the object to be rezzed and place the Rezzed Object Script in the Contents tab of that object and take it back into inventory.  I recommend renaming it, so you can tell the version with the script from the original object.  Create another 1-prim object ( a simple box works fine) and edit it.  Add the object to be rezzed (which contains the first script), along with the remaining three Temp Rez scripts to the Contents tab of this object and close the edit window.  Touch the object containing these scripts and the rezzable object.  A dialog will appear.  Turn on the rezzer, and the object will be rezzed and the 1-prim container object will be made invisible.  Edit the rezzed object and move it and rotate it to the desired position.  This must be within 10M of the object containing the scripts.
+
+NOTE:  Using a temp rezzer does not allow you to exceed the hard limit of 15,000 prims on a sim.  That limit applies to both temp and permanent prims.  What it does is allow you to "borrow" prim allocations from other parcels in the sim which may not be using their full allotment.  Looking at "About Land" on a parcel that is using a temp rezzer will count only the single permanent prim of the rezzer, not the temporary prims of the rezzed object.
+
+Dilbert Cleanslate
+
+Revision history:
+
+All of these scripts were originally written by Eata Kitty, but had a severe drift problem.  Her comments are:
+
+This is my version of those temporary rezzers that some jokers charge comedy prices for. I don't personally use one so I'm not sure if it's totally bug free and I didn't spend too long working on it so there's probably some improvements to be made.
+
+1.2 - Tweaked around the main some mostly changing how we store rotation and pos. I think this totally removes the weird drift problem. Pos and Rez handling is smarter and it also has checking on the 10M rez range.
+
+1.1 - Changed to use a timer as our main method for rerezzing, this makes rerezzes more smooth. The sensor provides a backup in case the object is deleted too early.
+
+Known Issue: The Turn On/Turn Off dialog options can get out of synch with the main script and I couldn't be bothered to put in a link message to resynch them or redesign the menu, just ignore it!
+
+Three scripts in the main object, one script for all objects to be rezzed.
+
+Thank you Eata Kitty!
+
+1.3 - fix by Dilbert Cleanslate.  Changed the llRezObject commands to llRezAtRoot.  This is the real fix to the drift problem. The previous scripts failed because sensor reports the position of the root prim only, and llRezObject uses the geometric center of the entire linked set.  Each time the object was rezzed, it would drift by the distance from the root prim's geometric center to the entire linked object's geometric center.

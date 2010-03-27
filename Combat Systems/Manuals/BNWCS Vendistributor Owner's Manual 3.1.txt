@@ -1,0 +1,34 @@
+﻿====================
+= BNWCS Vendistributor            =
+= by Matthias Rozensztok        =
+====================
+
+======
+= Contents
+=====
+
+    1. Setup
+    
+    2. Notes
+    
+    3. Support
+    
+=====
+= Setup
+=====
+
+    1. Rez the Vendistributor and grant it debit permissions when it asks. This is so that a cut of any BNWCS purchase can be paid back to the creator - and the Vendistributor won't work without it :)
+
+    2. You're done!
+
+=====
+= Notes
+=====
+
+    The Vendistributor pays 50% of all sales to Matthias Rozensztok.
+    
+=====
+= Support
+=====
+
+    If something goes wrong with your Vendistributor, drop me, Matthias Rozensztok, a notecard and I'll be happy to fix it for you.
