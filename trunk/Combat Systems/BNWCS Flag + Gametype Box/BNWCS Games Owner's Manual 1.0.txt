@@ -1,0 +1,124 @@
+﻿====================
+= BNWCS Games
+= by Matthias Rozensztok
+====================
+
+=====
+= Contents
+=====
+
+    1. Supported Gametypes
+    
+    2. Setup
+    
+    3. Notes
+    
+    4. Support
+    
+=====
+= Supported Gametypes
+=====
+
+    The BNWCS currently allows for the following "games" to be played, in addition to standard "shoot the other avatars until they die" inherent in all combat.
+
+== Traditional "Capture the Flag"
+=====
+
+        In this game, up to four teams each have a flag located somewhere. Teams must travel to other teams' bases, steal their flag, and bring it back to their own base to score a point. Teams cannot score any points if their own flag is not safely in their base.
+
+        For example, in a "Traditional Capture the Flag" setup with a Red Team and a Blue Team, members of Red Team must travel to the Blue Team base, steal the Blue flag, and bring it to the Red Team base, while preventing Blue Team from stealing the Red Flag. If they can do this, Red Team will get a point. Combat zone owners can set how many points equal a "win." When a team wins, the victory will be announced, and the flags will re-set.
+
+== Neutral "Capture the Flag"
+=====
+
+        In this game, there is at least one flag, that both teams must try to grab and bring to their base. Successfully bringing the flag to your team's base will score your team a point.
+
+        For example, in a "Neutral Capture the Flag" setup with a Red Team and a Blue team, with one flag in the center of the sim... Red Team must travel from their base to the flag, and bring the flag back to Red Base without letting Blue Team kill them and take the flag to Blue base. If Red Team can do this, Red Team will get one point. Combat zone owners can set how many points equal a "win." When a team wins, the victory will be announced, and the flags will re-set.
+
+=====
+= Setup
+=====
+
+    The BNWCS' Games come with an easy menu to switch between different gametypes. These instructions will instruct you in how to set up a combat zone for TWO TEAMS, and ALL game types.
+
+    1. Decide where Red Team's base will be, and decide where Blue Team's base will be.
+    
+    2. Decide where the Neutral flag will be. Somewhere evenly between the Team bases is a good place.
+    
+    3. Rez a "BNWCS Flag Drop" somewhere in Red Team's base. You may modify it however you want, and one default texture for each team is included inside the "BNWCS Flag Drop" object.
+
+    4. Enter the word "red" in the "BNWCS Flag Drop" object. (Because this one is for the *RED* team)
+        
+        If the Flag Drop asked you to deed it to your group's land:
+            4.a) Deed it now.
+            4.b) Touch it to reset (with the deeded group active)
+            4.c)  It will whisper "Active" to let you know that it is working.
+        
+        If the Flag Drop did not ask you to deed it to your group's land:
+            4.d) Take it to your inventory
+            4.e) Re-rez the Flag Drop.
+            
+    5. Rez a "BNWCS Flag Rezzer" object near or on the "BNWCS Flag Drop" object. You can make it transparent and set it on top, or place it nearby.
+
+    6. Edit the "BNWCS Flag Rezzer" object's description to contain the following phrase:
+    
+    ----------------------------------------
+    BNWCS.Gametype.TraditionalCTF
+    ----------------------------------------
+    
+    This tells the Flag Rezzer what kind of games will need it.
+    
+    7. Make a copy of the "BNWCS Red Flag" object in your inventory, right-click the copy, and choose "properties."
+    
+    8. There are three things in the Flag's description. Out of the box, the description should say "65,3,red" (without quotation marks.) The 65 means that the flag will return to Red Base 65 seconds after it is dropped, if nobody else picks it up. The 3 is the number of captures required to win. Blue Team would have to capture the flag 3 times in order to win, in this case. Finally, the "red" tells the flag that it is the *RED* Team's flag. You may change the 65 (flag respawn time) and 3 (captures to win) as you see fit.
+    
+    9. Remove any existing flag from the contents of the "BNWCS Flag Rezzer" object, and place your modified "BNWCS Red Flag" object - because this one is for the *RED* team.
+
+    10. If the Flag Rezzer asked you to deed it to your land's group, do that now. After you do, touch it to reset. It will whisper "Active" to let you know that it is working.
+
+    11. Repeat Steps 3 to 10 for the Blue Team Base, with the following changes:
+        - Enter "blue" (without quotation marks) in the Blue Team's "Flag Drop" object.
+        - Place a "BNWCS Blue Flag" object inside the Flag Rezzer, instead of a red flag.
+    
+    12. Rez another "BNWCS Flag Rezzer" at the location you decided for the "Neutral" flag.
+    
+    13. Edit the "BNWCS Flag Rezzer" object's description to contain the following phrase:
+    
+    ----------------------------------------
+    BNWCS.Gametype.NeutralCTF
+    ----------------------------------------
+
+    14. Make a copy of the "BNWCS Neutral Flag" object in your inventory, right-click the copy, and choose "properties."
+    
+    15. There are two things in the Flag's description. Out of the box, the description should say "65,3" (without quotation marks.) The 65 means that the flag will return to Red Base 65 seconds after it is dropped, if nobody else picks it up. The 3 is the number of captures required to win. A team would have to capture the flag 3 times in order to win, in this case.
+    
+    16. Remove any existing flag from the contents of the "BNWCS Flag Rezzer" object, and place your modified "BNWCS Neutral Flag" object inside.
+
+    17. If the Flag Rezzer asked you to deed it to your land's group, do that now. After you do, touch it to reset. It will whisper "Active" to let you know that it is working.
+
+    18. Go to your combat zone's safezone, hub, or wherever you keep server objects - You are now ready to rez the control panel that will switch between games. 
+
+    19. Rez the "BNWCS Gametype Selector" object.
+    
+    20. If it asks you to deed it to your land's group, do that and touch it to reset.
+    
+    21. Click one of the flag buttons, and the corresponding flags should appear where you placed the rezzers. Clicking "Free-for-all battle" will remove all flags. If you deeded the Gametype Selector, you will need to have that group's tag active in order to control it.
+
+    22. Repeat steps 3 to 10 if you wish to have more than two teams. Repeat steps 12 through 17 if you wish to have more than one "Neutral" flag. Unless you have LOTS of players, this is not a good idea - it makes the game too easy.
+    
+
+=====
+= Notes
+=====
+
+    - Pick up flags by running into them. They will follow you around.
+    - If you die, the flag will drop on the ground.
+    - Flags on the ground will return to their spawns after a set period of time.
+    - If you move too fast, the flag will be left behind and drop on the ground. Moving more than 10 meters away from the flag will drop it. Usually, jumping down hills or flying will cause the flag to drop.
+    - You can click the flag to drop it.
+    
+=====
+= Support
+=====
+
+    Problems with the games? Daunted by the 22 steps? Feel free to drop me, Matthias Rozensztok, an IM or Notecard, and I'll be happy to help.

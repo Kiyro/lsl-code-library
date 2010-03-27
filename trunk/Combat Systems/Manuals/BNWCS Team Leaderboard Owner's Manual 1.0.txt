@@ -1,0 +1,42 @@
+﻿====================
+= BNWCS Team Leaderboard
+= by Matthias Rozensztok
+====================
+
+=====
+= Contents
+=====
+
+    1. Setup
+    
+    2. Usage
+    
+    3. Support
+    
+=====
+= Setup
+=====
+
+    1. Rez the "BNWCS Team Leaderboard"
+    
+    2. Wait a few seconds while it loads, until it says "Coming Online."
+    
+    3. If you have the BNWCS Gametype Selector rezzed (to allow you to switch between types of capture the flag and traditional games), click one of its gametype buttons now. If you rez one AFTER you rez the Team Leaderboard, you do not need to worry about this step.
+    
+=====
+= Usage
+=====
+
+    1. Touch the "BNWCS Team Leaderboard" and select a time limit. You may choose one of the buttons, type your own time limit on chat channel 15, or select "Unlimited" - the game will go until you stop it.
+
+    2. The leaderboard will now track kills (or rounds won, if you are playing a capture-the-flag game) until its time limit is up, or someone ends the game.
+
+    3. Any time before the time is up, you may touch the Leaderboard and select "End" to end the game prematurely.
+    
+    4. If you want, you may edit the "Access List" notecard inside the leaderboard. Here, you may put one avatar name per line. Avatars whose names are in this notecard will be able to control the Leaderboard, in addition to yourself. If you add a line with the word "group" everyone in the same group as the Leaderboard will be able to control it. If you add the word "public" on a line, EVERYONE and ANYONE will be able to control the leaderboard.
+    
+=====
+= Support
+=====
+
+    Leaderboard not working right? Drop me, Matthias Rozensztok, an IM or Notecard, and I'll see what I can do about fixing it.

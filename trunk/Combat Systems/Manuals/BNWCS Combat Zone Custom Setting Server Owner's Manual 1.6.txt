@@ -1,0 +1,156 @@
+﻿=====================
+= BNWCS Custom Setting Server
+= by Matthis Rozensztok
+====================
+
+======
+= Contents
+=====
+
+    1. Setup
+    
+    2. Notes
+    
+    3. Support
+    
+=====
+= Setup
+=====
+
+    1. Rez a Custom Setting Server object. You must either own the land personally, or be able to deed it to the group that owns the land.
+    
+    2. Open the "BNWCS Sim Settings" notecard. It comes with the default settings - so that rezzing it the first time will *not* change anything in your combat zone. A summary of the settings you can tweak as of Server 2.2 are:
+
+                -----
+                teams=Red Team,Orange Team,Yellow Team,Green Team,Blue Team,Purple Team,Pink Team
+                -----
+                
+                    These allow you to change the *displayed* team names. Avatars will still use "/8 team red" or similar to change teams; but they will be shown differently. Team names are separated by commas, in the order "Red,Orange,Yellow,Green,Blue,Purple,Pink"
+
+                    If you have fewer than seven comma-separated phrases, any teams beyond that will not display anything extra over an avatar's head when they choose that team, making them indistinguishable from players who actually are not on a team. If you put spaces for a team name, you can also achieve the same effect.
+                
+                -----
+                teamGroups=none,none,none,none,none,none,none
+                -----
+                
+                    The Second Life Group UUIDs/Keys corresponding to the group that user must be wearing as their active group tag in order to join one of the four teams. The order is "Red, Blue, Yellow, Green"
+
+                    For example, if your group's UUID is "f47ac10b-58cc-4372-a567-0e02b2c3d479" and you replace the first "none" with that, only people who are in your group with the group tag active will be able to join the Red team. If you replaced the last "none" instead, only members of your group would be able to join the PINK team.
+
+                    Unlike team names, less than seven comma-separated values has the effect of making it IMPOSSIBLE to join any of the teams. Similarly, if you use something that is not a UUID, like "blocked," for a team's group, no one will be able to join it.
+                
+                -----
+                damage_mod=1
+                -----
+                
+                    A modifier that all BNWCS damage will be multiplied by - If you put 2, all damage will be doubled. If you put 0.5, all damage will be halved.
+
+                -----
+                headshot_damage_mod=8
+                -----
+                
+                    When an avatar takes a headshot, the "normal" damage for the hit will be computed, then it will be multiplied by this number. By default, it is 8.
+                
+                -----
+                respawn_time=10
+                -----
+                
+                    The default respawn time for avatars that don't have a respawn point. If you have set up a public respawn point, ITS respawn time will be used instead of this.
+
+
+                -----
+                default_state=off
+                -----
+                
+                    This setting has two choices, "on" or "off" (without quotation marks). If you choose "on," the BNWCS in your sim will enter "combative" mode after starting up. Anyone who TPs into your sim with a "non-combative" BNWCS will be switched to "combative" mode.
+
+                    If you choose "off," the BNWCS will go to "non-combative" mode after starting up. Visitors who TP into your sim with a "combative" BNWCS will *NOT* be forced into "non-combative" mode.
+
+                -----
+                disable_non_combative=no
+                -----
+                
+                    This setting has two choices, "yes" or "no," without the quotation marks. If you choose "yes," players wearing a BNWCS in your sim will be unable to switch to "non-combative" mode. This means their BNWCS will go directly to "combative" after starting up or TP'ing in.
+
+                    If you set it as "no," "non-combative" mode will remain an option. If you set the "default_state" from above to "off," and then disable "non-combative" here, the Custom Settings Server will stab you with a spoon... by which I mean force everyone into "combative" mode. This setting overrides "default_state."
+
+                -----
+                rez_skull=yes
+                -----
+                
+                    If you want to turn off the "a skull rezzes when you kill someone" feature, you can change the "yes" to a "no" (without quotation marks)
+
+                -----
+                fall_damage=on
+                -----
+                
+                    If you want to disable "Fall damage" - that is, taking damage when avatars bump into things at high speed, simply change the "on" to an "off"
+
+                -----
+                team_damage=off
+                -----
+                    
+                    By defaut, avatars on the same team cannot damage each other... if you want to enable team damage, change "off" to "on"
+
+                -----
+                allow_fly=yes
+                -----
+                    
+                    By defaut, avatars will be able to fly if the parcel they are on allows it. Changing this to "no" will prevent avatars from flying except in the "non-combative" mode.
+                
+                -----
+                floating_text=on
+                -----
+                    
+                    Changing this to "off" will cause the floating text over the heads of avatars to be hidden. The BNWCS will continue to function normally.
+                    
+                -----
+                allow_medic=yes
+                -----
+                    
+                    If this is "yes," teammates will be able to bring each other back from the dead WITHOUT having to respawn, by crouching near a fallen teammate, when not in mouselook.
+                    
+                -----
+                medic_rate=3
+                -----
+                    
+                    In order to revive a dead teammate, "50 HP" must be restored. Whatever number this is set to, "10 HP" will be restored every that many seconds. Making this bigger makes it take longer to revive avatars. Making it smaller makes it faster.
+                    
+                -----
+                hit_cap=3
+                -----
+                    
+                    By defaut, the BNWCS will not count damage from more than 3 simultaneous collisions. This serves as a safeguard against abuse. If you wish automatic and shotgun weapons to be more powerful, you can increase this. If you wish to handicap automatic and shotgun weapons, you can decrease this.
+
+                -----
+                silent=no
+                -----
+                    
+                    If this is "yes," the BNWCS will not play its death sound when an avatar is killed. Useful for Linden-damage sims.
+
+                -----
+                minimum_version=0.7.6
+                -----
+                
+                    This is the minimum version of the BNWCS that will be allowed to function in your sim. If a user's BNWCS version number is too low, they will not be able to enter combative mode. You *can* set this higher than the current version (as shown on http://www.bnwcs.org), and then nobody will be able to enter "combative" mode. 
+
+    3. Save the notecard
+    
+    4. Deed the Custom Setting Server to the group that owns the land of your combat zone if you need to. If you do this, open and re-save the notecard.
+
+    5. Right-click the notecard in the "Custom Settings Server's" inventory, and select "Properties." Check the "share with group" box.
+
+    5. Done!
+    
+=====
+= Notes
+=====
+    
+    See http://BNWCS.org/?zone_notes for the most up-to-date listing of what settings you can tweak.
+    Purple, Pink, and Orange teams only work with BNWCS 0.7.6 or higher.
+    
+=====
+= Support
+=====
+
+    Settings don't seem to be working? Drop me, Matthias Rozensztok, an IM or Notecard and I'll see what I can do!

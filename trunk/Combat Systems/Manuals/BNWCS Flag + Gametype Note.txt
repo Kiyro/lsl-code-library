@@ -1,0 +1,6 @@
+﻿====================
+= BNWCS Flags + Gametypes
+= by Matthias Rozensztok
+====================
+
+The BNWCS Flag + Gametype box allows you to add various other "games," such as Capture the Flag, into your BNWCS combat zone. Complete instructions can be found inside its box.

@@ -1,0 +1,57 @@
+﻿=====================
+= BNWCS Respawn Point
+= by Matthis Rozensztok
+====================
+
+======
+= Contents
+=====
+
+    1. Setup
+    
+    2. Notes
+    
+    3. Support
+    
+=====
+= Setup
+=====
+
+    1. Rez the BNWCS Respawn point.
+    
+        If the land you are on is owned by a group, you will need to deed the Respawn Point to that group.
+    
+        By default, anyone who dies while wearing a BNWCS will respawn to this point. If you want to limit a respawn point to a certain team (say, one for each team's base,) you can edit the respawn point's description, changing "public" to the (all-lowercase) name of the team you want to use the respawn point. For example, to create a respawn point for "Red Team" in the "Red Team Base," rez a respawn point in the "Red Team Base," and change the word "public" in its description to "red" - it should then be "10,red" in the description. "red", "blue", "yellow", and "green" are the four possible teams.
+
+    2. To change the respawn TIME, simply change the number in the Respawn point's description, making sure to keep the comma and the word after it.
+
+    3. You must touch the respawn point after making changes to its description. If the respawn point is deeded to a group, you must have that group active when you touch it.
+
+    4. The Respawn Point is moddable, so you can change its color and look to match your area's theme.
+    
+    == OPTIONAL==
+    
+        If you want avatars to randomly respawn to one of multiple respawn points, simply repeat steps 1-4 for additional respawn points.
+    
+    
+=====
+= Notes
+=====
+
+    A "public" respawn point will be used by anyone and everyone. This includes avatars on a team who do NOT have a dedicated "team" respawn point.
+    
+    A "team" respawn point (red, blue, yellow, or green) will be used ONLY by avatars who die while a member of that team.
+    
+    After you set up a respawn point, if you want to remove it, deleting it is not enough. You must add "delete" to the end of its description, then touch it. For example, "10,public,delete". It will say "Respawn Point Removed" instead of "Online," after you touch it.
+
+    You may delete ALL saved respawn points by using "delete_all" in the description, instead of "delete." If you have any respawn points rezzed in-world, they will put themselves back within 5 minutes.
+
+    You can have more than one respawn point per team (including 'public' respawn points). If you do, avatars will randomly be sent to one of the applicable respawn points when they die.
+    
+=====
+= Support
+=====
+
+    Respawn point not working right? Drop me, Matthias Rozensztok, an IM or Notecard, and I'll see what I can do about whipping it into shape.
+    
+    

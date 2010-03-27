@@ -1,0 +1,105 @@
+﻿=========================
+== Brave New World Combat System ==
+== Combat Zone Owner's Kit               ==
+== by Matthias Rozensztok                 ==
+==􀀀                         ==
+== http://BNWCS.org                            ==
+=========================
+
+======
+= Contents
+=====
+
+    1. Intro
+    
+    2. Pieces
+    
+    3. Support
+    
+=====
+= Intro
+=====
+
+    The contents of this box are for people who want to set up a combat zone that is enhanced for use with the Brave New World Combat System.
+
+    If you are not one of those people, the contents of this box will not be very useful to you.
+    
+    If you are, however, please also consider joining the "Brave New World Combat" SL group - it is through this group that I will send out notices about CRITICAL updates to combat zonen components, and you as a combat zone owner can send out group notices to potential combatants. Look it up in SL search, or click your own "BNWCS Group Joiner" - included in this box!
+    
+    The Brave New World Combat System -can- work anywhere in SL, though certain features require setup on the combat zone owner's part, and won't be available in just any sim. This box contains the objects needed to make those extra features available. The following section will tell you which of the objects in this box do what.
+
+=====
+= Pieces
+=====
+
+--------------------
+    = If you want to do this...
+        
+        This is what you'll need.
+--------------------
+
+    = Customize Settings
+    
+        Combat zone owners can tweak many of the settings of the BNWCS, to customize the combat experience in their area. You will need the "BNWCS Combat Zone Custom Settings Server" and its Owner's Manual.
+
+--------------------
+
+    = Advertise your combat zone on http://BNWCS.org
+    
+        In order for your combat zone to show up on http://BNWCS.org/?page=zones , all you have to do is rez the "BNWCS Combat Zone Landmarker" object. Instructions are included in its Owner's Manual.
+
+--------------------
+
+    = Show people how much damage their weapons deal.
+    
+        The "BNWCS Damage Tester" object will display data about BNWCS damage, including splash and melee. Rez it and let other people attack it.
+
+--------------------
+
+    = Set up capture the flag
+    
+        "Capture the flag" requires several pieces to be set up. All of these pieces, including instructions, are included inside the "BNWCS Flag + Gametype Box"
+
+--------------------
+
+    = Join and invite people to the Brave New World Combat SL Group
+    
+        Simply rez the "BNWCS Group Joiner" object, and avatars who click it will be shown the "Brave New World Combat" group and be able to join - where they can hear notices from combat zone owners like you.
+
+--------------------
+    
+    = Set up Health Packs
+    
+        Health packs allow avatars to recover lost health by running into them. You need the "BNWCS Health Pack" (or "BNWCS Vehicle Health Pack") object. Instructions are included in the "BNWCS Health Pack Owner's Manual."
+
+--------------------
+
+    = Set up scoreboards
+    
+        There are two types of scoreboards: One will show individual avatar rankings. For this, you will need the "BNWCS Leaderboard" object, and its Owner's Manual  notecard.
+
+        The other scoreboard tracks TEAM scores during team battles. This is the "BNWCS Team Leaderboard" object. Instructions for its setup and use are included in the "BNWCS Team Leaderboard" notecard.
+
+--------------------
+
+    = Respawn Points
+    
+        Respawn points force avatars to return to a point you choose when they die, instead of coming back to life where they stand as with most safezone systems. You need the "BNWCS Respawn Point" object. Instructions are included in the "BNWCS Respawn Point Owner's Manual"
+
+--------------------
+
+    = Set up a homepoint, safezone, or hub area.
+    
+        "/8 home" will rez a teleporter to take an avatar to your combat zone's designated safezone or homepoint. You will need the "BNWCS Home Point" object. Instructions are included in the "BNWCS Home Point Owner's Manual."
+
+--------------------
+
+    = Distribute BNWCS Health Meters to other avatars in your combat zone.
+    
+        The "BNWCS Vendistributor" is a BNWCS affiilate vendor - simply rez it, and it will provide health meters to anyone who pays it, sending a share of the proceeds back to the system's creator.
+
+=====
+= Support
+=====
+
+Confused? Got a question? A suggestion? Found a bug? Please feel free to drop me, Matthias Rozensztok, an IM or notecard, and I'll be happy to assist.

@@ -1,0 +1,38 @@
+﻿=====================
+= BNWCS Home Point
+= by Matthis Rozensztok
+====================
+
+======
+= Contents
+=====
+
+    1. Setup
+    
+    2. Notes
+    
+    3. Support
+    
+=====
+= Setup
+=====
+
+    1. Rez the BNWCS Home point.
+    
+        If the land you are on is owned by a group, you will need to deed the Respawn Point to that group, then touch it WITH THE LAND GROUP TAG ACTIVE.
+
+   2. Done.
+    
+=====
+= Notes
+=====
+    
+    After you set up a home point, if you want to remove it, deleting it is not enough. You must change its description to "delete" (without quotation marks) and then reset it. It should say "Home Point Removed" in public chat.
+    
+=====
+= Support
+=====
+
+    Home point not working right? Drop me, Matthias Rozensztok, an IM or Notecard, and I'll see what I can do about whipping it into shape.
+    
+    

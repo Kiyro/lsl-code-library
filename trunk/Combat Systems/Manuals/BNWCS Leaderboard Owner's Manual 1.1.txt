@@ -1,0 +1,38 @@
+﻿====================
+= BNWCS Leaderboard
+= by Matthias Rozensztok
+====================
+
+=====
+= Contents
+=====
+
+    1. Setup
+    
+    2. Usage
+    
+    3. Support
+    
+=====
+= Setup
+=====
+
+    1. Rez the "BNWCS Leaderboard"
+    
+    2. Wait a few seconds while it loads statistics for your sim.
+    
+    3. Done!
+    
+=====
+= Usage
+=====
+
+    1. Touch the leaderboard.
+    
+    2. You can change the frequency with which it updates its display, the statistic it uses to display rankings, or reboot it.
+    
+=====
+= Support
+=====
+
+    Leaderboard not working right? Drop me, Matthias Rozensztok, an IM or Notecard, and I'll see what I can do about fixing it.
