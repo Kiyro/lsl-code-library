@@ -1,0 +1,23 @@
+﻿Hi there,
+
+A nice simple set this time.      I was simply looking to create some weapons to just look pretty in the background.     Simply rezz them where you want them to go.
+
+There are several items in the pack.  Rockets, Missiles, Guns, Mines etc. even a raygun, well you never know the advances we are making now.
+
+Each type has the following bits.
+1) A simple non scripted item.    Some of these have been made by third parties and I have modified simply to remove scripts.
+2) An empty  rack for the item.
+3) A fully laden rack with a rack full of the item.  Note: Some of these are missing as they have so many prims that it can't be linked.   Use the adjustable one.
+4) A fully laden rack again full of the item but this time not linked so that you can delete the indiidual items to make a tailor made partially full rack.    This is identified in the inventory as the usually jumbled objects icon.     Take care when you put this down as not being linked if you move the rack the items will stay where they are.   I would suggest tailoring it to your requirements and then linking them to move hem to make life easier.
+
+I will be adding other items as I expand my base in SL so I'll keep this updated.
+
+You may find that you would like other colour schemes and some markings on them.  All items are fully mod so help yourself.  If you want to submit any modified items or any new items for the pack then feel free.  I'll give you credit for your work.
+
+Have fun.
+
+My thanks to the following for their weapons.   Saved me having to attempt to recreate inferior copies.
+Hugo Reitveld
+jwoulf Sholokhov
+Mistress Midnight
+Subversive Writer

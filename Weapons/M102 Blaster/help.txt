@@ -1,0 +1,47 @@
+﻿Hi, Thank you for purchasing this Fallen-Faith inc. (c) weapon.  If you enjoy our weapons and/or services please feel free to spread the word useing this notecard (�) Now on to the instuctions! All commands must be said WITHOUT quotation marks, if you use quotation marks the script will not recoginze the command.
+
+
+The following are directions for MOST F-F Class 4 weapons.
+---------------------------------
+Range and Velocity
+---------------------------------
+"/?v" -> "Finds the Velocity of your weapon"
+"/v "-> "Sets the velocity of your weapon (Example : Say /v 100 to set your velocity to 100)"
+---------------------------------
+Animations
+---------------------------------
+"/na"->"not any", no animation
+"/hr" -> "hold rifle" the holding rifle animation*
+"/hp" -> "hold pistol" the holding pistol animation*
+"/hb" -> "hold bazooka" the holding bazooka animation*
+"/ab" -> "aim bazooka" the aiming bazooka animation
+"/ar" -> "aim rifle" the aiming rifle animation
+"/ap" -> "aim pistol" the aiming pistol animation
+
+*= must have one of thease animations playing in order to have gun function as it should, otherwise the bullet will come out in a different direction then intended.
+---------------------------------
+Holster
+---------------------------------
+To holster/unholster your weapon, simply click the holster itself, first click will start the script, next will holster the gun, then the next will unholster, continue steps 2 and 3 therefore, seeing as the first click is only needed to start the script on rez.
+---------------------------------
+Misc.
+---------------------------------
+"laser" -> Turns laser on
+"laser_off" -> Turns laser off
+"/r"-> Resets the script
+
+The Following are more advanced features, try these to see if they are on your weapon!
+---------------------------------
+Attachments
+---------------------------------
+"muiltple_clips" -> Cosmetic Attachment : shows 3 clips instead of one
+"one_clip" -> Cosmetic Attachment : shows one clip instead of 3
+"silencer" -> Functioning Attachment :Lowers weapon sound and changes sound to a silenced shooting sound
+"silencer_off" -> Functioning Attachment : Increases sound and changes sound to a unslienced shooting sound.
+"scope" -> Cosmetic Attachment : Shows a scope instead of handle
+"scope_off" -> Cosmetic Attachment : Shows a handle instead of a scope
+"stock" -> Cosmetic Attachment: Shows the back weapon stock
+"stock_off" _> Cosmetic Attachment : Does not show the back weapon stock
+
+If there are any errors or you are not satisfied with your purchase please contact Ryen Jade with any complaints/complements :)
+
