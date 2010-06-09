@@ -1,0 +1,28 @@
+﻿                                      -/-/-/-/-L86A2 Light Support Weapon-/-/-/-/-
+                                      
+                                      
+     The L86A2 LSW (Light Support Weapon) is another weapon in the SA80 family. It has a longer, heavier barrel, an extra pistol grip and a bipod, providing greater long range firepower and accuracy compared to the SA80 rifle. In fact the LSW has excellent accuracy comparable to that of a sniper rifle. All weapons within the SA80 family are 5.56 mm NATO calibre and like the SA80 rifle it is fed by a 30 round magazine. The LSW is now known as the DMR ( Designated Marksmen Rifle ).
+
+           This peticular L86A2 has been modifyed by Blade Syakumi from the SLLF standerd issue L85A2, just like the Real Life version. The commands are basic and the same as all the weapons within SLLF.
+
+unholst - Unholsters the weapon.
+
+nosafe - Sets the weapon to "Fire"
+
+auto - Sets the weapon to Fully Automatic 
+
+single - Sets the weapon to Single Shot
+
+reload - Reloads the weapon
+
+safe - Sets the weapon to "Safe"
+
+holst - Holsters the weapon.
+
+damge - Sets the weapon to fire 100% Damage Bullets.
+
+training - Sets the weapon to fire 1% Damage Bullets
+
+push - Sets the weapon to fire push bullets --NOTE-- These rounds are BANNED by the Second Life Strategic Arms Limitations Treaty. Any use of these in combat will result in seveer punishments.
+
+help - Gives this notecard
