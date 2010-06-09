@@ -1,0 +1,5 @@
+﻿This is my updated warthog, with new wheel textures and sounds. And with custom animations!
+
+If you own my new Pelican, you get this free with it. There is a script inside (full perms) that allows the vehicle to follow the pelican or whatever you set it to follow. 
+
+The turret isnt included in this one as its being working on, but whenever ever its done, you will get it free.

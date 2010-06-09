@@ -1,0 +1,66 @@
+﻿=========
+Terra E-Chute
+=========
+􀀁
+
+The Terra E-Chute is an emergency parachute designed to save pilots from unfortunate encounters with the ground. It's use is limited to auto-deploying when you free-fall below 100 meters. Unlike a full-featured parachute, the E-Chute is designed simply to prevent unfortunate pilot-protein splatters.
+
+* Eject from aircraft safely.
+
+* Prevent unfortunate falls from high structures.
+
+* Arrive at events in style.
+
+* Includes skydiving freefall and steering poses by Apotheus Silverman.
+
+* Textures by Grey Nolder.
+
+The E-Chute is re-usable and comes in a discreet fanny pack.
+
+Remember: falling is fine. It's what happens when you meet the ground that you have to worry about.
+
+---
+How to use:
+
+Attach the E-Chute to your avatar's pelvis (it's stored in a fanny pack). If your avatar is freefalling above a certain speed and below 100 meters above the ground, the parachute will deploy automatically. 
+
+To deploy your parachute manually, say "pull".
+
+To close your parachute manually, say "close".
+
+
+===============
+
+Upgrade to the TerraSport parachute!
+
+The TerraSport gives you more control over your skydiving experience.
+
+* Set the auto-deploy for any altitude (PRO version only).
+* Canopy and ropes all pack inside a parachute backpack.
+* Leaves a marker on your landing spot -- great for competitive events.
+* Records your jump stats at www.cubeyterra.com.
+* Works with all of the Terra skydiving accessories: skyboards, smoke trail, goggles, helmets, etc.
+* Changes color on command (PRO version only).
+* Works with the Terra skydiving target.
+
+===============
+Visit Abbotts Aerodrome to get yourself a Terra Sport Chute!
+􀀀
+===============
+
+Other skydiving gear from Cubey Terra:
+
+* Terra DS3 Skydiving Drop Ship - Seats a pilot plus 6 skydivers. Flies like a helicopter anywhere. Also includes a jump sequence like the skydiving pods.
+
+* Terra Skydiving Pod - Pod blast skydivers up to jump altitude, drops them, then returns to the starting point for the next ride. Comes in 4-seat and 8-seat versions.
+
+* Camo skydiving gear kit - All the great skydiving gear from Cubey Terra but redone in army camouflage style. 
+
+* Skyboards - Why just fall? Surf the clouds on the way down! Comes as regular style, winged "Glide Board", or insanely fast "Rocket Board". Works with TerraSport parachutes only.
+
+* Color-changing helmets, goggles, and cold smoke. Add color to your freefall with these scripted accessories. Change your parachute's color, and they'll change color to match.
+
+* Terra BubbleTargets skydiving game. Score points by hitting targets as you descend.
+
+
+

@@ -1,0 +1,9 @@
+﻿*Aristocrats* SkyClimberRocketsの使い方
+How to use *Aristocrats* SkyClimberRockets
+
+
+装着してタッチするだけです。
+Just wear the Rockets and touch.
+
+水平方向に進むとSIMの壁に突っこんだりするので、あまりおすすめしません。
+It could be dangerous to move toward horizontal axis. because, the Rockets are very fast. You gonna stuck into the limit of SIM(like invisible wall).

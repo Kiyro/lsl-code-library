@@ -1,0 +1,26 @@
+﻿*DO NOT MODIFY OR YOU WILL LOOSE THE ORIGINAL SETTINGS, USE THE NOTE TITLED COLOUR MODIFY*
+*************
+colour 1 name :White <1,1,1>
+*************
+colour 2 name :Black <0.1,0.1,0.1>
+*************
+colour 3 name :Red <0.5,0,0>
+*************
+colour 4 name :Yellow <0.5,0.5,0>
+*************
+colour 5 name :Turquoise <0,0.25,0.25>
+*************
+colour 6 name :Orange <0.5,0.25,0>
+*************
+colour 7 name :Grey 0.19,0.19,0.19>
+*************
+colour 8 name :Green <0,0.5,0>
+*************
+colour 9 name :Pink <1,0,1>
+*************
+colour 10 name :Purple <0.5,0,1>
+*************
+colour 11 name :Blue <0,0,0.5>
+*************
+colour 12 name :Cyan <0,0.5,0.5>
+*************

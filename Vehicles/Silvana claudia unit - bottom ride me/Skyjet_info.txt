@@ -1,0 +1,54 @@
+﻿Skyjet(temporary name)
+            -=-
+        Created by:
+      Klintel Kiesler
+      
+           2004
+           
+Skyjet version 1.0
+
+Quick start:
+    To fly this vehicle first right clikc on the vehicle and ht "fly". You will automatically be sent to the pilot seat, once you are sitting on the pilot seat say "start" to start the aircraft.
+    
+    Controls:
+    Easy Mode:
+        There are two flight modes on this aircraft easy and advanced.
+        The easy mode allows the aircraft to hover and the controls are fairly simple.
+        PageUp: lifts the aircraft skyward.
+        PageDown: pulls the vehicle toward the ground.
+        Left Arrow: turns the vehilce to the left, holding shift and left and the same time makes the vehicle have a slide effect in the air, this can also be done when in mouselook and holding the left key.
+Right Key: turns the vehilce to theright, holding shift and right and the same time makes the vehicle have a slide effect in the air, this can also be done when in mouselook and holding the right key.
+        
+        Voice commands:
+        You can say stop at any time while in hover mode to stop the engine.
+        Saying "mode" or "advanced" will switch the mode over to advanced mode.
+        
+    Advanced Mode(realistic):
+    PageUp: Increase throttle by 10%.
+    pageDown: Decrease throttle by 10%
+    Up Arrow: Will pitch the nose downward.
+    Down Arrow: Will pitch the nose skyward.
+    left Arrow: Rotates the vehicle to the left.
+    Right Arrow: Rotates the vehicle to the right.
+        
+                Voice commands:
+        You can say stop at any time while in advanced mode to stop the engine.
+        Saying "mode" or "easy" will switch the mode over to advanced mode.
+        
+        
+        Other Voice commands:
+        Saying "color" then a set of numbers in order of "red,green,blue" will change the color of the jet.
+        Example:
+        "color 255,255,255" sets the jet color to white.
+        "color 0,0,0" sets the jet color to Black.
+        
+        I've also added a small HUD inside the vehicle which will display your altitude and current coordinates as well as what your throttle is. I'll bee adding much more very soon so expect to see a few changes. 
+    Have fun. =)
+_______________________________________
+
+Please note:
+
+    I sell this vehicle as a copy/no transfer vehicle. Vehicles can disappear from time to time so this is away to prevent you vehicle from ever becoming completely lost, as long as you keep a copy in your inventory. As well, no refunds will be made to you, once you buy and receive the jet payment is final.
+
+    If you do buy this vehicle you will be able to receive any and all future updates at no charge. Also if you would like any customizations to this vehicle feel free to contact me at any time.
+

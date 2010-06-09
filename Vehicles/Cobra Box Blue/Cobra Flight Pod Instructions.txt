@@ -1,0 +1,53 @@
+﻿Thank you for your purchase of the Cobra flight Pod from Saint Batriani, If you have any questions or comments feel free to IM or drop a note to Saint Batriani
+
+Try out this Airport for your flying 􀀀
+
+Saint's Cobra Flight Pod - Now with Functioning Cannon for Cobra Air Attacks!
+
+-BASIC FLIGHT -
+
+Startup and Stoping- 
+
+Click the Solotrek and select sit. It will come up saying 
+
+Saint's Cobra flight Pod Pilot (Your Name)
+
+This lets you know everything is online and functioning. Next, type in START in local chat to start the Solotrek. It will say 
+
+Saint's Cobra Flight Pod Online.
+
+Now the Machine is running, you should hear the high pitched whirl of the fans after the startup sound. To stop the machine type STOP in local chat.
+
+When you type stop or stand up it will shut down, and there is a power down sound.
+
+Basic Flight -
+
+Now that you have the Cobra Flight Pod on and everything is working as it should the best way to pilot it is to enter MOUSELOOK. The Cobra Flight Pod is scripted to respond to where your mouse is looking. This will spin you around and orient the Solotrek where your cursor is. 
+
+Movement - 
+
+The Movement keys are standard, here is the list of all the keys you need to know
+
+Page Up - Ascend
+Page Down - Descend
+
+W - Foreward
+S - Backward
+A - Left
+D - Right
+
+W + S - Speed Turbp Boost (Hold down W and S together)
+
+Advanced Flight - 
+
+The Cobra Flight Pod like any real aircraft of this size tends to be unstable and likes to slowly spin or turn. Keeping in mouselook avoids this, when you exist mouselook your Cobra Flight Pod may spin slowly. Take off is easy and you can gain altitude by using the foreward key and mouselook together. 
+
+Landing - Page Down untll you git the ground, orient your mouse cursor so that you are leveled out. Type STOP in Local Chat or Stand Up and the Cobra Flight Pod will shut down.
+
+Firing the Cannon  - Not much too it really, Just click the left mouse button and it will fire. Cannon is fixed in one place so you need to swing the Cobra Flight Pod around to attack with it. Bullets are Push and I have not tested it against any personal combat systems yet. 
+
+The rest of the flight experience is up to you, have fun, turn around buildings, annoy your friends and impress everyone. 
+
+UPDATE - There is now dust effect from the fans against the ground or against water on startup. On floating platforms however this does not happen. 
+
+Disclaimer - Scripts are not my original creation,  Everything else either has full perms or I built myself. I created this from 95% orignal parts. This is my creation, and I will choose to  sell it as I wish. 

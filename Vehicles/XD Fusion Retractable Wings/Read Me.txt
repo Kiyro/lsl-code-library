@@ -1,0 +1,12 @@
+﻿Hope you enjoy this XD Fusion freebie!
+
+Just wear the wings and fly.   The wings will expand when you're flying and automatically retract and fade away when you're not. 
+
+To create this type of wing with Puppeteer, use the "On-fly" trigger with "Ping-Pong" playing style.  The transparency was done using a separate script.
+
+Feel free to share this gift with your friends.  Just remember that this is NOT for resell. Giving away free is perfectly ok =]
+
+Enjoy
+
+Sincerely,
+Todd Borst

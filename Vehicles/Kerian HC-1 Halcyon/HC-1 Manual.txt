@@ -1,0 +1,20 @@
+﻿Thank you for flying the Kerian HC-1 Halcyon
+
+::Features::
+The HC-1 Halcyon is a single seater hovercar equiped with the following:
+Spinning turbines
+Startup and running sounds
+Easy to fly
+Fun camera system
+
+::Controls::
+Type start to start the hovercar
+Type stop to stop it
+Climb/Decend       Page Up/ Page Down
+Direction:               Arrow keys (wasd)
+
+
+Feel free to redistribute and modify this plane - Kerian
+
+
+   

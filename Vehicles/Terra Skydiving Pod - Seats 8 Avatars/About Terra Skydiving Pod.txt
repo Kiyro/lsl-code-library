@@ -1,0 +1,35 @@
+﻿ABOUT THE TERRA SKYDIVING POD
+====================
+�
+
+Jump from 4000 meters above the ground and experience the thrill of virtual freefall. Bring a friend or three -- it's a party in the air!
+
+FEATURES
+----------
+
+* Terra 4X Skydiving Pod seats 4 skydivers. Terra 8X Skydiving Pod seats 8 skydivers. 
+
+* Set it to carry you to any altitude up to 4000 meters.
+
+* Automated jump sequence: it rockets up to altitude and drops all skydivers at the same time.
+
+* Fast! Ascends at close to 500 knots. That means you can go from zero meters to 4000 meters in less than 20 seconds!
+
+* Pop-up menus to set altitude and start the jump sequence.
+
+* Particle effects: main thruster and braking thrusters.
+
+* Retracting landing gear.
+
+
+FREQUENTLY ASKED QUESTIONS
+-----------------------------------
+
+* WHAT ARE THE PERMISSIONS? CAN I GIVE IT OR SELL IT TO SOMEONE?
+
+The permissions are the same for most vehicles: you can make as many copies as you want, but you can't give it away or resell it. These permissions are to protect you -- it ensures that you will NEVER lose the skydiving pod in a sim crash.
+
+* WHERE CAN I FIND PARACHUTES, SKYBOARDS, JUMPSUITS, AND OTHER GEAR?
+
+Visit the Skydiving Shop at Abbotts Aerodrome: �.
+
