@@ -1,0 +1,44 @@
+﻿The box contains four aircraft, but the primary aircraft are the BaseStar series.
+
+BaseStar Assault is a low-prim (under 30), nimble aircraft with a big footprint. The diameter of the ship’s hull is 32 meters. That is surrounded by two magnetic resonance rings which have respective diameters of 40 and 50 meters. The magnetic resonance rings allow the Assault to fly and maneuver easily and quickly.
+
+To fly the Assault, simply click on the pilot seat located on the flight deck and select BOARD. Say START in the chat window to power-up for flight. To power-down, say STOP. By default, you will power-up in hover mode. To move the ship, use your arrow keys and Page Up and Page Down – just you would move your avatar.
+
+If you say FLIGHT in chat, the ship will switch into flight mode and will operate like most aircraft in SL. Page Up and Page Down control throttle, arrow keys control direction. To switch back to hover mode, say HOVER in chat.
+
+If you say ON in chat, the ship will begin dropping bombs from the bottom-most point of the hull. Say OFF in chat to cease bombing.
+
+
+The BaseStar is a much more detailed ship, and it also can fly. But it is not nearly as fast or maneuverable as the BaseStar Assault. It also is not armed.
+
+Out of the box, the BaseStar is 108 prims. The ship is copy/mod, and it can support up to 256 prims and still be capable of flight. This allows you to add additional seating, a SL television, animation bed, pretty much anything you want, to the ship. If you do decide to add objects to the ship, it is recommended that you have copy/mod permissions on those objects. You certainly need mod perms to add/link an object to the ship. Copy perms ensure that if for some reason your BaseStar is lost, you have copies of those objects you added.
+
+In order to link additional objects to the BaseStar and still allow it to fly, the pilot seat needs to remain the root prim. So, basically, click on the object you want to link first, the BaseStar last and select LINK.
+If you’re linking an object such as a couples animation bed – where the root prim for the bed is generally the menu – clicking on the mattress or pillow will no longer bring up the animation menu. You need to click on what was the root prim (and it could be invisible). It is recommended you determine which is the root prim for animated objects before linking them to the BaseStar.
+
+Remember, if you link a multi-prim object to the BaseStar and decide you want to unlink it, you need to unlink all parts of that object.
+
+The BaseStar Assault also has mod perms. So you can add seating to it. However, if you exceed 30 prims in total weight, it will not fly.
+
+About the BaseStar:
+
+You enter the ship on the hangar deck. All doors in the ship are touch activated.
+
+Beyond the hangar deck is a corridor with rooms on either side – the crew deck. These rooms are suitable for storage or living quarters. At one end of the corridor you will see a ladder, as well as a hatch in the floor. Touch the floor hatch to open it.
+
+The bottom deck in the BaseStar is the ship’s engine room, and space suitable for hazardous materials storage. The ship is powered by an HFB1360 fusion reactor. You can’t miss it. The reactor really needs no ongoing maintenance, but if you have an engineer who likes to tinker with things – let them have at it.
+
+If you take the ladder up from the crew deck corridor you’ll reach the uppermost deck in the ship. The open area is suitable for a ready room, or living room. Beyond the doors to this space is the flight deck.
+
+There are several instrument panels and seats on the flight deck. The seat facing the window is the pilot seat. Click on the pose ball to sit and you’re nearly ready to begin flight.
+
+Warning: Any avatars not seated or objects not linked to the BaseStar will be left behind as the ship moves.
+
+Once seated, simply click on the pilot seat (not the pose ball) or a wall to start the engines. Your camera view will shift at that point. It is recommended you fly the ship in mouselook, simply because you can see more. It also is recommended you have your mini-map activated while flying. Regardless of how you have your camera set, this is a big ship and seeing where you’re going isn’t always easy.
+
+To power-down the engines, simply stand up, or click the pilot seat again.
+
+The ship, in its out-of-the-box configuration, has been flown successfully across sim borders. A heavier prim ship may experience difficulties.
+
+
+The two other aircraft in the box are a Starbulb and Tieform. Both come with their own instructions. The Tieform will tell you how to retrieve flight instructions when you click and sit in the ship. The Starbulb is unarmed. The Tieform is armed.

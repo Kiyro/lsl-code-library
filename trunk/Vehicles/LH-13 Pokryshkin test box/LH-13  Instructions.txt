@@ -1,0 +1,10 @@
+﻿ looping = [RIGHT + LEFT + BACK] 
+ afterburner = [RIGHT + LEFT + FORWARD] 
+ AA-1 missiles = [PAGE-UP + PAGE-DOWN] 
+ AA-3 missiles = mouselook
+
+type this in chat /1p1 to activate Ghost mode  /1p0 do deactivate
+
+/1soundoff and /1soundon to turn sounds off and on 
+
+This Testdrive version will explode after 30 min. !!!

@@ -1,0 +1,46 @@
+﻿As a small token of our esteem for seeking us out, Genius Inc would like to present you with the Genius Inc Free UFO.
+ Slick 2 mode flight and ultra low prim, low lag design makes it an ideal runaround, or just good to freak out the neighbours.
+
+COMMANDS AVAILABLE WHEN SITTING IN THE PILOT SEAT:
+
+    start or power up - Starts up  after you get in (gives you controls, makes noises, etc)
+    
+    stop or power down - Releases the controls and turns off physics.
+    
+    h or hover - Puts the UFO in to hover mode.
+    
+    f or flight - Puts the UFO in to flight mode.
+    
+COMMANDS ALWAYS AVAILABLE TO THE OWNER:
+
+    
+    display on - Turns on the floating text that display's information about the UFO.
+    
+    display off - Turns off the floating text that displays information about the UFO.
+
+CONTROLS (pushing buttons that normally move you around):
+
+    In Hover Mode:
+        UP ARROW or W - moves the UFO forward at about 8 m/s.
+        DOWN ARROW or S - moves the UFO backward at about 8 m/s.
+        LEFT ARROW or A - turns the UFO left.
+        RIGHT ARROW or D - turns the UFO right.
+        SHIFT LEFT ARROW or SHIFT A - moves the UFO left.
+        SHIFT RIGHT ARROW or SHIFT D - moves the UFO right.
+        PAGE UP or E - move the UFO up.
+        PAGE DOWN or C  - move the UFO down.
+        
+    In Flight Mode:
+        UP ARROW or W - Pitches down (forward on the stick).
+        DOWN ARROW or S - Pitches up (pull back on the stick).
+        LEFT ARROW or A - rolls the UFO left.
+        RIGHT ARROW or D - rolls the UFO right.
+        SHIFT LEFT ARROW or SHIFT A - currently does nothing.
+        SHIFT RIGHT ARROW or SHIFT D - currently does nothing.
+        PAGE UP or E - increases the throttle by 5%.
+        PAGE DOWN or C  - decreases the throttle by 5%.
+        
+        Flight Only COMMANDS (things spoken in chat):
+            r - puts the throttle in reverse.
+            
+            Attach the abducto ray after starting up and use mouselook to aim and fire. (Does not work in no push sims)

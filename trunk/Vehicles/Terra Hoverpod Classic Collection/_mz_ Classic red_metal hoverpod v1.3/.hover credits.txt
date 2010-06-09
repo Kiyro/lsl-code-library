@@ -1,0 +1,22 @@
+﻿--- *mz* Classic red/metal hoverpod v2.1 ---
+Made by Meez Elephas.
+
+* Instructions
+Just sit in the hoverpod.
+Typ '.hover help' if you need help controlling the hoverpod.
+
+* Features
+- Click the glass, you can open and close it (with a popup menu).
+- Easy hovering
+- Speedmeter & heightmeter
+- Lightbeam
+- Realistic engine texture
+
+* Credits
+The hoverpod is totally made by me.
+But i would like to thank Cubey Terra for the sounds (I do not take any credits on it).
+The script is officially made by Ben Linden. (Modified by me & Cubey Terra).
+The seat sculpty is made by Cel Edman.
+
+Enjoy hovering around!
+Greetings!

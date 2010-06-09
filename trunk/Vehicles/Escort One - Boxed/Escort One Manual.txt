@@ -1,0 +1,17 @@
+﻿Thank you for flying Escort One
+
+::Controls::
+Type start to start the aircraft
+Type stop to stop it
+Climb/Decend       Page Up/ Page Down
+Direction:               Arrow keys (wasd)
+Holding down the shift key while depressing a left or right arrow key casues the aircraft to slide left or right.
+
+For flight mode, type flight in the chat window. 
+Page up and Page Down controls speed. 
+Up arrow causes the plane to climb. 
+Down arrow causes it to descend. 
+Left and right cause it to bank in those directions
+
+Type on in chat to start bombing.
+Type stop in chat to stop bombing.
