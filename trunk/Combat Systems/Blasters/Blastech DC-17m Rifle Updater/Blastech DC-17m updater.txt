@@ -1,0 +1,7 @@
+﻿thankyou for your continued interest in this product.
+to use this updater, merely place it in the root prim of your old DC-17m Blastech holster. 
+(note, holster, as the holster should be moddable)
+it will automatically inform you of your updates progress.
+
+if you have any problems getting this script to work, please send a notecard to me (my messages often cap and so messages may be lost)
+I released the old version a long time ago, please do not be offended if I ask for proof of ownership.
