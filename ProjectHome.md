@@ -1,0 +1,1 @@
+An attempt to create a Second life LSL Script Library
